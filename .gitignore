@@ -2,4 +2,5 @@ venv
 .idea
 .ipynb_checkpoints
 fer2013
-processed_images.hdf5
+processed_images_all.hdf5
+processed_images_balanced.hdf5
