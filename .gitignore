@@ -4,3 +4,4 @@ venv
 fer2013
 processed_images_all.hdf5
 processed_images_balanced.hdf5
+models/vgg16_model_all.keras
