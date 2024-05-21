@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.13)  13 MAY 2024 22:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  21 MAY 2024 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,7 +967,7 @@ File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 219.
-<images/logo_UC3M.png, id=30, 456.2865pt x 45.99pt>
+<images/logo_UC3M.png, id=54, 456.2865pt x 45.99pt>
 File: images/logo_UC3M.png Graphic file (type png)
 <use images/logo_UC3M.png>
 Package pdftex.def Info: images/logo_UC3M.png  used on input line 223.
@@ -980,7 +980,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 234.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 19.70294pt on input line 238.
-<images/creativecommons.png, id=32, 338.76563pt x 118.19156pt>
+<images/creativecommons.png, id=56, 338.76563pt x 118.19156pt>
 File: images/creativecommons.png Graphic file (type png)
 <use images/creativecommons.png>
 Package pdftex.def Info: images/creativecommons.png  used on input line 249.
@@ -1043,35 +1043,39 @@ Cap\'{\i }tulo 1.
 [1
 
 
-]
+] [2]
 Cap\'{\i }tulo 2.
-[2
-
-]
-Cap\'{\i }tulo 3.
 [3
 
 ]
-Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 3.
 [4
 
 ]
-Cap\'{\i }tulo 5.
+Cap\'{\i }tulo 4.
 [5
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 5.
 [6
 
 ]
-Package csquotes Info: Disabling multilingual quotes on input line 407.
+Cap\'{\i }tulo 6.
+[7
+
+]
+Cap\'{\i }tulo 7.
+[8
+
+]
+Package csquotes Info: Disabling multilingual quotes on input line 464.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 407.
+(csquotes)                Ignoring command on input line 464.
 
 
-LaTeX Warning: Empty bibliography on input line 408.
+LaTeX Warning: Empty bibliography on input line 465.
 
 (memoria.aux
 LaTeX Info: Redefining \sptext on input line 12.
@@ -1083,23 +1087,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 6F26C83EB13A6A7B37FC0DA9853D2EAA;378.
+(rerunfilecheck)             Checksum: 164154F3F0D2779A5A7EE3FA5DB10E8E;777.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28085 strings out of 474370
- 469135 string characters out of 5740535
- 1931754 words of memory out of 5000000
- 50092 multiletter control sequences out of 15000+600000
+ 28113 strings out of 474370
+ 469492 string characters out of 5740535
+ 1936754 words of memory out of 5000000
+ 50106 multiletter control sequences out of 15000+600000
  592318 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,11n,117p,1052b,2380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on memoria.pdf (18 pages, 123936 bytes).
+Output written on memoria.pdf (20 pages, 135297 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
