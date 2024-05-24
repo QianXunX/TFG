@@ -391,6 +391,10 @@ INPUT .\memoria.lot
 INPUT .\memoria.lot
 INPUT memoria.lot
 OUTPUT memoria.lot
+INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xi.tfm
+INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\vf\public\txfonts\t1xi.vf
+INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxptmri.tfm
+INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\rtxi.tfm
 INPUT memoria.aux
 INPUT .\memoria.out
 INPUT .\memoria.out
@@ -408,3 +412,5 @@ INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.
 INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
+INPUT C:\Users\julio\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

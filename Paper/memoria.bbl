@@ -16,5 +16,33 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{userExperience}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c73c4ba42229f177c847c75b2f564ca1}{%
+           family={Papadaki},
+           familyi={P\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{fullhash}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{fullhashraw}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{bibnamehash}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{authorbibnamehash}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{authornamehash}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{authorfullhash}{c73c4ba42229f177c847c75b2f564ca1}
+      \strng{authorfullhashraw}{c73c4ba42229f177c847c75b2f564ca1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{User experience in automotive industry: user perspective on functionality and entertainment}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
