@@ -430,13 +430,62 @@ El documento se organiza en siete capítulos principales:
 
 \section{Experiencia del Usuario en la Industria de la Automoción}
 
-La experiencia de usuario (UX) es un concepto fundamental en el ámbito del diseño y desarrollo de productos y servicios, y su importancia ha ido creciendo exponencialmente en los últimos años. En el contexto de la industria automotriz, la UX se refiere a la manera que interactúan los usuarios con los vehículos, las tecnologías que incorporan estos mismos, y cómo esas interacciones afectan a la satisfacción del usuario. \cite{userExperience}
+La experiencia de usuario (UX) es un concepto fundamental en el ámbito del diseño y desarrollo de productos y servicios, y su importancia ha ido creciendo exponencialmente en los últimos años. En el contexto de la industria automotriz, la UX se refiere a la manera que interactúan los usuarios con los vehículos, las tecnologías que incorporan estos mismos, y cómo esas interacciones afectan a la satisfacción del usuario.
+\cite{userExperience}
 
 Una buena experiencia de usuario no sólo implica una simple funcionalidad, ya sea ergonomía del asiento, integración de sistemas de entretenimiento, o características que mejoran la seguridad y comodidad; también implica tener en cuenta aspectos emocionales y psicológicos que influyen en la decisión de compra y la marca, como la facilidad de uso o la intuitividad de las interfaces de usuario. 
 
 Al crecer la expectativa de los usuarios para una experiencia mejor y personalizable, conlleva a los fabricantes a tomar importancia el diseño centrado en el usuario con la realización de investigaciones de mercado y pruebas de usuario para comprender sus necesidades y deseos, lo que es beneficioso para la innovación y competitividad del sector. 
 
+\subsection{Coches conectados}
 
+El concepto de “coche conectado” surge de la integración de los coches en el Internet de las Cosas (IoT), al ser capaces de acceder a Internet, comunicarse con dispositivos inteligentes y recopilar datos en tiempo real. Inicialmente los automóviles contenían un número pequeño de Unidades de Control Electrónico (ECU), donde cada una era independiente de otra y realizaba una funcionalidad simple. Los coches de hoy en día pueden contener hasta 70 ECUs realizando muchas funcionalidades variadas, además de poder utilizar protocolos de comunicación que les permiten “hablar” con otros vehículos e infraestructuras, e incluso con Internet. Actualmente, incluso se ha logrado la integración de dispositivos móviles y smartphones en los paneles de los automóviles ofreciendo servicios avanzados de multimedia y entretenimiento. 
+\cite{mobileIntegration}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ecu.png}
+    \caption{Ejemplos de ECUs en un coche \cite{mobileIntegration}.}
+    \label{fig:imagen1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{connected_car_system.jpg}
+	\caption{Visión general de un sistema de coche conectado \cite{mobileIntegration}.}
+    \label{fig:imagen2}
+\end{figure}
+
+Al tener tantos dispositivos interconectados, las tecnologías y protocolos de comunicación en los coches conectados son fundamentales para su correcto funcionamiento, ya que permiten la interacción entre los componentes del vehículo, otros vehículos o las infraestructuras de las vías. Los diferentes tipos de comunicación que un coche conectado debe garantizar y las tecnologías disponibles para realizar dichas conexiones son las siguientes: 
+
+\begin{itemize}
+
+    \item \textbf{Vehicle To Sensors On Board communication (V2S) o Comunicación Intra-Vehicular:} esta comunicación se centra en la transmisión de información entre las ECUs y los sensores del vehículo, y se realiza mediante cables físicos o redes inalámbricas como Bluetooth o Ultra-Wideband. Un detalle a tener en cuenta es que aunque las redes inalámbricas ofrecen más versatilidad, presentan todavía problemas de seguridad y fiabilidad.
+    \item \textbf{Vehicle To Vehicle Communication (V2V) o Comunicación Inter-Vehicular:} esta comunicación se centra en la transmisión de información entre diferentes coches sin la necesidad de un dispositivo remoto centralizado, utilizada principalmente para evitar accidentes, optimizar de rutas, compartir información multimedia y facilitar la interacción social entre conductores. Esta tecnología de comunicación enfrenta todavía desafíos ya una constante variación en la topología de la red o la presencia de obstáculos puede dificultar su gestión o interrupciones en el flujo de los datos.
+    \item \textbf{Vehicle To Road Infrastructure Communication (V2R):} esta comunicación se centra en la transmisión de información entre un vehículo y una infraestructura de la vía compuesta por señales de tráfico, sensores de carretera y semáforos, y utilizada principalmente para una gestión eficiente del tráfico.
+    \item \textbf{Vehicle To Internet Communication (V2I):} esta comunicación se centra en la transmisión de información entre un vehículo e Internet, utilizada principalmente para interaccionar con sus servicios y acceder a información multimedia. Se realiza mediante infraestructuras de red celular, al igual que un dispositivo móvil, utilizando una tarjeta SIM para permitir que el vehículo se conecte a una red 3G o 4G.
+
+\end{itemize}
+
+En cuanto a la integración de dispositivos móviles y smartphones con los coches conectados, se han desarrollado soluciones software capaces de permitir a la pantalla del coche acceder a los datos del dispositivo, e incluso permite al usuario controlar aplicaciones del dispositivo en la pantalla. Esta integración ofrece varias ventajas, como pueden ser una personalización diferente para cada usuario que depende de cada dispositivo, o además facilitar a los desarrolladores de aplicaciones crear aplicaciones sobre una plataforma genérica en vez de un modelo de pantalla específico. Las soluciones de integración más extendidas son: 
+
+\begin{itemize}
+
+    \item \textbf{MirrorLink:} desarrollado por el Car Connectivity Consortium (CCC), y permite la conexión mediante USB o Wi-Fi Direct. Crea directrices para la interfaz gráfica de las aplicaciones, con iconos de gran tamaño facilitando una navegación rápida y sencilla.
+    \item \textbf{Applink:} desarrollada por Ford, y permite realizar distintas acciones dentro del vehículo como mostrar mensajes en la pantalla, reproducir música y ofrecer controles por voz.
+    \item \textbf{Apple CarPlay:} solución desarrollada para dispositivos iPhone, extendiendo las funcionalidades del sistema estándar del vehículo, y permite controlar aplicaciones mediante la pantalla, comandos de voz con SIRI, y llamadas y mensajes con manos libres.
+    \item \textbf{Android Auto:} solución desarrollada por la Open Automotive Alliance, y centrada en la conexión con dispositivos Android. Proporciona un tablero simple que permite el acceso a sistemas de navegación, como por ejemplo Google Maps, además de música, llamadas telefónicas, comandos de voz, etc.
+
+\end{itemize}
+
+Actualmente, de las tecnologías anteriores las más populares y mayoritariamente implementadas  son las dos últimas,  Apple CarPlay y Android Auto, debido a que tienen un mayor número de funcionalidades y tienen un mayor número de dispositivos con dicho sistema operativo compatible.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{integrationSolution.png}
+	\caption{Ventas de coches con Apple CarPlay vs Android Auto \cite{mobileIntegration}.}
+	\label{fig:imagen3}
+\end{figure}
 
 \section{Sistemas Avanzados de Ayuda a la Conducción (ADAS)}
 
