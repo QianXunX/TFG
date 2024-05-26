@@ -35,14 +35,22 @@
       \strng{authornamehash}{c73c4ba42229f177c847c75b2f564ca1}
       \strng{authorfullhash}{c73c4ba42229f177c847c75b2f564ca1}
       \strng{authorfullhashraw}{c73c4ba42229f177c847c75b2f564ca1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{DIVA}
+      \field{month}{1}
       \field{title}{User experience in automotive industry: user perspective on functionality and entertainment}
       \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.diva-portal.org/smash/record.jsf?dswid=-6939&pid=diva2%3A1385278
+      \endverb
+      \verb{url}
+      \verb https://www.diva-portal.org/smash/record.jsf?dswid=-6939&pid=diva2%3A1385278
+      \endverb
     \endentry
-    \entry{touchScreen}{inproceedings}{}{}
+    \entry{touchScreen}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=2d7772de562fe84c40b3858ec535b050}{%
            family={Zulkefli},
@@ -52,8 +60,8 @@
         {{hash=0e4b300ad932bc118038398dd5425a31}{%
            family={Shafiai},
            familyi={S\bibinitperiod},
-           given={Noor‘Izzati\bibnamedelima Ahmad},
-           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           given={Noor\bibnamedelimb ‘Izzati\bibnamedelima Ahmad},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=0b2b74b13bfec3ebbda35ef79cbc6d14}{%
            family={Azizan},
            familyi={A\bibinitperiod},
@@ -68,13 +76,18 @@
       \strng{authornamehash}{00723f9deb57728ece1c4f9bc3f2b178}
       \strng{authorfullhash}{00723f9deb57728ece1c4f9bc3f2b178}
       \strng{authorfullhashraw}{00723f9deb57728ece1c4f9bc3f2b178}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2nd International Conference on Design Industries \& Creative Culture, DESIGN DECODED 2021, 24-25 August 2021, Kedah, Malaysia}
-      \field{title}{Automotive Interior: A study on the Dashboard Touch Screen Panel and Its Impact to the Driver}
-      \field{year}{2022}
+      \field{journaltitle}{EUDL}
+      \field{title}{Automotive Interior: A study on the Dashboard  Touch Screen Panel and Its Impact to the Driver}
+      \verb{urlraw}
+      \verb https://eudl.eu/doi/10.4108/eai.24-8-2021.2315303
+      \endverb
+      \verb{url}
+      \verb https://eudl.eu/doi/10.4108/eai.24-8-2021.2315303
+      \endverb
     \endentry
     \entry{mobileIntegration}{article}{}{}
       \name{author}{2}{}{%
@@ -111,6 +124,52 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 36}
       \range{pages}{36}
+    \endentry
+    \entry{hudPaper}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=883c551f9e652bfd0635ddbde9daa34c}{%
+           family={Maroto},
+           familyi={M\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4b1aff55f64982996c4a957be0dff29e}{%
+           family={Caño},
+           familyi={C\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=021c022c894dafa4bbb102f1bf545b35}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=612fd67d1490f9def9e7c153723d1da2}{%
+           family={Villegas},
+           familyi={V\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ea4a1b477bdf6dc754c2239114a34b0}
+      \strng{fullhash}{489a30b505b7e83cfcba82b2590d0986}
+      \strng{fullhashraw}{489a30b505b7e83cfcba82b2590d0986}
+      \strng{bibnamehash}{489a30b505b7e83cfcba82b2590d0986}
+      \strng{authorbibnamehash}{489a30b505b7e83cfcba82b2590d0986}
+      \strng{authornamehash}{5ea4a1b477bdf6dc754c2239114a34b0}
+      \strng{authorfullhash}{489a30b505b7e83cfcba82b2590d0986}
+      \strng{authorfullhashraw}{489a30b505b7e83cfcba82b2590d0986}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv.org}
+      \field{month}{3}
+      \field{title}{Head-up Displays (HUD) in driving}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1803.08383
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1803.08383
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

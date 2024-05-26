@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  26 MAY 2024 13:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  26 MAY 2024 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,7 +1064,7 @@ Cap\'{\i }tulo 1.
 
 ] [2]
 Cap\'{\i }tulo 2.
-<images/evolutionTouchscreen.png, id=231, 1040.38687pt x 262.48062pt>
+<images/evolutionTouchscreen.png, id=244, 1040.38687pt x 262.48062pt>
 File: images/evolutionTouchscreen.png Graphic file (type png)
 <use images/evolutionTouchscreen.png>
 Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449.
@@ -1072,65 +1072,94 @@ Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449
 [3
 
  <./images/evolutionTouchscreen.png>]
-<images/usingTouchscreen.png, id=239, 845.1575pt x 516.42938pt>
+<images/usingTouchscreen.png, id=252, 845.1575pt x 516.42938pt>
 File: images/usingTouchscreen.png Graphic file (type png)
 <use images/usingTouchscreen.png>
 Package pdftex.def Info: images/usingTouchscreen.png  used on input line 458.
-(pdftex.def)             Requested size: 384.1096pt x 234.71568pt.
- [4 <./images/usingTouchscreen.png>]
-<images/ecu.png, id=247, 619.56468pt x 245.41687pt>
+(pdftex.def)             Requested size: 298.75264pt x 182.55753pt.
+<images/ecu.png, id=255, 619.56468pt x 245.41687pt>
 File: images/ecu.png Graphic file (type png)
 <use images/ecu.png>
 Package pdftex.def Info: images/ecu.png  used on input line 474.
 (pdftex.def)             Requested size: 384.1096pt x 152.14938pt.
-<images/connected_car_system.jpg, id=249, 907.39pt x 661.47125pt>
-File: images/connected_car_system.jpg Graphic file (type jpg)
-<use images/connected_car_system.jpg>
-Package pdftex.def Info: images/connected_car_system.jpg  used on input line 481.
-(pdftex.def)             Requested size: 384.1096pt x 280.00626pt.
- [5 <./images/ecu.png> <./images/connected_car_system.jpg>] [6]
-<images/androidAuto.png, id=260, 1505.625pt x 824.07875pt>
-File: images/androidAuto.png Graphic file (type png)
-<use images/androidAuto.png>
-Package pdftex.def Info: images/androidAuto.png  used on input line 510.
-(pdftex.def)             Requested size: 384.1096pt x 210.2316pt.
-<images/integrationSolution.png, id=261, 1072.005pt x 610.28pt>
-File: images/integrationSolution.png Graphic file (type png)
-<use images/integrationSolution.png>
-Package pdftex.def Info: images/integrationSolution.png  used on input line 519.
-(pdftex.def)             Requested size: 384.1096pt x 218.66698pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./images/androidAuto.png>] [8 <./images/integrationSolution.png>]
+<images/connected_car_system.jpg, id=257, 907.39pt x 661.47125pt>
+File: images/connected_car_system.jpg Graphic file (type jpg)
+<use images/connected_car_system.jpg>
+Package pdftex.def Info: images/connected_car_system.jpg  used on input line 481.
+(pdftex.def)             Requested size: 384.1096pt x 280.00626pt.
+[4 <./images/usingTouchscreen.png>] [5 <./images/ecu.png> <./images/connected_car_system.jpg>] [6]
+<images/androidAuto.png, id=273, 1505.625pt x 824.07875pt>
+File: images/androidAuto.png Graphic file (type png)
+<use images/androidAuto.png>
+Package pdftex.def Info: images/androidAuto.png  used on input line 510.
+(pdftex.def)             Requested size: 384.1096pt x 210.2316pt.
+<images/integrationSolution.png, id=274, 1072.005pt x 610.28pt>
+File: images/integrationSolution.png Graphic file (type png)
+<use images/integrationSolution.png>
+Package pdftex.def Info: images/integrationSolution.png  used on input line 519.
+(pdftex.def)             Requested size: 384.1096pt x 218.66698pt.
+ [7 <./images/androidAuto.png> <./images/integrationSolution.png>]
+<images/hud.png, id=282, 632.3625pt x 347.2975pt>
+File: images/hud.png Graphic file (type png)
+<use images/hud.png>
+Package pdftex.def Info: images/hud.png  used on input line 531.
+(pdftex.def)             Requested size: 298.75264pt x 164.07773pt.
+<images/hudWork.png, id=284, 204.765pt x 97.3236pt>
+File: images/hudWork.png Graphic file (type png)
+<use images/hudWork.png>
+Package pdftex.def Info: images/hudWork.png  used on input line 540.
+(pdftex.def)             Requested size: 384.1096pt x 182.57777pt.
+ [8 <./images/hud.png> <./images/hudWork.png>]
+<images/nigthHUD.png, id=291, 529.98pt x 401.5pt>
+File: images/nigthHUD.png Graphic file (type png)
+<use images/nigthHUD.png>
+Package pdftex.def Info: images/nigthHUD.png  used on input line 553.
+(pdftex.def)             Requested size: 298.75264pt x 226.32716pt.
+<images/retroHUD.png, id=293, 607.51968pt x 397.485pt>
+File: images/retroHUD.png Graphic file (type png)
+<use images/retroHUD.png>
+Package pdftex.def Info: images/retroHUD.png  used on input line 562.
+(pdftex.def)             Requested size: 298.75264pt x 195.46684pt.
+ [9 <./images/nigthHUD.png> <./images/retroHUD.png>] [10]
 Cap\'{\i }tulo 3.
-[9
-
-]
-Cap\'{\i }tulo 4.
-[10
-
-]
-Cap\'{\i }tulo 5.
 [11
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 [12
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 [13
 
 ]
-Package csquotes Info: Disabling multilingual quotes on input line 577.
+Cap\'{\i }tulo 6.
+[14
+
+]
+Cap\'{\i }tulo 7.
+[15
+
+]
+Package csquotes Info: Disabling multilingual quotes on input line 616.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 577.
+(csquotes)                Ignoring command on input line 616.
 
-[14
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 617.
+(C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Overfull \hbox (6.14975pt too wide) in paragraph at lines 618--618
+\T1/txtt/m/n/12 diva -[] portal . org / smash / record . jsf ? dswid= -[] 6939 & pid = diva2 % 3A1385278$[][]\T1/txr/m/n/12 . 
+ []
+
+[16
 
 
 ] (memoria.aux
@@ -1149,17 +1178,17 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28569 strings out of 474370
- 478770 string characters out of 5740535
+ 28656 strings out of 474370
+ 480443 string characters out of 5740535
  1937754 words of memory out of 5000000
- 50506 multiletter control sequences out of 15000+600000
- 611276 words of font info for 106 fonts, out of 8000000 for 9000
+ 50582 multiletter control sequences out of 15000+600000
+ 611598 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,11n,117p,1052b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (26 pages, 5343289 bytes).
+ 92i,12n,117p,1052b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on memoria.pdf (28 pages, 6715111 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
