@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.13)  25 MAY 2024 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  26 MAY 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,7 +967,7 @@ File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 219.
-<images/logo_UC3M.png, id=81, 456.2865pt x 45.99pt>
+<images/logo_UC3M.png, id=89, 456.2865pt x 45.99pt>
 File: images/logo_UC3M.png Graphic file (type png)
 <use images/logo_UC3M.png>
 Package pdftex.def Info: images/logo_UC3M.png  used on input line 223.
@@ -980,7 +980,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 234.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 19.70294pt on input line 238.
-<images/creativecommons.png, id=83, 338.76563pt x 118.19156pt>
+<images/creativecommons.png, id=91, 338.76563pt x 118.19156pt>
 File: images/creativecommons.png Graphic file (type png)
 <use images/creativecommons.png>
 Package pdftex.def Info: images/creativecommons.png  used on input line 249.
@@ -1064,55 +1064,73 @@ Cap\'{\i }tulo 1.
 
 ] [2]
 Cap\'{\i }tulo 2.
-<images/ecu.png, id=210, 619.56468pt x 245.41687pt>
+<images/evolutionTouchscreen.png, id=231, 1040.38687pt x 262.48062pt>
+File: images/evolutionTouchscreen.png Graphic file (type png)
+<use images/evolutionTouchscreen.png>
+Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449.
+(pdftex.def)             Requested size: 384.1096pt x 96.90804pt.
+[3
+
+ <./images/evolutionTouchscreen.png>]
+<images/usingTouchscreen.png, id=239, 845.1575pt x 516.42938pt>
+File: images/usingTouchscreen.png Graphic file (type png)
+<use images/usingTouchscreen.png>
+Package pdftex.def Info: images/usingTouchscreen.png  used on input line 458.
+(pdftex.def)             Requested size: 384.1096pt x 234.71568pt.
+ [4 <./images/usingTouchscreen.png>]
+<images/ecu.png, id=247, 619.56468pt x 245.41687pt>
 File: images/ecu.png Graphic file (type png)
 <use images/ecu.png>
-Package pdftex.def Info: images/ecu.png  used on input line 447.
+Package pdftex.def Info: images/ecu.png  used on input line 474.
 (pdftex.def)             Requested size: 384.1096pt x 152.14938pt.
+<images/connected_car_system.jpg, id=249, 907.39pt x 661.47125pt>
+File: images/connected_car_system.jpg Graphic file (type jpg)
+<use images/connected_car_system.jpg>
+Package pdftex.def Info: images/connected_car_system.jpg  used on input line 481.
+(pdftex.def)             Requested size: 384.1096pt x 280.00626pt.
+ [5 <./images/ecu.png> <./images/connected_car_system.jpg>] [6]
+<images/androidAuto.png, id=260, 1505.625pt x 824.07875pt>
+File: images/androidAuto.png Graphic file (type png)
+<use images/androidAuto.png>
+Package pdftex.def Info: images/androidAuto.png  used on input line 510.
+(pdftex.def)             Requested size: 384.1096pt x 210.2316pt.
+<images/integrationSolution.png, id=261, 1072.005pt x 610.28pt>
+File: images/integrationSolution.png Graphic file (type png)
+<use images/integrationSolution.png>
+Package pdftex.def Info: images/integrationSolution.png  used on input line 519.
+(pdftex.def)             Requested size: 384.1096pt x 218.66698pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/connected_car_system.jpg, id=212, 907.39pt x 661.47125pt>
-File: images/connected_car_system.jpg Graphic file (type jpg)
-<use images/connected_car_system.jpg>
-Package pdftex.def Info: images/connected_car_system.jpg  used on input line 454.
-(pdftex.def)             Requested size: 384.1096pt x 280.00626pt.
-[3
-
-] [4 <./images/ecu.png> <./images/connected_car_system.jpg>] [5]
-<images/integrationSolution.png, id=228, 1072.005pt x 610.28pt>
-File: images/integrationSolution.png Graphic file (type png)
-<use images/integrationSolution.png>
-Package pdftex.def Info: images/integrationSolution.png  used on input line 485.
-(pdftex.def)             Requested size: 384.1096pt x 218.66698pt.
- [6 <./images/integrationSolution.png>]
+[7 <./images/androidAuto.png>] [8 <./images/integrationSolution.png>]
 Cap\'{\i }tulo 3.
-[7
-
-]
-Cap\'{\i }tulo 4.
-[8
-
-]
-Cap\'{\i }tulo 5.
 [9
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 [10
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 [11
 
 ]
-Package csquotes Info: Disabling multilingual quotes on input line 539.
+Cap\'{\i }tulo 6.
+[12
+
+]
+Cap\'{\i }tulo 7.
+[13
+
+]
+Package csquotes Info: Disabling multilingual quotes on input line 577.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 539.
+(csquotes)                Ignoring command on input line 577.
 
-[12
+[14
 
 
 ] (memoria.aux
@@ -1125,23 +1143,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 989AE117A5AF1CD3010A62B8BC4823CD;1411.
+(rerunfilecheck)             Checksum: 0943F00B21A090D0E740DDCE076C0A9F;1574.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28525 strings out of 474370
- 477560 string characters out of 5740535
+ 28569 strings out of 474370
+ 478770 string characters out of 5740535
  1937754 words of memory out of 5000000
- 50470 multiletter control sequences out of 15000+600000
+ 50506 multiletter control sequences out of 15000+600000
  611276 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,11n,117p,1052b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (24 pages, 585481 bytes).
+<C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on memoria.pdf (26 pages, 5343289 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
