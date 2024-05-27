@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [1] Config.pm:311> INFO - Logfile is 'memoria.blg'
-[264] biber-MSWIN64:340> INFO - === 
-[346] Biber.pm:420> INFO - Reading 'memoria.bcf'
-[636] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
-[687] Biber.pm:4463> INFO - Processing section 0
-[721] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[819] bibtex.pm:1713> INFO - LaTeX decoding ...
-[843] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[980] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[980] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[980] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1004] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
-[1014] bbl.pm:779> INFO - Output to memoria.bbl
-[1015] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'userExperience' is not an integer - this will probably not sort properly.
-[1016] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'hudPaper' is not an integer - this will probably not sort properly.
-[1016] Biber.pm:133> INFO - WARNINGS: 2
+[312] biber-MSWIN64:340> INFO - === 
+[409] Biber.pm:420> INFO - Reading 'memoria.bcf'
+[695] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
+[738] Biber.pm:4463> INFO - Processing section 0
+[766] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[870] bibtex.pm:1713> INFO - LaTeX decoding ...
+[900] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[1044] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1045] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1045] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[1064] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
+[1071] bbl.pm:779> INFO - Output to memoria.bbl
+[1072] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'userExperience' is not an integer - this will probably not sort properly.
+[1072] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'hudPaper' is not an integer - this will probably not sort properly.
+[1072] Biber.pm:133> INFO - WARNINGS: 2
