@@ -113,8 +113,8 @@
       \strng{authornamehash}{913fb7d6eadf95c8b6707df13c4dbe21}
       \strng{authorfullhash}{913fb7d6eadf95c8b6707df13c4dbe21}
       \strng{authorfullhashraw}{913fb7d6eadf95c8b6707df13c4dbe21}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACM Computing Surveys (CSUR)}
@@ -156,8 +156,8 @@
       \strng{authornamehash}{5ea4a1b477bdf6dc754c2239114a34b0}
       \strng{authorfullhash}{489a30b505b7e83cfcba82b2590d0986}
       \strng{authorfullhashraw}{489a30b505b7e83cfcba82b2590d0986}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv.org}
@@ -169,6 +169,47 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/1803.08383
+      \endverb
+    \endentry
+    \entry{adasDGT}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cd335793999904e26a9055455929a0b}{%
+           family={DGT},
+           familyi={D\bibinitperiod},
+           given={Ministerio\bibnamedelima interior},
+           giveni={M\bibinitperiod\bibinitdelim i\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cd335793999904e26a9055455929a0b}
+      \strng{fullhash}{4cd335793999904e26a9055455929a0b}
+      \strng{fullhashraw}{4cd335793999904e26a9055455929a0b}
+      \strng{bibnamehash}{4cd335793999904e26a9055455929a0b}
+      \strng{authorbibnamehash}{4cd335793999904e26a9055455929a0b}
+      \strng{authornamehash}{4cd335793999904e26a9055455929a0b}
+      \strng{authorfullhash}{4cd335793999904e26a9055455929a0b}
+      \strng{authorfullhashraw}{4cd335793999904e26a9055455929a0b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sistemas avanzados de ayuda a la conducción (ADAS)}
+      \field{title}{Sistemas avanzados de ayuda a la conducción (ADAS)}
+      \verb{urlraw}
+      \verb https://www.dgt.es/muevete-con-seguridad/conviertete-en-un-buen-conductor/Sistemas-avanzados-de-ayuda-a-la-conduccion-ADAS-/
+      \endverb
+      \verb{url}
+      \verb https://www.dgt.es/muevete-con-seguridad/conviertete-en-un-buen-conductor/Sistemas-avanzados-de-ayuda-a-la-conduccion-ADAS-/
+      \endverb
+    \endentry
+    \entry{adasObligatorios}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Los ADAS obligatorios desde julio 2022, uno a uno}
+      \verb{urlraw}
+      \verb https://revista.dgt.es/es/motor/tecnologia-seguridad/2021/0518-Landing-ADAS.shtml#
+      \endverb
+      \verb{url}
+      \verb https://revista.dgt.es/es/motor/tecnologia-seguridad/2021/0518-Landing-ADAS.shtml#
       \endverb
     \endentry
   \enddatalist

@@ -507,7 +507,7 @@ En cuanto a la integración de dispositivos móviles y smartphones con los coche
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{androidAuto.png}
+	\includegraphics[width=0.7\textwidth]{androidAuto.png}
 	\caption{Ejemplos de interfaces de Android Auto en la pantalla del coche.}
 	\label{fig:imagen5}
 \end{figure}
@@ -516,7 +516,7 @@ Actualmente, de las tecnologías anteriores las más populares y mayoritariament
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{integrationSolution.png}
+    \includegraphics[width=0.7\textwidth]{integrationSolution.png}
 	\caption{Ventas de coches con Apple CarPlay vs Android Auto \cite{mobileIntegration}.}
 	\label{fig:imagen6}
 \end{figure}
@@ -537,7 +537,7 @@ La estructura de un HUD se compone de tres componentes: el combinador, la superf
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{hudWork.png}
+    \includegraphics[width=0.7\textwidth]{hudWork.png}
     \caption{Funcionamiento y componentes de un HUD \cite{hudPaper}.}
     \label{fig:imagen8}
 \end{figure}
@@ -550,7 +550,7 @@ Algunos vehículos modernos incluyen incluso funcionalidades como visión noctur
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{nigthHUD.png}
+    \includegraphics[width=0.5\textwidth]{nigthHUD.png}
     \caption{Visión de cámara de infrarrojos en el HUD \cite{hudPaper}.}
     \label{fig:imagen9}
 \end{figure}
@@ -559,14 +559,78 @@ También existen casos experimentales donde se implementan en los espejos retrov
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{retroHUD.png}
+    \includegraphics[width=0.5\textwidth]{retroHUD.png}
     \caption{Visión de HUD en espejos retrovisores \cite{hudPaper}.}
     \label{fig:imagen10}
 \end{figure}
 
 \section{Sistemas Avanzados de Ayuda a la Conducción (ADAS)}
 
+Los Sistemas Avanzados de Asistencia al Conductor son un conjunto de tecnologías, combinando hardware y software, que ayudan a tener una conducción segura y eficiente. El objetivo principal es reducir el riesgo de accidentes y mejorar la experiencia de conducción mediante el uso de sensores, cámaras, radares y distintos dispositivos que monitorean el entorno alrededor del vehículo y avisan de manera activa al conductor. De esta manera, no sólo mejoran la seguridad de los ocupantes de un vehículo, también proporcionan más seguridad a otros ocupantes de las vías como pueden ser los peatones o ciclistas.
+\cite{adasDGT}
 
+Debido a la importancia y eficacia de estos sistemas para la seguridad, la Unión Europea aprobó en 2019 el Nuevo Reglamento de Seguridad 2019/2144 \cite{adasDGT} que recogía una serie de requisitos a cumplir para garantizar la seguridad de los vehículos y las personas. En España se implantó el 6 de julio de 2022 dicho Reglamento, y obliga a todos los coches nuevos de fábrica a incorporar al menos los siguientes ocho sistemas ADAS: 
+
+\begin{itemize}
+
+    \item \textbf{Detector de Fatiga y Somnolencia (DDR):} este sistema de ADAS se enfoca a prevenir distracciones del conductor debido a somnolencia, cansancio o falta de atención. Utiliza distintos tipos de tecnologías como: sensores en el volante para analizar la presión que se ejerce sobre el o la brusquedad de las correcciones de dirección; una cámara de reconocimiento facial que detecta el exceso de parpadeo o la visión de la mirada; o temporizador en el motor que recoge el tiempo que lleva en marcha. Si el sistema detecta anomalías o un tiempo de marcha largo, emite una señal o texto por los paneles del coche para avisar al conductor.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{adasDDR.jpg}
+		\caption{Funcionamiento del sistema DDR \cite{adasObligatorios}.}
+		\label{fig:imagen11}
+	\end{figure}
+	\item \textbf{Asistente de velocidad inteligente (ISA):} este sistema ADAS se enfoca en limitar la velocidad máxima a la que se circula mediante una cámara interior que lee las senales de las vías. La velocidad permitida es mostrada en el cuadro de mando del conductor, y el software actúa sobre el motor o el acelerador impidiendo que supere esa velocidad máxima, aunque se puede desconectar mediante un botón o pisando con fuerza el acelerador.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{adasISA.jpg}
+		\caption{Funcionamiento del sistema ISA \cite{adasObligatorios}.}
+		\label{fig:imagen12}
+	\end{figure}
+	\item \textbf{Cámara Trasera con Detección de Tráfico Cruzado (RCTA):} este sistema ADAS se enfoca en facilitar la visión del conductor en la marcha atrás con cámaras que muestran la imagen en el panel. También detecta posibles obstáculos que puedan estar en la trayectoria de la maniobra, advierte al conductor en la pantalla o en el retrovisor, y si el conductor no reacciona puede llegar a detener el coche de manera automática.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{adasRCTS.jpg}
+		\caption{Funcionamiento del sistema RCTA \cite{adasObligatorios}.}
+		\label{fig:imagen13}
+	\end{figure}
+	\item \textbf{Caja negra (EDR):} este sistema ADAS se enfoca en recopilar información, en caso de accidente, de los momentos anteriores y posteriores a él, para poder evaluar las posibles causas y estado de los sistemas del vehículo. El EDR está ubicado debajo del asiento del conductor, del tamaño aproximado de un teléfono móvil, y se puede conectar a un ordenador para obtener la información necesaria.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{adasEDR.jpg}
+		\caption{Funcionamiento del sistema EDR \cite{adasObligatorios}.}
+		\label{fig:imagen14}
+	\end{figure}
+	\item \textbf{Alerta de cambio involuntario de carril (LDW):} este sistema ADAS se enfoca en controlar que el vehículo no se desvía del carril por el que circula por una posible falta de atención del conductor. Utiliza una cámara frontal que detecta de forma continua las líneas del carril por el que circula, y en caso de que no se haya activado ningún intermitente y el vehículo esté saliendo del carril, avisa mediante una señal en el cuadro, un sonido o vibraciones. Además, si dispone de algún sistema de mantenimiento de carril, podría activarse para mantener el vehículo correctamente en el carril.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{adasLDW.jpg}
+		\caption{Funcionamiento del sistema LDW \cite{adasObligatorios}.}
+		\label{fig:imagen15}
+	\end{figure}
+	\item \textbf{Sistema de frenada de emergencia (BAS y EBA):} este sistema ADAS se enfoca en reducir el riesgo de colisión por alcance. Al realizar una frenada brusca, detecta si la intensidad con la que se pisa es la adecuada, y si no es suficiente el sistema interacciona frenando a la máxima intensidad posible. Además dispone de distintos sensores que permite distinguir a las personas y realiza un aviso, si el conductor no reacciona al aviso se activa el freno de manera automática.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{adasBASyEBA.jpg}
+		\caption{Funcionamiento del sistema BAS y EBA \cite{adasObligatorios}.}
+		\label{fig:imagen16}
+	\end{figure}
+	\item \textbf{Bloqueo de vehículo con alcoholímetro (Alcolock):} este sistema ADAS se enfoca en el control de la conducción tras la ingesta de alcohol. El vehículo dispone de un sistema de alcoholímetro, conectado al motor de arranque, y que impedirá al conductor arrancar el motor si la tasa de alcohol analizada por la boquilla sea superior al índice permitido. El sistema tendrá implementado sensores con tecnologías de reconocimiento de huellas dactilares, detección facial o fotografías digitales, que serán guardadas en memoria al igual que el historial de análisis, que servirá para identificar al usuario e impedir la falsificación o el fraude.
+    \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{adasAlcolock.jpg}
+		\caption{Funcionamiento del sistema Alcolock \cite{adasObligatorios}.}
+		\label{fig:imagen17}
+	\end{figure}
+	\item \textbf{Alerta de cinturón en las plazas traseras:} este sistema ADAS se enfoca en controlar y avisar el uso correcto del cinturón de seguridad en las plazas traseras. El sistema determina mediante un sensor de carga si la plaza está ocupada, y mediante un sensor de la hebilla si está bien cerrado. En caso de que el vehículo recorra una determinada distancia, un determinado tiempo o supere los 25 km/h y no se haya puesto el cinturón de una manera correcta, el sistema avisa automáticamente mediante señales visuales y acústicas.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{adasCinturon.jpg}
+		\caption{Funcionamiento del sistema de Alerta de cinturón en las plazas traseras \cite{adasObligatorios}.}
+		\label{fig:imagen18}
+	\end{figure}
+
+\end{itemize}
 
 \section{Vehículos Autónomos}
 
