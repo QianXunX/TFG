@@ -634,7 +634,29 @@ Debido a la importancia y eficacia de estos sistemas para la seguridad, la Unió
 
 \section{Vehículos Autónomos}
 
+El gran avance de la tecnología, en el ámbito del IoT y los sistemas embebidos, hacen que los vehículos se vuelvan cada vez más inteligentes, hasta llegar al punto de poder realizar acciones de forma autónoma sin intervención de las personas. Los vehículos autónomos (AV) tienen como objetivo mejorar la seguridad en las vías, facilitar las maniobras diarias de los conductores y disminuir el riesgo de accidentes debido a cansancio o fatiga, y optimizar recursos y tiempo de manera eficiente.
+\cite{autonomousVehicles2}
 
+Un vehículo autónomo puede clasificarse en diferentes niveles de autonomía, dependiendo del grado o acciones que llega a realizar el vehículo de forma autónoma en comparación con el conductor. Existe una normativa estandarizada, definida por la Sociedad de Ingenieros Automotrices (SAE), el estándar J3016 o Taxonomy and Definitions for Terms Related to On-Road Motor Vehicle Automated Driving Systems \cite{sae}, en el que se describe seis niveles de autonomía 
+\cite{autonomousVehicles}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{saeLevels.jpg}
+	\caption{Niveles de autonomía según el estándar SAE J3016 \cite{sae}.}
+	\label{fig:imagen19}
+\end{figure}
+
+\begin{itemize}
+
+    \item \textbf{SAE Nivel 0 (Sin Automatización):} en este nivel, el conductor es responsable de todas las acciones relacionadas a la conducción, como son la aceleración, el frenado, el manejo de dirección y el uso de señales. El vehículo puede tener instalado sistemas de advertencia, como alertas de colisión o de objetos en punto ciego, pero en ningún caso realiza alguna acción controlando el vehículo por el conductor.
+    \item \textbf{SAE Nivel 1 (Asistencia al Conductor):} en este nivel, se dispone de sistemas que pueden controlar funciones específicas del vehículo, como la aceleración (control de crucero adaptativo), el frenado (frenado de emergencia) o el manejo de direccion (sistema de mantenimiento de carril). El conductor debe estar atento y en supervisión constante para tomar el control de vuelta de los pedales en caso de necesidad.
+    \item \textbf{SAE Nivel 2 (Automatización Parcial):} en este nivel, el vehículo puede además controlar la dirección de forma autónoma y simultánea con la aceleración y el frenado, pero el conductor debe estar al igual en supervisión constante sobre el entorno y tomar el control en caso necesario.
+    \item \textbf{SAE Nivel 3 (Automatización Condicional):} en este nivel, el vehículo es capaz de percibir el estado del entorno de manera autónoma, y controlar todas las funciones de conducción en determinadas condiciones simples, como en autopistas. Aun así, en este caso el conductor debe estar en supervisión para tomar el control si el sistema lo solicita.
+    \item \textbf{SAE Nivel 4 (Alta Automatización):} en este nivel, el vehículo puede encargarse de todas las funciones de forma autónoma en situaciones específicas y bien definidas, como por ejemplo en autopistas o áreas urbanas. El conductor sigue necesitando tener presencia en determinadas circunstancias, pero en este nivel ya existe la posibilidad de no utilizar volante ni pedales.
+    \item \textbf{SAE Nivel 5 (Automatización Completa):} en este nivel, el vehículo es capaz de encargarse de todas la funciones en cualquier situación sin la necesidad de presencia humana.
+
+\end{itemize}
 
 \section{Inteligencia Artificial y Aprendizaje Automático}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.13)  27 MAY 2024 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  28 MAY 2024 19:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,7 +1064,7 @@ Cap\'{\i }tulo 1.
 
 ] [2]
 Cap\'{\i }tulo 2.
-<images/evolutionTouchscreen.png, id=269, 1040.38687pt x 262.48062pt>
+<images/evolutionTouchscreen.png, id=273, 1040.38687pt x 262.48062pt>
 File: images/evolutionTouchscreen.png Graphic file (type png)
 <use images/evolutionTouchscreen.png>
 Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449.
@@ -1072,12 +1072,12 @@ Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449
 [3
 
  <./images/evolutionTouchscreen.png>]
-<images/usingTouchscreen.png, id=277, 845.1575pt x 516.42938pt>
+<images/usingTouchscreen.png, id=281, 845.1575pt x 516.42938pt>
 File: images/usingTouchscreen.png Graphic file (type png)
 <use images/usingTouchscreen.png>
 Package pdftex.def Info: images/usingTouchscreen.png  used on input line 458.
 (pdftex.def)             Requested size: 298.75264pt x 182.55753pt.
-<images/ecu.png, id=280, 619.56468pt x 245.41687pt>
+<images/ecu.png, id=284, 619.56468pt x 245.41687pt>
 File: images/ecu.png Graphic file (type png)
 <use images/ecu.png>
 Package pdftex.def Info: images/ecu.png  used on input line 474.
@@ -1086,34 +1086,34 @@ Package pdftex.def Info: images/ecu.png  used on input line 474.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/connected_car_system.jpg, id=282, 907.39pt x 661.47125pt>
+<images/connected_car_system.jpg, id=286, 907.39pt x 661.47125pt>
 File: images/connected_car_system.jpg Graphic file (type jpg)
 <use images/connected_car_system.jpg>
 Package pdftex.def Info: images/connected_car_system.jpg  used on input line 481.
 (pdftex.def)             Requested size: 384.1096pt x 280.00626pt.
 [4 <./images/usingTouchscreen.png>] [5 <./images/ecu.png> <./images/connected_car_system.jpg>] [6]
-<images/androidAuto.png, id=298, 1505.625pt x 824.07875pt>
+<images/androidAuto.png, id=302, 1505.625pt x 824.07875pt>
 File: images/androidAuto.png Graphic file (type png)
 <use images/androidAuto.png>
 Package pdftex.def Info: images/androidAuto.png  used on input line 510.
 (pdftex.def)             Requested size: 298.75264pt x 163.51765pt.
-<images/integrationSolution.png, id=299, 1072.005pt x 610.28pt>
+<images/integrationSolution.png, id=303, 1072.005pt x 610.28pt>
 File: images/integrationSolution.png Graphic file (type png)
 <use images/integrationSolution.png>
 Package pdftex.def Info: images/integrationSolution.png  used on input line 519.
 (pdftex.def)             Requested size: 298.75264pt x 170.07639pt.
-<images/hud.png, id=302, 632.3625pt x 347.2975pt>
+<images/hud.png, id=306, 632.3625pt x 347.2975pt>
 File: images/hud.png Graphic file (type png)
 <use images/hud.png>
 Package pdftex.def Info: images/hud.png  used on input line 531.
 (pdftex.def)             Requested size: 298.75264pt x 164.07773pt.
  [7 <./images/androidAuto.png> <./images/integrationSolution.png>]
-<images/hudWork.png, id=309, 204.765pt x 97.3236pt>
+<images/hudWork.png, id=313, 204.765pt x 97.3236pt>
 File: images/hudWork.png Graphic file (type png)
 <use images/hudWork.png>
 Package pdftex.def Info: images/hudWork.png  used on input line 540.
 (pdftex.def)             Requested size: 298.75264pt x 142.0051pt.
-<images/nigthHUD.png, id=311, 529.98pt x 401.5pt>
+<images/nigthHUD.png, id=315, 529.98pt x 401.5pt>
 File: images/nigthHUD.png Graphic file (type png)
 <use images/nigthHUD.png>
 Package pdftex.def Info: images/nigthHUD.png  used on input line 553.
@@ -1123,97 +1123,108 @@ Package pdftex.def Info: images/nigthHUD.png  used on input line 553.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/hud.png> <./images/hudWork.png>]
-<images/retroHUD.png, id=318, 607.51968pt x 397.485pt>
+<images/retroHUD.png, id=322, 607.51968pt x 397.485pt>
 File: images/retroHUD.png Graphic file (type png)
 <use images/retroHUD.png>
 Package pdftex.def Info: images/retroHUD.png  used on input line 562.
 (pdftex.def)             Requested size: 213.39568pt x 139.61917pt.
-<images/adasDDR.jpg, id=322, 702.625pt x 1285.80376pt>
+<images/adasDDR.jpg, id=326, 702.625pt x 1285.80376pt>
 File: images/adasDDR.jpg Graphic file (type jpg)
 <use images/adasDDR.jpg>
 Package pdftex.def Info: images/adasDDR.jpg  used on input line 579.
 (pdftex.def)             Requested size: 256.07741pt x 468.63759pt.
  [9 <./images/nigthHUD.png> <./images/retroHUD.png>]
-<images/adasISA.jpg, id=331, 702.625pt x 334.24875pt>
+<images/adasISA.jpg, id=335, 702.625pt x 334.24875pt>
 File: images/adasISA.jpg Graphic file (type jpg)
 <use images/adasISA.jpg>
 Package pdftex.def Info: images/adasISA.jpg  used on input line 586.
 (pdftex.def)             Requested size: 341.43437pt x 162.43175pt.
  [10 <./images/adasDDR.jpg>]
-<images/adasRCTS.jpg, id=337, 702.625pt x 309.155pt>
+<images/adasRCTS.jpg, id=341, 702.625pt x 309.155pt>
 File: images/adasRCTS.jpg Graphic file (type jpg)
 <use images/adasRCTS.jpg>
 Package pdftex.def Info: images/adasRCTS.jpg  used on input line 593.
 (pdftex.def)             Requested size: 341.43437pt x 150.23718pt.
-<images/adasEDR.jpg, id=339, 277.96153pt x 122.30307pt>
+<images/adasEDR.jpg, id=343, 277.96153pt x 122.30307pt>
 File: images/adasEDR.jpg Graphic file (type jpg)
 <use images/adasEDR.jpg>
 Package pdftex.def Info: images/adasEDR.jpg  used on input line 600.
 (pdftex.def)             Requested size: 298.75264pt x 131.462pt.
  [11 <./images/adasISA.jpg> <./images/adasRCTS.jpg>]
-<images/adasLDW.jpg, id=345, 702.625pt x 1185.42876pt>
+<images/adasLDW.jpg, id=349, 702.625pt x 1185.42876pt>
 File: images/adasLDW.jpg Graphic file (type jpg)
 <use images/adasLDW.jpg>
 Package pdftex.def Info: images/adasLDW.jpg  used on input line 607.
 (pdftex.def)             Requested size: 213.39568pt x 360.0268pt.
-<images/adasBASyEBA.jpg, id=347, 277.96153pt x 568.2328pt>
+<images/adasBASyEBA.jpg, id=351, 277.96153pt x 568.2328pt>
 File: images/adasBASyEBA.jpg Graphic file (type jpg)
 <use images/adasBASyEBA.jpg>
 Package pdftex.def Info: images/adasBASyEBA.jpg  used on input line 614.
 (pdftex.def)             Requested size: 256.07741pt x 523.53485pt.
  [12 <./images/adasEDR.jpg> <./images/adasLDW.jpg>]
-<images/adasAlcolock.jpg, id=353, 277.96153pt x 440.3705pt>
+<images/adasAlcolock.jpg, id=357, 277.96153pt x 440.3705pt>
 File: images/adasAlcolock.jpg Graphic file (type jpg)
 <use images/adasAlcolock.jpg>
 Package pdftex.def Info: images/adasAlcolock.jpg  used on input line 621.
 (pdftex.def)             Requested size: 256.07741pt x 405.73036pt.
  [13 <./images/adasBASyEBA.jpg>]
-<images/adasCinturon.jpg, id=360, 277.96153pt x 133.02444pt>
+<images/adasCinturon.jpg, id=364, 277.96153pt x 133.02444pt>
 File: images/adasCinturon.jpg Graphic file (type jpg)
 <use images/adasCinturon.jpg>
 Package pdftex.def Info: images/adasCinturon.jpg  used on input line 628.
 (pdftex.def)             Requested size: 341.43437pt x 163.41406pt.
- [14 <./images/adasAlcolock.jpg>] [15 <./images/adasCinturon.jpg>]
+ [14 <./images/adasAlcolock.jpg>]
+<images/saeLevels.jpg, id=373, 867.99281pt x 673.01437pt>
+File: images/saeLevels.jpg Graphic file (type jpg)
+<use images/saeLevels.jpg>
+Package pdftex.def Info: images/saeLevels.jpg  used on input line 645.
+(pdftex.def)             Requested size: 341.43437pt x 264.74408pt.
+ [15 <./images/adasCinturon.jpg>] [16 <./images/saeLevels.jpg>] [17]
 Cap\'{\i }tulo 3.
-[16
-
-]
-Cap\'{\i }tulo 4.
-[17
-
-]
-Cap\'{\i }tulo 5.
 [18
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 [19
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 [20
 
 ]
-Package csquotes Info: Disabling multilingual quotes on input line 680.
+Cap\'{\i }tulo 6.
+[21
+
+]
+Cap\'{\i }tulo 7.
+[22
+
+]
+Package csquotes Info: Disabling multilingual quotes on input line 702.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 680.
+(csquotes)                Ignoring command on input line 702.
 
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 681.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 703.
 (C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (6.14975pt too wide) in paragraph at lines 682--682
+Overfull \hbox (6.14975pt too wide) in paragraph at lines 704--704
 \T1/txtt/m/n/12 diva -[] portal . org / smash / record . jsf ? dswid= -[] 6939 & pid = diva2 % 3A1385278$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (13.44974pt too wide) in paragraph at lines 682--682
+Overfull \hbox (13.44974pt too wide) in paragraph at lines 704--704
 \T1/txtt/m/n/12 en -[] un -[] buen -[] conductor / Sistemas -[] avanzados -[] de -[] ayuda -[] a -[] la -[] conduccion -[]
  []
 
-[21
+
+Overfull \hbox (26.64932pt too wide) in paragraph at lines 704--704
+\T1/txr/m/n/12 llen-ges,^^Q \T1/txr/m/it/12 Elec-tro-nics\T1/txr/m/n/12 , vol. 11, n.[] 14, jul. de 2022. \T1/txr/m/sc/12 doi\T1/txr/m/n/12 : [][]$\T1/txtt/m/n/12 10 . 3390 / electronics11142162$[][]\T1/txr/m/n/12 . 
+ []
+
+[23
 
 
 ] (memoria.aux
@@ -1232,17 +1243,17 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28757 strings out of 474370
- 482841 string characters out of 5740535
- 1937754 words of memory out of 5000000
- 50668 multiletter control sequences out of 15000+600000
+ 28784 strings out of 474370
+ 483653 string characters out of 5740535
+ 1939754 words of memory out of 5000000
+ 50689 multiletter control sequences out of 15000+600000
  611598 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,11n,117p,1052b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (33 pages, 8912535 bytes).
+Output written on memoria.pdf (35 pages, 9121916 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
