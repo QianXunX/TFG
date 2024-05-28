@@ -35,8 +35,8 @@
       \strng{authornamehash}{c73c4ba42229f177c847c75b2f564ca1}
       \strng{authorfullhash}{c73c4ba42229f177c847c75b2f564ca1}
       \strng{authorfullhashraw}{c73c4ba42229f177c847c75b2f564ca1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{DIVA}
@@ -156,8 +156,8 @@
       \strng{authornamehash}{5ea4a1b477bdf6dc754c2239114a34b0}
       \strng{authorfullhash}{489a30b505b7e83cfcba82b2590d0986}
       \strng{authorfullhashraw}{489a30b505b7e83cfcba82b2590d0986}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv.org}
@@ -335,6 +335,19 @@
       \field{year}{2021}
       \field{pages}{012032}
       \range{pages}{1}
+    \endentry
+    \entry{adasSensors}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Xplore}
+      \field{title}{Advanced Driver-Assistance Systems: A Path Toward Autonomous Vehicles}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8429957
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8429957
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

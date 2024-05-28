@@ -618,7 +618,7 @@ Debido a la importancia y eficacia de estos sistemas para la seguridad, la Unió
 	\item \textbf{Bloqueo de vehículo con alcoholímetro (Alcolock):} este sistema ADAS se enfoca en el control de la conducción tras la ingesta de alcohol. El vehículo dispone de un sistema de alcoholímetro, conectado al motor de arranque, y que impedirá al conductor arrancar el motor si la tasa de alcohol analizada por la boquilla sea superior al índice permitido. El sistema tendrá implementado sensores con tecnologías de reconocimiento de huellas dactilares, detección facial o fotografías digitales, que serán guardadas en memoria al igual que el historial de análisis, que servirá para identificar al usuario e impedir la falsificación o el fraude.
     \begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{adasAlcolock.jpg}
+		\includegraphics[width=0.8\textwidth]{adasAlcolock.jpg}
 		\caption{Funcionamiento del sistema Alcolock \cite{adasObligatorios}.}
 		\label{fig:imagen17}
 	\end{figure}
@@ -642,8 +642,8 @@ Un vehículo autónomo puede clasificarse en diferentes niveles de autonomía, d
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{saeLevels.jpg}
-	\caption{Niveles de autonomía según el estándar SAE J3016 \cite{sae}.}
+	\includegraphics[width=\textwidth]{saeLevels.jpg}
+	\caption{Niveles de autonomía según el estándar SAE J3016 \cite{autonomousVehicles}.}
 	\label{fig:imagen19}
 \end{figure}
 
@@ -657,6 +657,44 @@ Un vehículo autónomo puede clasificarse en diferentes niveles de autonomía, d
     \item \textbf{SAE Nivel 5 (Automatización Completa):} en este nivel, el vehículo es capaz de encargarse de todas la funciones en cualquier situación sin la necesidad de presencia humana.
 
 \end{itemize}
+
+Los vehículos autónomos están equipados con una gran cantidad de sensores y sistemas que les permiten lograr la percepción del entorno y poder conducir de una manera segura 
+\cite{autonomousVehicles}:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{saeSensors.png}
+	\caption{Sensores en un vehículo autónomo \cite{autonomousVehicles}.}
+	\label{fig:imagen20}
+\end{figure}
+
+\begin{itemize}
+
+    \item \textbf{Light Detection and Ranging (LIDAR):} sensor que funciona mediante detección láser, analizando la luz reflejada que se envía. Este sensor es capaz de detectar los objetos de alrededor del vehículo y crear mapas virtuales de 2D o 3D.
+    \item \textbf{Radio Detection and Ranging (RADAR):} sensor que funciona mediante ondas electromagnéticas que detectan los obstáculos o vehículos cercanos. Pueden ser de largo alcance, medio alcance o corto alcance, y se usan en sistemas como el control de crucero adaptativo, la advertencia de colisión o la detección del ángulo muerto.
+    \item \textbf{Global Navigation Satellite System (GNSS):} conjunto de sistemas que funcionan mediante señal de los satélites, como por ejemplo el GPS, y proporciona información precisa sobre la ubicación y la hora.
+    \item \textbf{Sensores Ultrasónicos:} sensores que detectan objetos en una distancia muy cercana al vehículo, utilizados en sistemas de asistencia al estacionamiento.
+    \item \textbf{Unidad de Medición Inercial (IMU):} sensor que mide el movimiento lineal y angular del vehículo utilizando acelerómetros y giroscopios. La información que recibe se combina con los datos del sistema GPS para obtener una mayor precisión en la posición.
+    \item \textbf{Cámaras térmicas:} cámaras que detectan el calor, con un rango más amplio que los faros, y son útiles para la detección de obstáculos, ya sean personas, animales u otros coches, en condiciones difícilmente perceptibles, como por la noche, en zona de humo o con un brillo solar intenso.
+    \item \textbf{Cámaras de video:} cámaras de alta resolución, que monitorean y transmiten de manera constante imágenes de la vía, usadas para procesar información relevante como señales de tráfico, peatones o ciclistas.
+
+\end{itemize}
+
+El conjunto de sensores, junto a los sistemas ADAS, son lo que permiten a los conductores circular de manera más segura, y lo que hace posible que los vehículos autónomos puedan realizar tareas de conducción sin la intervención del conductor.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{adasSensorWorkflow.png}
+	\caption{Clasificación de sensores usados en sistemas ADAS \cite{adasSensors}.}
+	\label{fig:imagen21}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{adasSensorRange.png}
+	\caption{Rangos sobre los que actúan los sensores \cite{adasSensors}.}
+	\label{fig:imagen22}
+\end{figure}
 
 \section{Inteligencia Artificial y Aprendizaje Automático}
 
