@@ -698,7 +698,94 @@ El conjunto de sensores, junto a los sistemas ADAS, son lo que permiten a los co
 
 \section{Inteligencia Artificial y Aprendizaje Automático}
 
+La Inteligencia Artificial (IA) se define como “capacidad de las máquinas para imitar la inteligencia de las personas humanas en la realización de tareas” \cite{deepLearning}. La investigación en IA está centrada en el desarrollo de dispositivos que perciben su entorno, resuelven problemas, y aprenden de los errores que sirvan posteriormente, para alcanzar un objetivo específico.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{sectionsAI.png}
+	\caption{Campos de la Inteligencia Artificial \cite{artInt}.}
+	\label{fig:imagen23}
+\end{figure}
+
+El Aprendizaje Automático (ML), por otra parte, es un campo de la IA que está centrado en el desarrollo de esos algoritmos que les permiten aprender y hacer predicciones a partir de los datos o problemas. Es definido como “capacidad de las máquinas para aprender sin ser programadas específicamente” \cite{deepLearning}. En la práctica, se puede definir como la construcción de modelos matemáticos mediante unos datos de muestra, y realizar con esos modelos predicciones o tomar decisiones sobre datos nuevos. 
+\cite{deepLearning}
+
+Los métodos de ML más comunes que se utilizan para aprender y realizar predicciones son los siguientes 
+\cite{deepLearning} \cite{artInt}:
+
+\begin{itemize}
+
+    \item \textbf{Aprendizaje Supervisado (SL):} método en el que se utilizan datos etiquetados para el entrenamiento del modelo. Esto quiere decir que para cada dato de entrada existe una salida final que es conocida, y el objetivo del modelo es aprender a unir cada entrada con su salida. Tras tener el modelo entrenado, este será capaz de predecir las salidas no conocidas de nuevas entradas.
+    \item \textbf{Aprendizaje No Supervisado (UL):} método en el que se utilizan datos no etiquetados para el entrenamiento del modelo. En este caso, el modelo pretende encontrar patrones ocultos o estructuras en los datos de entrada sin conocer la salida.
+    \item \textbf{Aprendizaje Semi-Supervisado (SSL):} método en el que se utiliza una combinación de datos etiquetados y no etiquetados para el entrenamiento del modelo. Este método es útil en caso de que la obtención de los datos etiquetados sea costosa.
+    \item \textbf{Aprendizaje por refuerzo (RL):} método en el que se entrena un agente, que interactúa con el entorno realizando determinadas acciones y obteniendo recompensas o penalizaciones dependiendo del resultado de la acción, y aprende con el objetivo de maximizar la recompensa acumulada. Es útil en campos como la robótica, los juegos o la navegación autónoma.
+    \item \textbf{Aprendizaje Profundo (DL):} conjunto de métodos más complejos que utilizan redes de neuronas artificiales con múltiples capas ocultas para aprender patrones en un conjunto de datos muy grande. Las arquitecturas de DL más conocidas son redes neuronales recurrentes (RNN) y redes neuronales convolucionales (CNN).
+
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{modelsML.png}
+	\caption{Modelos de Aprendizaje Automático \cite{artInt}.}
+	\label{fig:imagen24}
+\end{figure}
+
+\subsection{Redes Neuronales}
+
+Una red de neuronas artificial (ANN), o simplemente red de neuronas, es un sistema basado en múltiples nodos llamados neuronas, distribuidas en varias capas. Las capas principales de una red de neuronas son la capa de entrada que recibe los datos, las capas ocultas que procesan los datos, y la capa de salida que devuelve los resultados. 
+\cite{annReview}
+
+Cada neurona de una capa recibe entradas, procesa esas entradas y devuelve una salida que es enviada a la capa siguiente. El proceso de un dato en una neurona se realiza a través de una función de activación, función que introduce características no lineales en la red para que pueda aprender relaciones complejas entre el dato de entrada y salida.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{annStructure.png}
+	\caption{Artificial Neural Network basic architecture \cite{annReview}.}
+	\label{fig:imagen25}
+\end{figure}
+
+\subsubsection{Redes Neuronales Recurrentes (RNN)}
+
+Las redes de neuronas recurrentes (RNN) son un tipo de red neuronal que destacan por tener conexiones en forma de ciclos en la red, permitiéndoles mantener una “memoria” de los estados anteriores, por lo que son eficaces con el tratamiento de tareas donde tiene importancia el contexto temporal. 
+\cite{artInt} \cite{annReview}
+
+Las RNN procesan los datos de manera secuencial: en cada estado de procesamiento, se toma un valor de entrada y su estado anterior, y a partir de ambas genera una salida y actualiza su estado. Este modo de procesamiento en forma de ciclo es lo que permite a la red mantener la “memoria” de la información a lo largo de todo el proceso, y lo que es relevante para tareas como el procesamiento del lenguaje natural (NLP), donde la comprensión de una palabra depende del contexto anterior.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{rnnStructure.png}
+	\caption{Recurrent Neural Network basic architecture \cite{annReview}.}
+	\label{fig:imagen26}
+\end{figure}
+
+\subsubsection{Redes Neuronales Convolucionales (CNN)}
+
+Las  redes de neuronas convolucionales (CNN) son un tipo de red neuronal que destacan por poder procesar y analizar datos que tengan una estructura de cuadrícula, como por ejemplo las imágenes. 
+\cite{artInt} \cite{annReview}
+
+Una CNN está compuesta por varias capas de distintos tipos que transforman la entrada recibida de una manera específica:
+
+\begin{itemize}
+
+    \item \textbf{Capa convolucional:} capa que aplica filtros o núcleos a los datos de entrada, siendo el filtro una matriz pequeña que se desliza sobre el dato, y realiza una convolución sobre los datos para obtener un mapa de características. Estas características son las que permiten a la red detectar los patrones en la imagen, como bordes o texturas.
+    \item \textbf{Capa de pooling o subsampling:} capa que aplica una reducción de dimensionalidad sobre el mapa de características, generalmente siendo una operación de max-pooling tomando el valor máximo de cada región. Esta capa sirve para reducir la cantidad de parámetros y controlar el sobreajuste.
+    \item \textbf{Capas completamente conectadas:} capas que se sitúan al final de la red, y sirven para procesar las características obtenidas de las capas anteriores y realizar una clasificación final. Cada neurona de esta capa se conecta a todas las neuronas de la capa anterior.
+
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{cnnStructure.png}
+	\caption{Convolutional Neural Network basic architecture \cite{annReview}.}
+	\label{fig:imagen27}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{basicCnn.png}
+	\caption{Convolutional Neural Network layers visualization \cite{deepImages}.}
+	\label{fig:imagen28}
+\end{figure}
 
 \section{Trabajos Relacionados}
 

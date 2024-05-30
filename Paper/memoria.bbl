@@ -113,8 +113,8 @@
       \strng{authornamehash}{913fb7d6eadf95c8b6707df13c4dbe21}
       \strng{authorfullhash}{913fb7d6eadf95c8b6707df13c4dbe21}
       \strng{authorfullhashraw}{913fb7d6eadf95c8b6707df13c4dbe21}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACM Computing Surveys (CSUR)}
@@ -187,8 +187,8 @@
       \strng{authornamehash}{4cd335793999904e26a9055455929a0b}
       \strng{authorfullhash}{4cd335793999904e26a9055455929a0b}
       \strng{authorfullhashraw}{4cd335793999904e26a9055455929a0b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sistemas avanzados de ayuda a la conducción (ADAS)}
@@ -201,8 +201,8 @@
       \endverb
     \endentry
     \entry{adasObligatorios}{misc}{}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{title}{Los ADAS obligatorios desde julio 2022, uno a uno}
       \verb{urlraw}
@@ -258,8 +258,8 @@
       \strng{authornamehash}{597c60d2bc9294ab93f26bd1aba74ab9}
       \strng{authorfullhash}{309468c63b3822c6a996c17f694ce9e6}
       \strng{authorfullhashraw}{309468c63b3822c6a996c17f694ce9e6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronics}
@@ -273,8 +273,8 @@
       \endverb
     \endentry
     \entry{sae}{misc}{}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SAE International}
       \field{title}{Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}
@@ -324,8 +324,8 @@
       \strng{authornamehash}{4e0d034b25b2e508b3f9b16867c655f3}
       \strng{authorfullhash}{9709fa5b21982a943d4354f529ce65d4}
       \strng{authorfullhashraw}{9709fa5b21982a943d4354f529ce65d4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IOP Conference Series: Materials Science and Engineering}
@@ -348,6 +348,197 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/8429957
       \endverb
+    \endentry
+    \entry{deepLearning}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Xplore}
+      \field{title}{Artificial intelligence, machine learning and deep learning}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8259629?casa_token=e8Kq68ejBNMAAAAA:ozsksy20L0JWpg0P9wKd6eJVqA9aJHVKc6ifX3a2rRMJ8yBZJO-JOqGc2WNvkIW1jTVx5Q2icg
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8259629?casa_token=e8Kq68ejBNMAAAAA:ozsksy20L0JWpg0P9wKd6eJVqA9aJHVKc6ifX3a2rRMJ8yBZJO-JOqGc2WNvkIW1jTVx5Q2icg
+      \endverb
+    \endentry
+    \entry{artInt}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=64d3435e4aa12db8386b266c1b5d5ada}{%
+           family={Mukhamediev},
+           familyi={M\bibinitperiod},
+           given={Ravil\bibnamedelima I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3305b2f07d2e74407009ee5223b50723}{%
+           family={Popova},
+           familyi={P\bibinitperiod},
+           given={Yelena},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=529a119a565419cbcdc384e5489bdd40}{%
+           family={Kuchin},
+           familyi={K\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e43cdf7134d5782c92a508af8bdbc891}{%
+           family={Zaitseva},
+           familyi={Z\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d4b0d7eba62456e3771bd63398813a28}{%
+           family={Kalimoldayev},
+           familyi={K\bibinitperiod},
+           given={Almas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8c99ef8be096dfde19ff2bcec77dbbfc}{%
+           family={Symagulov},
+           familyi={S\bibinitperiod},
+           given={Adilkhan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=782375a85d1244a591b5106dcb552ea5}{%
+           family={Levashenko},
+           familyi={L\bibinitperiod},
+           given={Vitaly},
+           giveni={V\bibinitperiod}}}%
+        {{hash=28d17b1dda57e42a053a28a3f48e948a}{%
+           family={Abdoldina},
+           familyi={A\bibinitperiod},
+           given={Farida},
+           giveni={F\bibinitperiod}}}%
+        {{hash=80e676296e7d2d9d28a247036a62ecc9}{%
+           family={Gopejenko},
+           familyi={G\bibinitperiod},
+           given={Viktors},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bccdde6efc39cb70797b7af1691c0799}{%
+           family={Yakunin},
+           familyi={Y\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9c960c75971dcf29d64a7cad4a682676}{%
+           family={Muhamedijeva},
+           familyi={M\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c092f71b2ce2b32281f5596ad53571e7}{%
+           family={Yelis},
+           familyi={Y\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{abd8784d284fc769f9299ddf0006e50f}
+      \strng{fullhash}{69ac4814ffb6664429201b45a71b9695}
+      \strng{fullhashraw}{69ac4814ffb6664429201b45a71b9695}
+      \strng{bibnamehash}{ab00518a197e1b5274993c3208d1f383}
+      \strng{authorbibnamehash}{ab00518a197e1b5274993c3208d1f383}
+      \strng{authornamehash}{abd8784d284fc769f9299ddf0006e50f}
+      \strng{authorfullhash}{69ac4814ffb6664429201b45a71b9695}
+      \strng{authorfullhashraw}{69ac4814ffb6664429201b45a71b9695}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{month}{7}
+      \field{number}{15}
+      \field{title}{Review of Artificial Intelligence and Machine Learning Technologies: Classification, Restrictions, Opportunities and Challenges}
+      \field{volume}{10}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/math10152552
+      \endverb
+    \endentry
+    \entry{annReview}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=8c25fd53a8af454763941b8a99b10f42}{%
+           family={Abdolrasol},
+           familyi={A\bibinitperiod},
+           given={Maher\bibnamedelimb G.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=354fc55867630b5798c8e45829f31105}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi M.\bibnamedelimi Suhail},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=901454f304edffa92747d9bba00ff33c}{%
+           family={Ustun},
+           familyi={U\bibinitperiod},
+           given={Taha\bibnamedelima Selim},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a891dc6538cf92746b2edaa27c591a86}{%
+           family={Sarker},
+           familyi={S\bibinitperiod},
+           given={Mahidur\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7152d536317f4669272616d081c63d43}{%
+           family={Hannan},
+           familyi={H\bibinitperiod},
+           given={Mahammad\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=140ff94cba527772c36331147b589bae}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Ramizi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5b737758a7711ba1376daecf1dd7f35e}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Jamal\bibnamedelima Abd},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a5186597376c7b31a4aa4fc0c6534565}{%
+           family={Mekhilef},
+           familyi={M\bibinitperiod},
+           given={Saad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fff8ee877aae1f62347fb66f5b4bc235}{%
+           family={Milad},
+           familyi={M\bibinitperiod},
+           given={Abdalrhman},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bd3d4fafd696e8bfcf5ce096068ace3}
+      \strng{fullhash}{0b9ffd92a0e27d842d037bb86cf2a95a}
+      \strng{fullhashraw}{0b9ffd92a0e27d842d037bb86cf2a95a}
+      \strng{bibnamehash}{952e9cbc719e215a2b6a7bfc3a14d749}
+      \strng{authorbibnamehash}{952e9cbc719e215a2b6a7bfc3a14d749}
+      \strng{authornamehash}{1bd3d4fafd696e8bfcf5ce096068ace3}
+      \strng{authorfullhash}{0b9ffd92a0e27d842d037bb86cf2a95a}
+      \strng{authorfullhashraw}{0b9ffd92a0e27d842d037bb86cf2a95a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{month}{11}
+      \field{number}{21}
+      \field{title}{Artificial Neural Networks Based Optimization Techniques: A Review}
+      \field{volume}{10}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/electronics10212689
+      \endverb
+    \endentry
+    \entry{deepImages}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ddb2df74a941b1837571b0cc41c08ef6}{%
+           family={PouyanfarSamira},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{fullhash}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{fullhashraw}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{bibnamehash}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{authorbibnamehash}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{authornamehash}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{authorfullhash}{ddb2df74a941b1837571b0cc41c08ef6}
+      \strng{authorfullhashraw}{ddb2df74a941b1837571b0cc41c08ef6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys (CSUR)}
+      \field{month}{9}
+      \field{title}{A Survey on Deep Learning: Algorithms, Techniques, and Applications: ACM Computing Surveys: Vol 51, No 5}
+      \field{year}{2018}
     \endentry
   \enddatalist
 \endrefsection
