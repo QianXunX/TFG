@@ -124,6 +124,12 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 36}
       \range{pages}{36}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/abs/10.1145/2971482?casa_token=Cj1Q3I4upV4AAAAA:HTAewkA3Unk064rhoeUvpV37pH-aexXDTPc3LeqMtX-HAALUUXUAnQ6AloAboY4R9Nu080La6VC0
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/abs/10.1145/2971482?casa_token=Cj1Q3I4upV4AAAAA:HTAewkA3Unk064rhoeUvpV37pH-aexXDTPc3LeqMtX-HAALUUXUAnQ6AloAboY4R9Nu080La6VC0
+      \endverb
     \endentry
     \entry{hudPaper}{misc}{}{}
       \name{author}{4}{}{%
@@ -268,8 +274,11 @@
       \field{title}{A Review on Autonomous Vehicles: Progress, Methods and Challenges}
       \field{volume}{11}
       \field{year}{2022}
-      \verb{doi}
-      \verb 10.3390/electronics11142162
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9292/11/14/2162
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9292/11/14/2162
       \endverb
     \endentry
     \entry{sae}{misc}{}{}
@@ -335,6 +344,12 @@
       \field{year}{2021}
       \field{pages}{012032}
       \range{pages}{1}
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1757-899X/1169/1/012032/meta
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1757-899X/1169/1/012032/meta
+      \endverb
     \endentry
     \entry{adasSensors}{misc}{}{}
       \field{sortinit}{5}
@@ -443,8 +458,11 @@
       \field{title}{Review of Artificial Intelligence and Machine Learning Technologies: Classification, Restrictions, Opportunities and Challenges}
       \field{volume}{10}
       \field{year}{2022}
-      \verb{doi}
-      \verb 10.3390/math10152552
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2227-7390/10/15/2552
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2227-7390/10/15/2552
       \endverb
     \endentry
     \entry{annReview}{article}{}{}
@@ -513,8 +531,11 @@
       \field{title}{Artificial Neural Networks Based Optimization Techniques: A Review}
       \field{volume}{10}
       \field{year}{2021}
-      \verb{doi}
-      \verb 10.3390/electronics10212689
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9292/10/21/2689
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9292/10/21/2689
       \endverb
     \endentry
     \entry{deepImages}{article}{}{}
@@ -539,6 +560,250 @@
       \field{month}{9}
       \field{title}{A Survey on Deep Learning: Algorithms, Techniques, and Applications: ACM Computing Surveys: Vol 51, No 5}
       \field{year}{2018}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/abs/10.1145/3234150?casa_token=NwDv6OKQHucAAAAA:Z-9c53n0-avqDPOCU_ujAByyBz1Zioe4FKmIOMsHhJjPViPxS_H6_h9BOYxV5ET6TkXAdf0HaL0g
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/abs/10.1145/3234150?casa_token=NwDv6OKQHucAAAAA:Z-9c53n0-avqDPOCU_ujAByyBz1Zioe4FKmIOMsHhJjPViPxS_H6_h9BOYxV5ET6TkXAdf0HaL0g
+      \endverb
+    \endentry
+    \entry{rw1}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=20f1a4790a6cbf5698aa4678b206ce45}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Dongmei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=34bdcbf7f22829ef86ac0918e6dcbd41}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yongjian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d9c6c3f7e67604af56d34435b51eb50}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Luhan},
+           giveni={L\bibinitperiod}}}%
+        {{hash=82ec79161c60e4d6262d1fc2647c09e6}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d16056932a393b93367a5223974b55f6}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{366cac3625b44f9d2d01dd9e471f83b0}
+      \strng{fullhash}{170f349399e8611fb02740aebaf7af2d}
+      \strng{fullhashraw}{170f349399e8611fb02740aebaf7af2d}
+      \strng{bibnamehash}{170f349399e8611fb02740aebaf7af2d}
+      \strng{authorbibnamehash}{170f349399e8611fb02740aebaf7af2d}
+      \strng{authornamehash}{366cac3625b44f9d2d01dd9e471f83b0}
+      \strng{authorfullhash}{170f349399e8611fb02740aebaf7af2d}
+      \strng{authorfullhashraw}{170f349399e8611fb02740aebaf7af2d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Drivers’ Comprehensive Emotion Recognition Based on HAM}
+      \field{volume}{23}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/23/19/8293
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/23/19/8293
+      \endverb
+    \endentry
+    \entry{rw2}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=94479d2a9fe3878d2f26835da4bbcd4f}{%
+           family={Abedi},
+           familyi={A\bibinitperiod},
+           given={Hajar},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f4e197859cad6540a89c549c626c274a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Shenghang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fde6eae465760e1821d64a70ad227413}{%
+           family={Mazumdar},
+           familyi={M\bibinitperiod},
+           given={Vishvam},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0c950aec0a1cd9379143ea4197d1b0aa}{%
+           family={Riad},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima MYR},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6cda7e13062091562f92a7fc7790df70}{%
+           family={Shaker},
+           familyi={S\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{1d54720c306db1246d043d07b374fc9e}
+      \strng{fullhash}{97b2be3ac344ea62d8ab95539d1144b4}
+      \strng{fullhashraw}{97b2be3ac344ea62d8ab95539d1144b4}
+      \strng{bibnamehash}{97b2be3ac344ea62d8ab95539d1144b4}
+      \strng{authorbibnamehash}{97b2be3ac344ea62d8ab95539d1144b4}
+      \strng{authornamehash}{1d54720c306db1246d043d07b374fc9e}
+      \strng{authorfullhash}{97b2be3ac344ea62d8ab95539d1144b4}
+      \strng{authorfullhashraw}{97b2be3ac344ea62d8ab95539d1144b4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{AI-powered in-vehicle passenger monitoring using low-cost mm-wave radar}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{18998\bibrangedash 19012}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9666842
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9666842
+      \endverb
+    \endentry
+    \entry{rw3}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=86bb68124d284dec281620610370cc27}{%
+           family={Asad},
+           familyi={A\bibinitperiod},
+           given={Syed\bibnamedelima Muhammad},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=20fc7f35f53b6fdcdbd52b9532c0e655}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Jawad},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87c74519de294f1bc39d278c3f0ddac7}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Sajjad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dc419adf7a3a71cbdf07c1c858d715e2}{%
+           family={Zoha},
+           familyi={Z\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dda8aef8e9171f1a2302dd063d4394b9}{%
+           family={Abbasi},
+           familyi={A\bibinitperiod},
+           given={Qammer\bibnamedelima Hussain},
+           giveni={Q\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f2769d972335f7e4b819e5f58619b9c5}{%
+           family={Imran},
+           familyi={I\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b758577299cf49d79aa71d4965e61085}
+      \strng{fullhash}{b8ca721cbcff850b76a6a935c058fac4}
+      \strng{fullhashraw}{b8ca721cbcff850b76a6a935c058fac4}
+      \strng{bibnamehash}{b8ca721cbcff850b76a6a935c058fac4}
+      \strng{authorbibnamehash}{b8ca721cbcff850b76a6a935c058fac4}
+      \strng{authornamehash}{b758577299cf49d79aa71d4965e61085}
+      \strng{authorfullhash}{b8ca721cbcff850b76a6a935c058fac4}
+      \strng{authorfullhashraw}{b8ca721cbcff850b76a6a935c058fac4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{Mobility Prediction-Based Optimisation and Encryption of Passenger Traffic-Flows Using Machine Learning}
+      \field{volume}{20}
+      \field{year}{2020}
+    \endentry
+    \entry{rw4}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8de5ba15922937cfa958bcf3aa2aafc4}{%
+           family={Laakkoa},
+           familyi={L\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=78b784b61f0148c7a8873a3f5f77be31}{%
+           family={Kostiainena},
+           familyi={K\bibinitperiod},
+           given={Juho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4ec8d3ce6e8e09c3dafd8b00b384a28f}{%
+           family={Pihlajamaaa},
+           familyi={P\bibinitperiod},
+           given={Olli},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0717e9c24ecc1877f21616e50c923540}
+      \strng{fullhash}{0717e9c24ecc1877f21616e50c923540}
+      \strng{fullhashraw}{0717e9c24ecc1877f21616e50c923540}
+      \strng{bibnamehash}{0717e9c24ecc1877f21616e50c923540}
+      \strng{authorbibnamehash}{0717e9c24ecc1877f21616e50c923540}
+      \strng{authornamehash}{0717e9c24ecc1877f21616e50c923540}
+      \strng{authorfullhash}{0717e9c24ecc1877f21616e50c923540}
+      \strng{authorfullhashraw}{0717e9c24ecc1877f21616e50c923540}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of TRA2020, the 8th Transport Research Arena, Liikenne-ja viestintävirasto Traficom, Finland}
+      \field{title}{Estimating passenger experience from vehicle data: Preconditions for using machine learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Timo-Laakko/publication/339848623_Estimating_passenger_experience_from_vehicle_data_Preconditions_for_using_machine_learning/links/5e8efcc94585150839cae10e/Estimating-passenger-experience-from-vehicle-data-Preconditions-for-using-machine-learning.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Timo-Laakko/publication/339848623_Estimating_passenger_experience_from_vehicle_data_Preconditions_for_using_machine_learning/links/5e8efcc94585150839cae10e/Estimating-passenger-experience-from-vehicle-data-Preconditions-for-using-machine-learning.pdf
+      \endverb
+    \endentry
+    \entry{rw5}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1ea58853b09cd2368cc36240026e4f85}{%
+           family={Skhosana},
+           familyi={S\bibinitperiod},
+           given={Menzi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d0212acf93bc31f5ada23a3e50b1841}{%
+           family={Ezugwu},
+           familyi={E\bibinitperiod},
+           given={Absalom\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5415541ef6179e6c5b5d2067436512de}
+      \strng{fullhash}{5415541ef6179e6c5b5d2067436512de}
+      \strng{fullhashraw}{5415541ef6179e6c5b5d2067436512de}
+      \strng{bibnamehash}{5415541ef6179e6c5b5d2067436512de}
+      \strng{authorbibnamehash}{5415541ef6179e6c5b5d2067436512de}
+      \strng{authornamehash}{5415541ef6179e6c5b5d2067436512de}
+      \strng{authorfullhash}{5415541ef6179e6c5b5d2067436512de}
+      \strng{authorfullhashraw}{5415541ef6179e6c5b5d2067436512de}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Sustainable Development \& Planning}
+      \field{number}{7}
+      \field{title}{A Real-Time Machine Learning-Based Public Transport Bus-Passenger Information System.}
+      \field{volume}{16}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Absalom-Ezugwu/publication/357088862_A_Real-Time_Machine_Learning-Based_Public_Transport_Bus-Passenger_Information_System/links/61bbdfcaa6251b553ac3d709/A-Real-Time-Machine-Learning-Based-Public-Transport-Bus-Passenger-Information-System.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Absalom-Ezugwu/publication/357088862_A_Real-Time_Machine_Learning-Based_Public_Transport_Bus-Passenger_Information_System/links/61bbdfcaa6251b553ac3d709/A-Real-Time-Machine-Learning-Based-Public-Transport-Bus-Passenger-Information-System.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
