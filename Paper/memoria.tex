@@ -811,7 +811,556 @@ Tras obtener estas conclusiones del análisis, con este proyecto se pretende pro
 
 \chapter{Diseño del sistema}
 
+Al igual mencionado anteriormente, los avances hoy en día en la industria automotriz sobre los sistemas de seguridad y experiencia al usuario están mayoritariamente enfocados al conductor, y las investigaciones y proyectos en los que se tienen en cuenta a los acompañantes son relacionados al sector de los transportes públicos. 
 
+Por el anterior motivo, se propone un sistema cuyo diseño está enfocado para los ocupantes de un vehículo privado. Concretamente, el uso principal del sistema es mejorar la experiencia de un ocupante mediante el control automático de funcionalidades de multimedia de un vehículo dependiendo del estado emocional en el que se encuentren los ocupantes.
+
+El sistema tambien estaria abierto a posibles otras aplicaciones en sistemas ADAS, como por ejemplo restringir la velocidad máxima que puede alcanzar un vehículo en caso de que el estado emocional de un acompañante sea de enfado o estrés, ya que podría influir en el comportamiento del conductor, y los sistemas actuales solo están implementados para detectar el estado del conductor y no de los acompañantes. Pero esto es solo una posible idea de aplicación posible, que no se abordará en este proyecto. 
+
+Por lo tanto, la arquitectura de nuestro sistema estará compuesta de diferentes módulos clave, cada uno con una funcionalidad separada, y que juntos forman el sistema final que permitirá el reconocimiento de emociones y la adaptación del resultado sobre las funcionalidades del vehículo:
+
+\begin{enumerate}
+
+    \item \textbf{Módulo de obtención de imágenes en tiempo real}
+    \begin{itemize}
+		\item Las imágenes se obtendrán mediante cámaras de alta resolución instaladas en los coches para capturar imágenes de las caras  y emociones de los acompañantes. El software para su funcionamiento se encargará de la frecuencia de captura, la calidad de captura, la cantidad de imágenes, y el pre-procesamiento y envío en tiempo real de las imágenes, ya sea por el bus CAN del vehículo o por conexión inalámbrica.
+	\end{itemize}
+
+    \item \textbf{Módulo de predicción y detección de emociones}
+    \begin{itemize}
+		\item Las imágenes recibidas serán analizadas por un modelo de red neuronal convolucional (CNN) pre-entrenado que detectará las emociones de esas imágenes, y el resultado será enviado a la API o interfaz de software encargada de la interacción con el vehículo. 
+	\end{itemize}
+    
+    \item \textbf{Módulo de interacción}
+    \begin{itemize}
+		\item El resultado obtenido de los análisis de las imágenes será utilizado para decidir las acciones a realizar, y se comunicara con el sistema de interacción, que controlará las funcionalidades del vehículo según el resultado: por ejemplo si los acompañantes están alegres subir el volumen de la música y activas las luces de ambiente, si están tristes cambiar a una música más animada, si están enfadados bajar el volumen de la música, si están cansados o durmiendo bajar la música y el aire acondicionado, etc. Dependiendo de cada una de las posibilidades que prediga en modelo, podrían haber diferentes combinaciones, incluso podría ser personalizable por el mismo usuario.
+	\end{itemize}
+
+\end{enumerate}
+
+\section{Análisis de requisitos}
+
+El sistema deberá cumplir una serie de requisitos funcionales, que definen las funcionalidades y características que el sistema debe tener para alcanzar los objetivos del proyecto, y no funcionales que definen el comportamiento del sistema enfocado a la calidad de servicio y funcionamiento.
+
+Los requisitos se definen en formato de tabla, siendo cada requisito identificado por RF si es funcional y RNF si es no funcional, seguido de un número de requisitos. Cada definición de requisito tendrá un nombre, una descripción, y tres propiedades del requisito: importancia del requisito (alta, media o baja), prioridad del requisito (alta, media o baja) y complejidad del requisito (alta, media o baja).
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Plantilla de tabla de requisitos}}
+	{
+	  \begin{tabular}{|c|c|c|c|}
+		\hline
+		\multicolumn{4}{|c|}{\cellcolor{gray}\textbf{RY-XX}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & \multicolumn{3}{c|}{} \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & \multicolumn{3}{c|}{} \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta & Media & Baja \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta & Media & Baja \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta & Media & Baja \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\subsection{Requisitos funcionales}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-01}}
+	{
+	  \begin{tabular}{|c|P{10cm}c|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-01}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Captura de imágenes \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Capturar imágenes de los ocupantes en tiempo real. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-02}}
+	{
+	  \begin{tabular}{|c|P{10cm}c|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-02}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Frecuencia de captura \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Ajustar la frecuencia de captura para optimizar rendimiento y precisión. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-03}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-03}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Calidad de captura \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Utilizar cámaras de alta resolución para la claridad de las imágenes. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-04}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-04}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Pre-procesamiento de imágenes \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Realizar preprocesamiento para enfocar la imagen sobre la cara. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-05}}
+	{
+	  \begin{tabular}{|c|P{10cm}c|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-05}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Envío de imágenes \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Enviar imágenes en tiempo real al modelo de predicción. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-06}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-06}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Análisis de imágenes \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Analizar las imágenes con el modelo de CNN pre-entrenado. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-07}}
+	{
+	  \begin{tabular}{|c|P{10cm}c|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-07}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Tipos de emociones \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Detectar emociones correspondientes \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-08}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-08}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & API de resultados \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Comunicar el resultado de la predicción a la API de interacción. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-09}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-09}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Acciones según emoción \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Ejecutar acciones en respuesta al resultado obtenido. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-10}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-10}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Registro de acciones \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Registrar acciones realizadas y emociones detectadas. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-11}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-11}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Personalización de acciones \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Permite personalización de acciones por parte del usuario. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Baja \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-12}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-12}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Compatibilidad de vehículos \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema tendrá que ser compatible con diferentes vehículos. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-13}}
+	{
+	  \begin{tabular}{|c|P{10cm}c|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-13}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Integración con otros sistemas \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Integrar con otros sistemas de información. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Baja \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Baja \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito funcional RF-14}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RF-14}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Mantenimiento remoto \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Soportar mantenimiento remoto y solución de problemas. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\subsection{Requisitos no funcionales}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-01}}
+	{
+	  \begin{tabular}{|c|P{10cm}c|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-01}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Tiempo de respuesta \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema deberá procesar la respuesta en tiempo real. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-02}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-02}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Escalabilidad \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema debe poder escalar para manejar múltiples usuarios a la vez. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-03}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-03}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Robustez \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema deberá poder manejar errores o fallos sin interrumpir el funcionamiento. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-04}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-04}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Seguridad de datos \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & Garantizar la seguridad de los datos de imágenes y emociones. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-05}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-05}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Cumplimiento de normativa \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema deberá cumplir la normativa de protección de datos y privacidad. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-06}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-06}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Eficiencia energética \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema deberá ser eficiente en el consumo de energía. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Media \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Media \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Requisito no funcional RNF-07}}
+	{
+	  \begin{tabular}{|c|P{10cm}|}
+		\hline
+		\multicolumn{2}{|c|}{\cellcolor{gray}\textbf{RNF-07}} \\
+		\hline
+		{\cellcolor{gray}\textbf{Nombre}} & Latencia \\
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & El sistema debe tener una latencia de procesamiento mínima para asegurar una buena experiencia de usuario. \\
+		\hline
+		{\cellcolor{gray}\textbf{Necesidad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Prioridad}} & Alta \\
+		\hline
+		{\cellcolor{gray}\textbf{Complejidad}} & Alta \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\section{Análisis de datos}
+
+Como se ha mencionado anteriormente, el sistema obtiene los datos a partir de imágenes en tiempo real. Estas imágenes podrían ser recopiladas por cámaras instaladas dentro del vehículo, y posteriormente preprocesadas por Visión Artificial (Computer Vision) u otra técnica para obtener una imagen más detallada de la cara, y adaptadas al formato que se necesite, y será procesada posteriormente por el modelo de aprendizaje automático.
+
+En este caso, para el entrenamiento del modelo se usará un conjunto de datos publicado en Internet, concretamente “FER+ (FER2013Plus)” \cite{fer2013Plus} publicada por Microsoft en su Github \cite{fer2013PlusMicrosoft}, una versión extendida y mejorada del dataset original “Facial Expression Recognition (FER2013)” \cite{fer2013}, publicado en Kaggle como enunciado de la competición “Challenges in Representation Learning: Facial Expression Recognition Challenge”.
+
+El dataset FER2013 consta de 35.887 imágenes en escala de gris de caras humanas, con una resolución de 48 x 48 píxeles, adecuada con un balance entre calidad de visión y eficiencia computacional. Las imágenes tienen 7 categorías de emoción representadas en columnas y con valores numéricos dependiendo de la cantidad de presencia de esa emoción en la imagen, sumando un total de 10. La clasificación de las emociones son: enfado (anger), disgusto (disgust), miedo (fear), felicidad (happy), tristeza (sad), sorpresa (surprise) u neutral. Todos los datos de este conjunto se obtuvieron de la recopilación de imágenes de Internet y anotación manual por parte de personas que clasificaron las imágenes sobre las 7 categorías mencionadas anteriormente.
+
+En cuanto a la versión extendida FER+, tiene mejoras del dataset original en relación a la reanotacion de las imágenes de una manera más precisa, eliminando imágenes de baja calidad, cambiando anotaciones de imágenes incorrectamente anotadas, reduciendo el ruido y mejorando la calidad general del dataset. Además añades 3 categorías más para el grado de clasificación de las imágenes, que son desprecio (contempt), desconocido (unknown) y NT (not a face). Esta es la causa de la elección de este dataset, al contener una cantidad amplia de datos, con un etiquetado más preciso y mejorado que el original.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{FER+vsFER.png}
+	\caption{Ejemplos de reanotación de imagenes (arriba FER2013 original, abajo FER+) \cite{fer2013PlusMicrosoft}.}
+	\label{fig:imagen29}
+\end{figure}
+
+\section{Análisis de sistemas y software utilizado}
+
+Para la implementación y análisis del modelo de aprendizaje automático, se harán uso de diferentes programas informáticos y herramientas:
+
+\begin{enumerate}
+
+    \item \textbf{Python:} es un lenguaje de programación de alto nivel que destaca en el ámbito de la inteligencia artificial (IA) y el aprendizaje automático (ML) por su integración con una gran cantidad de librerías especializadas para el manejo de grandes volúmenes de datos, además de simplificar la creación, el entrenamiento y la evaluación de modelos predictivos de ML. \cite{python}
+    \item \textbf{Keras:} es una librería de Python que facilita el desarrollo de modelos de aprendizaje profundo con redes neuronales, además de proporcionar módulos para procesar imágenes, texto y secuencias de datos. \cite{keras}
+    \item \textbf{NumPy y Pandas:} son dos librerías fundamentales que se utilizan para la interacción con datos numéricos. NumPy (Numerical Python) es destacado por una manipulación rápida y eficiente de grandes volúmenes de datos, soportando incluso datos en forma de arrays multidimensionales y matrices, y operación con una amplia cantidad de funciones matemáticas. \cite{numpy} Pandas es una librería construida sobre NumPy, y destaca por una manipulación de datos eficiente con Series y DataFrames, estructuras unidimensionales la primera y bidimensionales la segunda, similar a columnas o tablas de una hoja de cálculo. También incluye funciones capaces de importar y exportar datos a diferentes tipos de archivos como Excel o CSV. \cite{pandas}
+	\item \textbf{Matplotlib y Seaborn:} son dos librerías centradas en la visualización de datos. Matplotlib destaca por un control detallado sobre la creación de distintos tipos de gráficos simples y complejos, proporcionando flexibilidad para modificar prácticamente todos los aspectos de los gráficos, pero a costa de mayor complejidad. \cite{matplotlib} Seaborn por otro lado es una librería construida sobre Matplotlib, que simplifica la creación de gráficos y visualizaciones, y facilita la exploración y visualización de los datos. \cite{seaborn}
+
+\end{enumerate}
 
 \chapter{Implementación y resultados}
 

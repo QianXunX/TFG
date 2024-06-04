@@ -76,8 +76,8 @@
       \strng{authornamehash}{00723f9deb57728ece1c4f9bc3f2b178}
       \strng{authorfullhash}{00723f9deb57728ece1c4f9bc3f2b178}
       \strng{authorfullhashraw}{00723f9deb57728ece1c4f9bc3f2b178}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{EUDL}
@@ -365,8 +365,8 @@
       \endverb
     \endentry
     \entry{deepLearning}{misc}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Xplore}
       \field{title}{Artificial intelligence, machine learning and deep learning}
@@ -789,8 +789,8 @@
       \strng{authornamehash}{5415541ef6179e6c5b5d2067436512de}
       \strng{authorfullhash}{5415541ef6179e6c5b5d2067436512de}
       \strng{authorfullhashraw}{5415541ef6179e6c5b5d2067436512de}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Sustainable Development \& Planning}
@@ -803,6 +803,174 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/profile/Absalom-Ezugwu/publication/357088862_A_Real-Time_Machine_Learning-Based_Public_Transport_Bus-Passenger_Information_System/links/61bbdfcaa6251b553ac3d709/A-Real-Time-Machine-Learning-Based-Public-Transport-Bus-Passenger-Information-System.pdf
+      \endverb
+    \endentry
+    \entry{fer2013Plus}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=d5f862b40f02d067ff6c9b028ea57d04}{%
+           family={Barsoum},
+           familyi={B\bibinitperiod},
+           given={Emad},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6be2ddbf537bae561864776d40c36220}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cha},
+           giveni={C\bibinitperiod}}}%
+        {{hash=66171542a64814987c7681a97ec22707}{%
+           family={Canton\bibnamedelima Ferrer},
+           familyi={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bdc0f902bd5651d491e1d2e1f9b442fc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhengyou},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4da2d00f140e80819c5ad6ee503d4d0}
+      \strng{fullhash}{2ab3e6951fa8db841b83efc8770a9f9b}
+      \strng{fullhashraw}{2ab3e6951fa8db841b83efc8770a9f9b}
+      \strng{bibnamehash}{2ab3e6951fa8db841b83efc8770a9f9b}
+      \strng{authorbibnamehash}{2ab3e6951fa8db841b83efc8770a9f9b}
+      \strng{authornamehash}{f4da2d00f140e80819c5ad6ee503d4d0}
+      \strng{authorfullhash}{2ab3e6951fa8db841b83efc8770a9f9b}
+      \strng{authorfullhashraw}{2ab3e6951fa8db841b83efc8770a9f9b}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM International Conference on Multimodal Interaction (ICMI)}
+      \field{title}{Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution}
+      \field{year}{2016}
+    \endentry
+    \entry{fer2013PlusMicrosoft}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5f532a3fc4f1ea403f37070f59a7a53a}{%
+           family={microsoft},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{fullhash}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{fullhashraw}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{bibnamehash}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{authorbibnamehash}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{authornamehash}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{authorfullhash}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \strng{authorfullhashraw}{5f532a3fc4f1ea403f37070f59a7a53a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub}
+      \field{title}{GitHub - microsoft/FERPlus: This is the FER+ new label annotations for the Emotion FER dataset.}
+      \verb{urlraw}
+      \verb https://github.com/Microsoft/FERPlus
+      \endverb
+      \verb{url}
+      \verb https://github.com/Microsoft/FERPlus
+      \endverb
+    \endentry
+    \entry{fer2013}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kaggle}
+      \field{title}{Challenges in Representation Learning: Facial Expression Recognition Challenge}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+      \endverb
+    \endentry
+    \entry{python}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Python.org}
+      \field{title}{Welcome to Python.org}
+      \verb{urlraw}
+      \verb https://www.python.org/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/
+      \endverb
+    \endentry
+    \entry{keras}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=223bf2a82b36647ecfc4d214f4d21449}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={Keras},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{fullhash}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{fullhashraw}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{bibnamehash}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{authorbibnamehash}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{authornamehash}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{authorfullhash}{223bf2a82b36647ecfc4d214f4d21449}
+      \strng{authorfullhashraw}{223bf2a82b36647ecfc4d214f4d21449}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Keras documentation: Keras 3 API documentation}
+      \verb{urlraw}
+      \verb https://keras.io/api/
+      \endverb
+      \verb{url}
+      \verb https://keras.io/api/
+      \endverb
+    \endentry
+    \entry{numpy}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{NumPy Website}
+      \verb{urlraw}
+      \verb https://numpy.org/
+      \endverb
+      \verb{url}
+      \verb https://numpy.org/
+      \endverb
+    \endentry
+    \entry{pandas}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Pandas documentation: Python Data Analysis Library}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/
+      \endverb
+    \endentry
+    \entry{matplotlib}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Matplotlib — Visualization with Python}
+      \verb{urlraw}
+      \verb https://matplotlib.org/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/
+      \endverb
+    \endentry
+    \entry{seaborn}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Seaborn: statistical data visualization — seaborn 0.13.2 documentation}
+      \verb{urlraw}
+      \verb https://seaborn.pydata.org/
+      \endverb
+      \verb{url}
+      \verb https://seaborn.pydata.org/
       \endverb
     \endentry
   \enddatalist
