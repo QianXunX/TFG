@@ -1,23 +1,23 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
-[1] Config.pm:311> INFO - Logfile is 'memoria.blg'
-[308] biber-MSWIN64:340> INFO - === 
-[387] Biber.pm:420> INFO - Reading 'memoria.bcf'
-[684] Biber.pm:994> INFO - Found 28 citekeys in bib section 0
-[728] Biber.pm:4463> INFO - Processing section 0
-[760] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[903] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1002] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[1472] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1472] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1472] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1528] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
-[1580] bbl.pm:779> INFO - Output to memoria.bbl
-[1581] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'userExperience' is not an integer - this will probably not sort properly.
-[1581] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'hudPaper' is not an integer - this will probably not sort properly.
-[1581] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'autonomousVehicles2' is not an integer - this will probably not sort properly.
-[1581] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'artInt' is not an integer - this will probably not sort properly.
-[1582] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'annReview' is not an integer - this will probably not sort properly.
-[1582] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'deepImages' is not an integer - this will probably not sort properly.
-[1582] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'rw1' is not an integer - this will probably not sort properly.
-[1582] Biber.pm:131> WARN - legacy month field 'May' in entry 'rw3' is not an integer - this will probably not sort properly.
-[1582] Biber.pm:133> INFO - WARNINGS: 8
+[0] Config.pm:311> INFO - Logfile is 'memoria.blg'
+[320] biber-MSWIN64:340> INFO - === 
+[417] Biber.pm:420> INFO - Reading 'memoria.bcf'
+[735] Biber.pm:994> INFO - Found 32 citekeys in bib section 0
+[777] Biber.pm:4463> INFO - Processing section 0
+[808] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[936] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1028] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[1524] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1524] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1524] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[1594] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
+[1744] bbl.pm:779> INFO - Output to memoria.bbl
+[1746] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'userExperience' is not an integer - this will probably not sort properly.
+[1747] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'hudPaper' is not an integer - this will probably not sort properly.
+[1748] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'autonomousVehicles2' is not an integer - this will probably not sort properly.
+[1748] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'artInt' is not an integer - this will probably not sort properly.
+[1755] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'annReview' is not an integer - this will probably not sort properly.
+[1756] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'deepImages' is not an integer - this will probably not sort properly.
+[1756] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'rw1' is not an integer - this will probably not sort properly.
+[1757] Biber.pm:131> WARN - legacy month field 'May' in entry 'rw3' is not an integer - this will probably not sort properly.
+[1757] Biber.pm:133> INFO - WARNINGS: 8

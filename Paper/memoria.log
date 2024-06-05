@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  4 JUN 2024 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  5 JUN 2024 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1276,27 +1276,27 @@ Cap\'{\i }tulo 7.
 [38
 
 ]
-Package csquotes Info: Disabling multilingual quotes on input line 1394.
+Package csquotes Info: Disabling multilingual quotes on input line 1403.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 1394.
+(csquotes)                Ignoring command on input line 1403.
 
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1395.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1404.
 (C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (194.8494pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (194.8494pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 Cj1Q3I4upV4AAAAA : HTAewkA3Unk064rhoeUvpV37pH -[] aexXDTPc3LeqMtX -[] HAALUUXUAnQ6AloAboY4R9Nu080La6VC0$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (19.44974pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (19.44974pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 en -[] un -[] buen -[] conductor / Sistemas -[] avanzados -[] de -[] ayuda -[] a -[] la -[] conduccion -[]
  []
 
 
-Overfull \hbox (71.64963pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (71.64963pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 token = e8Kq68ejBNMAAAAA : ozsksy20L0JWpg0P9wKd6eJVqA9aJHVKc6ifX3a2rRMJ8yBZJO -[]
  []
 
@@ -1304,42 +1304,42 @@ Overfull \hbox (71.64963pt too wide) in paragraph at lines 1396--1396
 
 
 ]
-Overfull \hbox (30.04971pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (30.04971pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 avqDPOCU _ ujAByyBz1Zioe4FKmIOMsHhJjPViPxS _ H6 _ h9BOYxV5ET6TkXAdf0HaL0g$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (57.56804pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (57.56804pt too wide) in paragraph at lines 1405--1405
 \T1/txr/m/n/12 pas-sen-ger mo-ni-to-ring using low-cost mm-wave ra-dar,^^Q \T1/txr/m/it/12 IEEE Ac-cess\T1/txr/m/n/12 , vol. 10, pp. 18 998[]19 012,
  []
 
 
-Overfull \hbox (19.47229pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (19.47229pt too wide) in paragraph at lines 1405--1405
 \T1/txr/m/n/12 from vehi-cle da-ta: Pre-con-di-tions for using ma-chi-ne lear-ning,^^Q \T1/txr/m/it/12 Pro-cee-dings of TRA2020,
  []
 
 
-Overfull \hbox (21.24973pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (21.24973pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 Timo -[] Laakko / publication / 339848623 _ Estimating _ passenger _ experience _
  []
 
 
-Overfull \hbox (3.34976pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (3.34976pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 links / 5e8efcc94585150839cae10e / Estimating -[] passenger -[] experience -[]
  []
 
 
-Overfull \hbox (8.64975pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (8.64975pt too wide) in paragraph at lines 1405--1405
 [][]$\T1/txtt/m/n/12 https : / / www . researchgate . net / profile / Absalom -[] Ezugwu / publication /
  []
 
 
-Overfull \hbox (8.64975pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (8.64975pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 Bus -[] Passenger _ Information _ System / links / 61bbdfcaa6251b553ac3d709 /
  []
 
 [40]
-Overfull \hbox (10.64975pt too wide) in paragraph at lines 1396--1396
+Overfull \hbox (10.64975pt too wide) in paragraph at lines 1405--1405
 \T1/txtt/m/n/12 representation -[] learning -[] facial -[] expression -[] recognition -[] challenge /
  []
 
@@ -1359,17 +1359,17 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29042 strings out of 474370
- 490088 string characters out of 5740535
+ 29058 strings out of 474370
+ 490652 string characters out of 5740535
  1946754 words of memory out of 5000000
- 50863 multiletter control sequences out of 15000+600000
+ 50875 multiletter control sequences out of 15000+600000
  611598 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,13n,117p,1119b,3222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (54 pages, 13735787 bytes).
+Output written on memoria.pdf (54 pages, 13743744 bytes).
 PDF statistics:
- 833 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
  392 words of extra memory for PDF output out of 10000 (max. 10000000)
 
