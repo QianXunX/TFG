@@ -1364,7 +1364,107 @@ Para la implementación y análisis del modelo de aprendizaje automático, se ha
 
 \chapter{Implementación y resultados}
 
+\section{Preprocesado de datos}
 
+Como se ha comentado anteriormente, el dataset que se usará es el FER+. El dataset tiene las imágenes etiquetadas y clasificadas en conjuntos de entrenamiento, validación y test. Tras descargar los datos y realizar un análisis, se obtiene la siguiente distribución de valores:
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de distribución inicial de valores}}
+	{
+	  \begin{tabular}{|P{9cm}|P{4cm}|}
+		\hline
+		{\cellcolor{gray}\textbf{Emoción}} & {\cellcolor{gray}\textbf{Cantidad}} \\
+		\hline
+		Neutral & 12.906 \\
+		\hline
+		Happiness & 9.355 \\
+		\hline
+		Surprise & 4.462 \\
+		\hline
+		Sadness & 4.371 \\
+		\hline
+		Anger & 3.111 \\
+		\hline
+		Disgust & 248 \\
+		\hline
+		Fear & 819 \\
+		\hline
+		Contempt & 216 \\
+		\hline
+		Unknown & 222 \\
+		\hline
+		Not a face & 4 \\
+		\hline
+		{\cellcolor{gray}\textbf{Total}} & 35.714 \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{distribucionInicial.png}
+	\caption{Gráfico de distribución inicial de valores.}
+	\label{fig:imagen30}
+\end{figure}
+
+Se puede apreciar que los datos son muy desbalanceados, los datos que más hay son de etiqueta “neutral” y “happiness”, mientras que de “not a face” hay solo 4. Se decide que los datos de “not a face” y “unknown” se desechan ya que no son relevantes y no aportan valor. Para balancear los datos, también se decide desechar “disgust”, “contempt” y “fear”, ya que en comparación también son datos bastante desbalanceados, además de que son parecidos a “sadness”, “anger” y “surprise”. Por último, se eliminan entradas de “neutral” y “hapiness” ya que tienen un número de entradas mucho mayor que los demás, quedando al final con una cantidad de entre 3.000 y 5.000:
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de distribución balanceada de valores}}
+	{
+	  \begin{tabular}{|P{9cm}|P{4cm}|}
+		\hline
+		{\cellcolor{gray}\textbf{Emoción}} & {\cellcolor{gray}\textbf{Cantidad}} \\
+		\hline
+		Neutral & 4.906 \\
+		\hline
+		Happiness & 4.355 \\
+		\hline
+		Surprise & 4.462 \\
+		\hline
+		Sadness & 4.371 \\
+		\hline
+		Anger & 3.111 \\
+		\hline
+		{\cellcolor{gray}\textbf{Total}} & 21.205 \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{distribucionBalanceada.png}
+	\caption{Gráfico de distribución balanceada de valores.}
+	\label{fig:imagen30}
+\end{figure}
+
+También se muestra el número de valores de cada tipo de cada conjunto clasificado en entrenamiento, validación y test:
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de costes hardware}}
+	{
+	  \begin{tabular}{|c|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+		\hline
+		{\cellcolor{gray}\textbf{Conjunto}} & {\cellcolor{gray}\textbf{Neutral}} & {\cellcolor{gray}\textbf{Happiness}} & {\cellcolor{gray}\textbf{Surprise}} & {\cellcolor{gray}\textbf{Sadness}} & {\cellcolor{gray}\textbf{Anger}} & {\cellcolor{gray}\textbf{Total}} \\
+		\hline
+		Entrenamiento & 4.009 & 3.428 & 3.562 & 3.515 & 2.467 & 16.981 \\
+		\hline
+		Validación & 435 & 499 & 456 & 412 & 319 & 2.121 \\
+		\hline
+		Test & 462 & 428 & 444 & 444 & 325 & 2.103 \\
+		\hline
+		\multicolumn{6}{c|}{\cellcolor{gray}\textbf{Total}} & 21.205 \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+Por último, antes de realizar el entrenamiento del modelo con la CNN se normalizan los píxeles de las imágenes a valores entre 0 y 1 para ayudar al modelo a converger mejor.
 
 \chapter{Marco regulador}
 
@@ -1387,7 +1487,12 @@ Tras este análisis del marco regulatorio, se sacan conclusiones acerca del cump
 
 El siguiente diagrama de Gantt detalla la planificación de este proyecto, resultando un total de 72 días, aproximadamente 3.5 meses. 
 
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{ganttChart.png}
+	\caption{Diagrama de Gantt de la planificación del proyecto.}
+	\label{fig:imagen50}
+\end{figure}
 
 \subsection{Estimación}
 
