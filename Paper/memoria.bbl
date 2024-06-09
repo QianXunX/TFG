@@ -1023,6 +1023,37 @@
       \verb https://www.europarl.europa.eu/topics/es/article/20230601STO93804/ley-de-ia-de-la-ue-primera-normativa-sobre-inteligencia-artificial
       \endverb
     \endentry
+    \entry{salarioTalentfy}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ce5519865ddc9dc40b5aff7de9523ee8}{%
+           family={Carnaúba},
+           familyi={C\bibinitperiod},
+           given={Lilia},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{fullhash}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{fullhashraw}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{bibnamehash}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{authorbibnamehash}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{authornamehash}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{authorfullhash}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \strng{authorfullhashraw}{ce5519865ddc9dc40b5aff7de9523ee8}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TalentFY}
+      \field{month}{12}
+      \field{title}{Guia Salarial IT 2024}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://ytalentfy.com/guia-salarial-it-2024/
+      \endverb
+      \verb{url}
+      \verb https://ytalentfy.com/guia-salarial-it-2024/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -1383,13 +1383,155 @@ Tras este análisis del marco regulatorio, se sacan conclusiones acerca del cump
 
 \section{Gestión del proyecto}
 
+\subsection{Planificación}
 
+El siguiente diagrama de Gantt detalla la planificación de este proyecto, resultando un total de 72 días, aproximadamente 3.5 meses. 
+
+
+
+\subsection{Estimación}
+
+\subsubsection{Costes personal}
+
+Para este proyecto se necesitarán los siguientes roles de personal:
+
+\begin{enumerate}
+
+    \item \textbf{Arquitecto de software:} responsable de tomar decisiones de alto nivel en la arquitectura del software, y guiar su diseño y desarrollo.
+    \item \textbf{Ingeniero de ML:} responsable de desarrollar y entrenar el modelo de red neuronal para la detección de emociones, y optimizar su desempeño.
+    \item \textbf{Científico de datos:} responsable de analizar los datos y mejorar los algoritmos utilizados, trabajar en el preprocesamiento de los datos antes del entrenamiento.
+	\item \textbf{Ingeniero de ciberseguridad:} responsable de desarrollar estrategias para proteger los sistemas, redes y datos contra posibles amenazas o ataques.
+	\item \textbf{Ingeniero de sistemas:} responsable de diseñar, implementar y mantener la infraestructura software.
+    \item \textbf{QA Tester:} responsable de realizar pruebas para asegurar la calidad y funcionalidad del sistema, identificando y reportando posibles errores.
+    \item \textbf{Project Manager:} responsable de planificación, ejecución y control del proyecto, asegurando que se cumplan los objetivos del presupuesto y tiempo establecidos.
+
+\end{enumerate}
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de costes de personal}}
+	{
+	  \begin{tabular}{|P{3cm}|P{3cm}|P{3cm}|P{3cm}|}
+		\hline
+		{\cellcolor{gray}\textbf{Posición}} & {\cellcolor{gray}\textbf{Cantidad}} & {\cellcolor{gray}\textbf{Salario (€/año)}} & {\cellcolor{gray}\textbf{Subtotal (€/3.5 meses)}} \\
+		\hline
+		Arquitecto de software & 1 & 38.000 & 11.083 \\
+		\hline
+		Ingeniero de ML & 2 & 40.000 & 11.666 * 2 = 23.332 \\
+		\hline
+		Científico de datos & 2 & 40.000 & 11.666 * 2 = 23.332 \\
+		\hline
+		Ingeniero de ciberseguridad & 2 & 35.000 & 10.208 * 2 = 20.416 \\
+		\hline
+		Ingeniero de sistemas & 2 & 28.000 & 8.166 * 2 = 16.332 \\
+		\hline
+		QA Tester & 2 & 27.000 & 7.875 * 2 = 15.750 \\
+		\hline
+		Project Manager & 1 & 48.000 & 14.000 \\
+		\hline
+		\multicolumn{3}{c|}{\cellcolor{gray}\textbf{Coste total personal}} & 124.245 \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+Los datos de salarios se han obtenido de la guía salarial Talentfy de perfiles IT de España del primer semestre de 2024. 
+\cite{salarioTalentfy}
+
+\subsubsection{Costes hardware}
+
+El coste final de los recursos hardware se calcula en base al coste total inicial del producto dividiendo por el tiempo de vida de ese producto y posteriormente multiplicando por la duración del proyecto, resultando el gasto de amortización del recurso hardware, lo que es el coste final. 
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de costes hardware}}
+	{
+	  \begin{tabular}{|P{3cm}|P{3cm}|P{3cm}|P{3cm}|}
+		\hline
+		{\cellcolor{gray}\textbf{Recurso}} & {\cellcolor{gray}\textbf{Cantidad}} & {\cellcolor{gray}\textbf{Coste inicial (€/unidad)}} & {\cellcolor{gray}\textbf{Coste final (€)}} \\
+		\hline
+		Portátiles de empresa & 12 & 1.329 & 96,9 * 12 = 1.162,8 \\
+		\hline
+		Cámaras & 4 & 59,49 & 8,68 * 4 = 34,72 \\
+		\hline
+		Servidor de entrenamiento & 1 & 3.577 & 260,82 \\
+		\hline
+		Almacenamiento & 4 & 19,99 & 2,92 * 4 = 11,68 \\
+		\hline
+		Otros accesorios y perifericos & 1 & 1.000 & 145,83 \\
+		\hline
+		\multicolumn{3}{c|}{\cellcolor{gray}\textbf{Coste total hardware}} & 1.615,85 \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+El tiempo de vida de los PCs son de aproximadamente 4 años, y de las cámaras y los accesorios 2 años. Por lo que el coste final se calcula multiplicando por su tiempo de amortización, 3.5 meses/48 meses y 3.5 meses/ 24 meses respectivamente.
+
+\subsubsection{Costes software}
+
+El coste software dependería solo de las posibles licencias de software que se puedan a llegar a usar en el desarrollo del proyecto. En este caso se podría considerar la licencia para el IDE Pycharm de Jetbrains con un coste anual de 249€ por cada empleado, y dando un coste inicial de 249 * 12 = 2.988€ y un coste de amortización de 2.988 / 12 * 3,5 = 871,5€.
+
+También se podría considerar la licencia de StarUML para el arquitecto de software, con un coste inicial anual de 122 € y un coste de amortización de 122 / 12 * 3,5 = 35,58€.
+
+Por lo tanto el coste total de software final sería de 907,08€.
+
+\subsubsection{Resumen de costes}
+
+En la siguiente tabla se muestra el coste total de cada parte, además del coste total final. Tener en cuenta que en la tabla también se muestran costes aproximados de materiales fungibles que puedan ser utilizados como por ejemplo hojas de impresora, bolígrafos, carpetas, etc.
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de resumen de costes}}
+	{
+	  \begin{tabular}{|P{9cm}|P{4cm}|}
+		\hline
+		{\cellcolor{gray}\textbf{Descripción}} & {\cellcolor{gray}\textbf{Total}} \\
+		\hline
+		Salario de empleados & 124.245€ \\
+		\hline
+		Equipamiento hardware y software & 1.615,85€ \\
+		\hline
+		Fungibles & 135€ \\
+		\hline
+		Total (sin IVA) & 125.995,85€ \\
+		\hline
+		Beneficios (10\%) & 12.599,56€ \\
+		\hline
+		Margen de riesgos (15\%) & 18.899,38€ \\
+		\hline
+		Total (sin IVA) con beneficios y riesgos +15\% & 157.494,79€ \\
+		\hline
+		Total (sin IVA) con beneficios y riesgos -15\% & 119.696,03€ \\
+		\hline
+		VAT(21\%) con beneficios y riesgos +15\% & 57.958,07€ \\
+		\hline
+		VAT(21\%) con beneficios y riesgos -15\% & 20.159,31€ \\
+		\hline
+		Total (con IVA) con beneficios y riesgos +15\% & 183.953,92€ \\
+		\hline
+		Total (con IVA) con beneficios y riesgos -15\% & 146.155,16€ \\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
 
 \section{Impacto socio-económico}
 
+La implementación de este sistema IA en el ámbito económico puede promover la competitividad entre las diferentes empresas, ya que con este sistema podrían ofrecer una experiencia de usuario mejor, y por lo tanto tener posibilidad de aventajarse y atraer consumidores que busquen una mejor experiencia de usuario. Además, al igual que la creación de cualquier sistema, aumentaría la demanda de elementos hardware y software, asi como los servicios de mantenimiento de estos sistemas.
 
+Pero no todo es positivo, el uso de este sistema también podría tener efectos económicos negativos, ya sean los costes de desarrollo e implementación iniciales como el de mantenimiento posterior, podría ser difícil de lograr para empresas pequeñas o startup.
+
+En relación al impacto social, es también significativo, ya que mejora la seguridad y el confort de los pasajeros. Desde el punto de vista de la experiencia de usuario, puede reducir el estrés de los pasajeros y aumentar su satisfacción durante un viaje. Desde el punto de vista de seguridad, es posible usarse para detectar emociones que puedan afectar a la seguridad de los pasajeros, y por lo tanto a otros usuarios de las vías, o ayudar a actuar de manera autónoma al vehículo.
+
+Pero por otro lado, también tiene que asegurarse que tanto la privacidad como el uso ético de los datos captados sea gestionado de manera segura y solo para los fines que se especifican en este proyecto. Esta transparencia en el uso de los datos y en el funcionamiento del sistema es la parte esencial para obtener confianza y que el público lo acepte.
+
+En relación al impacto medioambiental, puede ser positivo si se utiliza para optimizar el rendimiento y reducir el consumo de combustible, por ejemplo ajustando el sistema de calefacción de manera más eficiente. Pero puede ser todo lo contrario, que aumente el gasto al usar más calefacción de lo normal, siendo en este caso implementado en vehículos no eléctricos. Si se implementara en vehículos eléctricos no habría este problema, y también sería un beneficio medioambiental si esto fomenta a más personas a comprar vehículos eléctricos.
+
+Y en cuanto al impacto ético, como se ha mencionado anteriormente, la principal preocupación es la privacidad y el uso de los datos generados. En este caso es fundamental que se implementen políticas estrictas de protección de datos y que esos datos sólo sean usados para usos transparentes mencionados en este proyecto.
 
 \chapter{Conclusiones y trabajos futuros}
+
 
 
 %----------

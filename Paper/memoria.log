@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  5 JUN 2024 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  9 JUN 2024 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,7 +967,7 @@ File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 219.
-<images/logo_UC3M.png, id=117, 456.2865pt x 45.99pt>
+<images/logo_UC3M.png, id=125, 456.2865pt x 45.99pt>
 File: images/logo_UC3M.png Graphic file (type png)
 <use images/logo_UC3M.png>
 Package pdftex.def Info: images/logo_UC3M.png  used on input line 223.
@@ -980,7 +980,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 234.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 19.70294pt on input line 238.
-<images/creativecommons.png, id=119, 338.76563pt x 118.19156pt>
+<images/creativecommons.png, id=127, 338.76563pt x 118.19156pt>
 File: images/creativecommons.png Graphic file (type png)
 <use images/creativecommons.png>
 Package pdftex.def Info: images/creativecommons.png  used on input line 249.
@@ -1012,13 +1012,13 @@ l.281 \chapter
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
+ [7
+
+])
 \tf@toc=\write6
 \openout6 = `memoria.toc'.
 
- [7
-
-] [8] (memoria.lof
+ [8] [9] (memoria.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1045,9 +1045,9 @@ File: utxsyc.fd 2000/12/15 v3.1
 \tf@lof=\write7
 \openout7 = `memoria.lof'.
 
- [9
+ [10
 
-] [10] [11] (memoria.lot
+] [11] [12] (memoria.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1055,16 +1055,16 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write8
 \openout8 = `memoria.lot'.
 
- [12
+ [13
 
-] [13]
+] [14]
 Cap\'{\i }tulo 1.
 [1
 
 
 ] [2]
 Cap\'{\i }tulo 2.
-<images/evolutionTouchscreen.png, id=400, 1040.38687pt x 262.48062pt>
+<images/evolutionTouchscreen.png, id=422, 1040.38687pt x 262.48062pt>
 File: images/evolutionTouchscreen.png Graphic file (type png)
 <use images/evolutionTouchscreen.png>
 Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449.
@@ -1072,12 +1072,12 @@ Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 449
 [3
 
  <./images/evolutionTouchscreen.png>]
-<images/usingTouchscreen.png, id=408, 845.1575pt x 516.42938pt>
+<images/usingTouchscreen.png, id=430, 845.1575pt x 516.42938pt>
 File: images/usingTouchscreen.png Graphic file (type png)
 <use images/usingTouchscreen.png>
 Package pdftex.def Info: images/usingTouchscreen.png  used on input line 458.
 (pdftex.def)             Requested size: 298.75264pt x 182.55753pt.
-<images/ecu.png, id=411, 619.56468pt x 245.41687pt>
+<images/ecu.png, id=433, 619.56468pt x 245.41687pt>
 File: images/ecu.png Graphic file (type png)
 <use images/ecu.png>
 Package pdftex.def Info: images/ecu.png  used on input line 474.
@@ -1086,34 +1086,34 @@ Package pdftex.def Info: images/ecu.png  used on input line 474.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/connected_car_system.jpg, id=413, 907.39pt x 661.47125pt>
+<images/connected_car_system.jpg, id=435, 907.39pt x 661.47125pt>
 File: images/connected_car_system.jpg Graphic file (type jpg)
 <use images/connected_car_system.jpg>
 Package pdftex.def Info: images/connected_car_system.jpg  used on input line 481.
 (pdftex.def)             Requested size: 384.1096pt x 280.00626pt.
 [4 <./images/usingTouchscreen.png>] [5 <./images/ecu.png> <./images/connected_car_system.jpg>] [6]
-<images/androidAuto.png, id=430, 1505.625pt x 824.07875pt>
+<images/androidAuto.png, id=452, 1505.625pt x 824.07875pt>
 File: images/androidAuto.png Graphic file (type png)
 <use images/androidAuto.png>
 Package pdftex.def Info: images/androidAuto.png  used on input line 510.
 (pdftex.def)             Requested size: 298.75264pt x 163.51765pt.
-<images/integrationSolution.png, id=431, 1072.005pt x 610.28pt>
+<images/integrationSolution.png, id=453, 1072.005pt x 610.28pt>
 File: images/integrationSolution.png Graphic file (type png)
 <use images/integrationSolution.png>
 Package pdftex.def Info: images/integrationSolution.png  used on input line 519.
 (pdftex.def)             Requested size: 298.75264pt x 170.07639pt.
-<images/hud.png, id=434, 632.3625pt x 347.2975pt>
+<images/hud.png, id=456, 632.3625pt x 347.2975pt>
 File: images/hud.png Graphic file (type png)
 <use images/hud.png>
 Package pdftex.def Info: images/hud.png  used on input line 531.
 (pdftex.def)             Requested size: 298.75264pt x 164.07773pt.
  [7 <./images/androidAuto.png> <./images/integrationSolution.png>]
-<images/hudWork.png, id=440, 204.765pt x 97.3236pt>
+<images/hudWork.png, id=462, 204.765pt x 97.3236pt>
 File: images/hudWork.png Graphic file (type png)
 <use images/hudWork.png>
 Package pdftex.def Info: images/hudWork.png  used on input line 540.
 (pdftex.def)             Requested size: 298.75264pt x 142.0051pt.
-<images/nigthHUD.png, id=442, 529.98pt x 401.5pt>
+<images/nigthHUD.png, id=464, 529.98pt x 401.5pt>
 File: images/nigthHUD.png Graphic file (type png)
 <use images/nigthHUD.png>
 Package pdftex.def Info: images/nigthHUD.png  used on input line 553.
@@ -1123,92 +1123,92 @@ Package pdftex.def Info: images/nigthHUD.png  used on input line 553.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/hud.png> <./images/hudWork.png>]
-<images/retroHUD.png, id=449, 607.51968pt x 397.485pt>
+<images/retroHUD.png, id=471, 607.51968pt x 397.485pt>
 File: images/retroHUD.png Graphic file (type png)
 <use images/retroHUD.png>
 Package pdftex.def Info: images/retroHUD.png  used on input line 562.
 (pdftex.def)             Requested size: 213.39568pt x 139.61917pt.
-<images/adasDDR.jpg, id=453, 702.625pt x 1285.80376pt>
+<images/adasDDR.jpg, id=475, 702.625pt x 1285.80376pt>
 File: images/adasDDR.jpg Graphic file (type jpg)
 <use images/adasDDR.jpg>
 Package pdftex.def Info: images/adasDDR.jpg  used on input line 579.
 (pdftex.def)             Requested size: 256.07741pt x 468.63759pt.
  [9 <./images/nigthHUD.png> <./images/retroHUD.png>]
-<images/adasISA.jpg, id=461, 702.625pt x 334.24875pt>
+<images/adasISA.jpg, id=483, 702.625pt x 334.24875pt>
 File: images/adasISA.jpg Graphic file (type jpg)
 <use images/adasISA.jpg>
 Package pdftex.def Info: images/adasISA.jpg  used on input line 586.
 (pdftex.def)             Requested size: 341.43437pt x 162.43175pt.
  [10 <./images/adasDDR.jpg>]
-<images/adasRCTS.jpg, id=467, 702.625pt x 309.155pt>
+<images/adasRCTS.jpg, id=489, 702.625pt x 309.155pt>
 File: images/adasRCTS.jpg Graphic file (type jpg)
 <use images/adasRCTS.jpg>
 Package pdftex.def Info: images/adasRCTS.jpg  used on input line 593.
 (pdftex.def)             Requested size: 341.43437pt x 150.23718pt.
-<images/adasEDR.jpg, id=469, 277.96153pt x 122.30307pt>
+<images/adasEDR.jpg, id=491, 277.96153pt x 122.30307pt>
 File: images/adasEDR.jpg Graphic file (type jpg)
 <use images/adasEDR.jpg>
 Package pdftex.def Info: images/adasEDR.jpg  used on input line 600.
 (pdftex.def)             Requested size: 298.75264pt x 131.462pt.
  [11 <./images/adasISA.jpg> <./images/adasRCTS.jpg>]
-<images/adasLDW.jpg, id=475, 702.625pt x 1185.42876pt>
+<images/adasLDW.jpg, id=498, 702.625pt x 1185.42876pt>
 File: images/adasLDW.jpg Graphic file (type jpg)
 <use images/adasLDW.jpg>
 Package pdftex.def Info: images/adasLDW.jpg  used on input line 607.
 (pdftex.def)             Requested size: 213.39568pt x 360.0268pt.
-<images/adasBASyEBA.jpg, id=477, 277.96153pt x 568.2328pt>
+<images/adasBASyEBA.jpg, id=500, 277.96153pt x 568.2328pt>
 File: images/adasBASyEBA.jpg Graphic file (type jpg)
 <use images/adasBASyEBA.jpg>
 Package pdftex.def Info: images/adasBASyEBA.jpg  used on input line 614.
 (pdftex.def)             Requested size: 256.07741pt x 523.53485pt.
  [12 <./images/adasEDR.jpg> <./images/adasLDW.jpg>]
-<images/adasAlcolock.jpg, id=484, 277.96153pt x 440.3705pt>
+<images/adasAlcolock.jpg, id=506, 277.96153pt x 440.3705pt>
 File: images/adasAlcolock.jpg Graphic file (type jpg)
 <use images/adasAlcolock.jpg>
 Package pdftex.def Info: images/adasAlcolock.jpg  used on input line 621.
 (pdftex.def)             Requested size: 341.43437pt x 540.97382pt.
  [13 <./images/adasBASyEBA.jpg>]
-<images/adasCinturon.jpg, id=490, 277.96153pt x 133.02444pt>
+<images/adasCinturon.jpg, id=512, 277.96153pt x 133.02444pt>
 File: images/adasCinturon.jpg Graphic file (type jpg)
 <use images/adasCinturon.jpg>
 Package pdftex.def Info: images/adasCinturon.jpg  used on input line 628.
 (pdftex.def)             Requested size: 341.43437pt x 163.41406pt.
  [14 <./images/adasAlcolock.jpg>]
-<images/saeLevels.jpg, id=499, 867.99281pt x 673.01437pt>
+<images/saeLevels.jpg, id=521, 867.99281pt x 673.01437pt>
 File: images/saeLevels.jpg Graphic file (type jpg)
 <use images/saeLevels.jpg>
 Package pdftex.def Info: images/saeLevels.jpg  used on input line 645.
 (pdftex.def)             Requested size: 426.79135pt x 330.91983pt.
  [15 <./images/adasCinturon.jpg>] [16 <./images/saeLevels.jpg>]
-<images/saeSensors.png, id=512, 687.06688pt x 397.98688pt>
+<images/saeSensors.png, id=534, 687.06688pt x 397.98688pt>
 File: images/saeSensors.png Graphic file (type png)
 <use images/saeSensors.png>
 Package pdftex.def Info: images/saeSensors.png  used on input line 666.
 (pdftex.def)             Requested size: 384.1096pt x 222.49461pt.
  [17 <./images/saeSensors.png>]
-<images/adasSensorWorkflow.png, id=519, 1027.33812pt x 273.02pt>
+<images/adasSensorWorkflow.png, id=542, 1027.33812pt x 273.02pt>
 File: images/adasSensorWorkflow.png Graphic file (type png)
 <use images/adasSensorWorkflow.png>
 Package pdftex.def Info: images/adasSensorWorkflow.png  used on input line 687.
 (pdftex.def)             Requested size: 384.1096pt x 102.07813pt.
-<images/adasSensorRange.png, id=521, 987.69pt x 507.8975pt>
+<images/adasSensorRange.png, id=544, 987.69pt x 507.8975pt>
 File: images/adasSensorRange.png Graphic file (type png)
 <use images/adasSensorRange.png>
 Package pdftex.def Info: images/adasSensorRange.png  used on input line 694.
 (pdftex.def)             Requested size: 384.1096pt x 197.51349pt.
  [18 <./images/adasSensorWorkflow.png> <./images/adasSensorRange.png>]
-<images/sectionsAI.png, id=531, 1144.275pt x 1003.75pt>
+<images/sectionsAI.png, id=553, 1144.275pt x 1003.75pt>
 File: images/sectionsAI.png Graphic file (type png)
 <use images/sectionsAI.png>
 Package pdftex.def Info: images/sectionsAI.png  used on input line 705.
 (pdftex.def)             Requested size: 384.1096pt x 336.93607pt.
  [19 <./images/sectionsAI.png (PNG copy)>]
-<images/modelsML.png, id=542, 1055.945pt x 365.86688pt>
+<images/modelsML.png, id=564, 1055.945pt x 365.86688pt>
 File: images/modelsML.png Graphic file (type png)
 <use images/modelsML.png>
 Package pdftex.def Info: images/modelsML.png  used on input line 728.
 (pdftex.def)             Requested size: 384.1096pt x 133.08531pt.
-<images/annStructure.png, id=545, 747.29187pt x 526.96875pt>
+<images/annStructure.png, id=567, 747.29187pt x 526.96875pt>
 File: images/annStructure.png Graphic file (type png)
 <use images/annStructure.png>
 Package pdftex.def Info: images/annStructure.png  used on input line 742.
@@ -1218,18 +1218,18 @@ Package pdftex.def Info: images/annStructure.png  used on input line 742.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./images/modelsML.png>]
-<images/rnnStructure.png, id=554, 571.13374pt x 497.35812pt>
+<images/rnnStructure.png, id=576, 571.13374pt x 497.35812pt>
 File: images/rnnStructure.png Graphic file (type png)
 <use images/rnnStructure.png>
 Package pdftex.def Info: images/rnnStructure.png  used on input line 756.
 (pdftex.def)             Requested size: 213.39568pt x 185.82582pt.
  [21 <./images/annStructure.png> <./images/rnnStructure.png>]
-<images/cnnStructure.png, id=564, 903.375pt x 523.9575pt>
+<images/cnnStructure.png, id=586, 903.375pt x 523.9575pt>
 File: images/cnnStructure.png Graphic file (type png)
 <use images/cnnStructure.png>
 Package pdftex.def Info: images/cnnStructure.png  used on input line 778.
 (pdftex.def)             Requested size: 384.1096pt x 222.78693pt.
-<images/basicCnn.png, id=566, 1061.9675pt x 347.79938pt>
+<images/basicCnn.png, id=588, 1061.9675pt x 347.79938pt>
 File: images/basicCnn.png Graphic file (type png)
 <use images/basicCnn.png>
 Package pdftex.def Info: images/basicCnn.png  used on input line 785.
@@ -1254,7 +1254,7 @@ Overfull \hbox (62.05077pt too wide) in paragraph at lines 866--866
  []
 
 [27] [28] [29] [30] [31] [32]
-<images/FER+vsFER.png, id=632, 441.14813pt x 194.22563pt>
+<images/FER+vsFER.png, id=654, 441.14813pt x 194.22563pt>
 File: images/FER+vsFER.png Graphic file (type png)
 <use images/FER+vsFER.png>
 Package pdftex.def Info: images/FER+vsFER.png  used on input line 1347.
@@ -1269,81 +1269,92 @@ Cap\'{\i }tulo 5.
 
 ]
 Cap\'{\i }tulo 6.
-[37
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1435.
+(C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <12> not available
+(Font)              Font shape `TS1/txr/bx/n' tried instead on input line 1435.
+ [37
 
-]
+] [38] [39] [40]
 Cap\'{\i }tulo 7.
-[38
+[41
 
 ]
-Package csquotes Info: Disabling multilingual quotes on input line 1403.
+Package csquotes Info: Disabling multilingual quotes on input line 1545.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 1403.
+(csquotes)                Ignoring command on input line 1545.
 
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1404.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1546.
 (C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (194.8494pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (194.8494pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 Cj1Q3I4upV4AAAAA : HTAewkA3Unk064rhoeUvpV37pH -[] aexXDTPc3LeqMtX -[] HAALUUXUAnQ6AloAboY4R9Nu080La6VC0$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (19.44974pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (19.44974pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 en -[] un -[] buen -[] conductor / Sistemas -[] avanzados -[] de -[] ayuda -[] a -[] la -[] conduccion -[]
  []
 
 
-Overfull \hbox (71.64963pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (71.64963pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 token = e8Kq68ejBNMAAAAA : ozsksy20L0JWpg0P9wKd6eJVqA9aJHVKc6ifX3a2rRMJ8yBZJO -[]
  []
 
-[39
+[42
 
 
 ]
-Overfull \hbox (30.04971pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (30.04971pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 avqDPOCU _ ujAByyBz1Zioe4FKmIOMsHhJjPViPxS _ H6 _ h9BOYxV5ET6TkXAdf0HaL0g$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (57.56804pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (57.56804pt too wide) in paragraph at lines 1547--1547
 \T1/txr/m/n/12 pas-sen-ger mo-ni-to-ring using low-cost mm-wave ra-dar,^^Q \T1/txr/m/it/12 IEEE Ac-cess\T1/txr/m/n/12 , vol. 10, pp. 18 998[]19 012,
  []
 
 
-Overfull \hbox (19.47229pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (19.47229pt too wide) in paragraph at lines 1547--1547
 \T1/txr/m/n/12 from vehi-cle da-ta: Pre-con-di-tions for using ma-chi-ne lear-ning,^^Q \T1/txr/m/it/12 Pro-cee-dings of TRA2020,
  []
 
 
-Overfull \hbox (21.24973pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (21.24973pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 Timo -[] Laakko / publication / 339848623 _ Estimating _ passenger _ experience _
  []
 
 
-Overfull \hbox (3.34976pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (3.34976pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 links / 5e8efcc94585150839cae10e / Estimating -[] passenger -[] experience -[]
  []
 
 
-Overfull \hbox (8.64975pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (8.64975pt too wide) in paragraph at lines 1547--1547
 [][]$\T1/txtt/m/n/12 https : / / www . researchgate . net / profile / Absalom -[] Ezugwu / publication /
  []
 
 
-Overfull \hbox (8.64975pt too wide) in paragraph at lines 1405--1405
+Overfull \hbox (8.64975pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 Bus -[] Passenger _ Information _ System / links / 61bbdfcaa6251b553ac3d709 /
  []
 
-[40]
-Overfull \hbox (10.64975pt too wide) in paragraph at lines 1405--1405
+[43]
+Overfull \hbox (10.64975pt too wide) in paragraph at lines 1547--1547
 \T1/txtt/m/n/12 representation -[] learning -[] facial -[] expression -[] recognition -[] challenge /
  []
 
-[41] (memoria.aux
+
+Overfull \hbox (3.03873pt too wide) in paragraph at lines 1547--1547
+[]\T1/txr/m/n/12 L. Car-naú-ba, \T1/txr/m/it/12 Guia Sa-la-rial IT 2024\T1/txr/m/n/12 , dic. de 2022. [En lí-nea]. Dis-po-ni-ble en: [][]$\T1/txtt/m/n/12 https :
+ []
+
+[44] [45] (memoria.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1353,23 +1364,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 0FFEFEB529BFA9BB04B078DA17CC4177;2167.
+(rerunfilecheck)             Checksum: 36E7FDE3DC277A27D1EF770A4B2E28B6;2304.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29058 strings out of 474370
- 490652 string characters out of 5740535
- 1946754 words of memory out of 5000000
- 50875 multiletter control sequences out of 15000+600000
- 611598 words of font info for 107 fonts, out of 8000000 for 9000
+ 29119 strings out of 474370
+ 491562 string characters out of 5740535
+ 1947754 words of memory out of 5000000
+ 50911 multiletter control sequences out of 15000+600000
+ 612936 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,13n,117p,1119b,3222s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (54 pages, 13743744 bytes).
+ 92i,14n,117p,1119b,3950s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxb.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on memoria.pdf (59 pages, 13766432 bytes).
 PDF statistics:
- 851 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 919 PDF objects out of 1000 (max. 8388607)
+ 200 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
