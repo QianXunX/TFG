@@ -1,24 +1,24 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'memoria.blg'
-[92] biber-MSWIN64:340> INFO - === 
-[126] Biber.pm:420> INFO - Reading 'memoria.bcf'
-[218] Biber.pm:994> INFO - Found 33 citekeys in bib section 0
-[229] Biber.pm:4463> INFO - Processing section 0
-[240] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[291] bibtex.pm:1713> INFO - LaTeX decoding ...
-[315] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[432] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[432] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[432] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[449] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
-[464] bbl.pm:779> INFO - Output to memoria.bbl
-[464] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'userExperience' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'hudPaper' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'autonomousVehicles2' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'artInt' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'annReview' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'deepImages' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'rw1' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'May' in entry 'rw3' is not an integer - this will probably not sort properly.
-[464] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'salarioTalentfy' is not an integer - this will probably not sort properly.
-[464] Biber.pm:133> INFO - WARNINGS: 9
+[105] biber-MSWIN64:340> INFO - === 
+[153] Biber.pm:420> INFO - Reading 'memoria.bcf'
+[254] Biber.pm:994> INFO - Found 33 citekeys in bib section 0
+[265] Biber.pm:4463> INFO - Processing section 0
+[276] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[356] bibtex.pm:1713> INFO - LaTeX decoding ...
+[383] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[507] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[526] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
+[539] bbl.pm:779> INFO - Output to memoria.bbl
+[540] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'userExperience' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'hudPaper' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'autonomousVehicles2' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'artInt' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'annReview' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'deepImages' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'rw1' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'May' in entry 'rw3' is not an integer - this will probably not sort properly.
+[540] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'salarioTalentfy' is not an integer - this will probably not sort properly.
+[540] Biber.pm:133> INFO - WARNINGS: 9

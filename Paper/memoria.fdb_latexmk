@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber memoria"] 1717957769.67509 "memoria.bcf" "memoria.bbl" "memoria" 1718043718.27411 0
-  "memoria.bcf" 1718043717 112409 6f1556a75e92dd800f4d9789959ba9a0 "pdflatex"
+["biber memoria"] 1718044316.52787 "memoria.bcf" "memoria.bbl" "memoria" 1718044598.48709 0
+  "memoria.bcf" 1718044598 112409 6f1556a75e92dd800f4d9789959ba9a0 "pdflatex"
   "referencias.bib" 1717957469 10852 9a835bcd58903ba54e0b2b98891bb887 ""
   (generated)
   "memoria.bbl"
   "memoria.blg"
   (rewritten before read)
-["pdflatex"] 1718043713.47728 "d:/Julio/Uc3m/TFG/Paper/memoria.tex" "memoria.pdf" "memoria" 1718043718.27483 0
+["pdflatex"] 1718044593.82656 "d:/Julio/Uc3m/TFG/Paper/memoria.tex" "memoria.pdf" "memoria" 1718044598.48779 0
   "C:/Users/julio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715633796 82560 ef239c2cb0a12117bb5525d1036b4375 ""
   "C:/Users/julio/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1715633705 24240354 3c855df23a5782a2b1a5546ba0bda14b ""
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -202,7 +202,7 @@
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/tex/latex/xmpincl/xmpincl.sty" 1633254124 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
-  "d:/Julio/Uc3m/TFG/Paper/memoria.tex" 1718043705 110380 30806fa049aa6e112e2d385c5237c991 ""
+  "d:/Julio/Uc3m/TFG/Paper/memoria.tex" 1718044588 110399 802e5a6fea39f6c275870376f6ec0de7 ""
   "images/FER+vsFER.png" 1717657813 108408 79d128f1b35e67ab8a6823dadc119032 ""
   "images/adasAlcolock.jpg" 1716829347 212502 388ea319e03644922bc4f50e8d2abb6c ""
   "images/adasBASyEBA.jpg" 1716828910 188935 a0010211ba2ff6b92a5c4f562cecbda8 ""
@@ -239,15 +239,15 @@
   "images/saeSensors.png" 1716917723 705565 55f00a168f2032926924e9895170b7b9 ""
   "images/sectionsAI.png" 1717174757 560102 08348e9ea129e9b249a65252a59ee358 ""
   "images/usingTouchscreen.png" 1716822741 1587776 65ff83ac320208945e1d85aaaff74d52 ""
-  "memoria.aux" 1718043717 27824 cd9603c8ae6dd10db1009d5a86a7bcab "pdflatex"
-  "memoria.bbl" 1717957771 45863 db157b88e6acf489099fbbd6b7c194ac "biber memoria"
-  "memoria.lof" 1718043717 5758 ab7239f08a55c4f8ca3fdc6df17ab275 "pdflatex"
-  "memoria.lot" 1718043717 3211 96c28fc77ac64883689b9fa4c1d49f6b "pdflatex"
-  "memoria.out" 1718043717 2528 31c9a957c8b97a9cb7100372f6d5b4fb "pdflatex"
-  "memoria.run.xml" 1718043717 2424 a07dca45c17754406fa301e7c073f94a "pdflatex"
-  "memoria.tex" 1718043705 110380 30806fa049aa6e112e2d385c5237c991 ""
-  "memoria.toc" 1718043717 3325 6d0b0874f0325af0f3d4c1ed4fdd9486 "pdflatex"
-  "pdfa.xmpi" 1718043714 5042 0b1d801ac48208c2c53db5339d68d2c4 "pdflatex"
+  "memoria.aux" 1718044598 27824 2abc0386f5ee6d06ef66caddc77c3f84 "pdflatex"
+  "memoria.bbl" 1718044318 45863 db157b88e6acf489099fbbd6b7c194ac "biber memoria"
+  "memoria.lof" 1718044598 5758 ab7239f08a55c4f8ca3fdc6df17ab275 "pdflatex"
+  "memoria.lot" 1718044598 3211 96c28fc77ac64883689b9fa4c1d49f6b "pdflatex"
+  "memoria.out" 1718044598 2528 81a388e4c25c1b7bb24e2ca269e8b223 "pdflatex"
+  "memoria.run.xml" 1718044598 2424 a07dca45c17754406fa301e7c073f94a "pdflatex"
+  "memoria.tex" 1718044588 110399 802e5a6fea39f6c275870376f6ec0de7 ""
+  "memoria.toc" 1718044598 3325 3dc15dbf656d909e2fa974f5678ddc12 "pdflatex"
+  "pdfa.xmpi" 1718044594 5042 9e7273c29928674ba7d7c8ffad074624 "pdflatex"
   (generated)
   "memoria.aux"
   "memoria.bcf"
