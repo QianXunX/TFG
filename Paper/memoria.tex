@@ -283,6 +283,15 @@ hmargin=3cm
 \setcounter{page}{5}
 	
 	% ESCRIBIR LA DEDICATORIA AQUÍ	
+
+	Quiero agradecer a mis padres, por su amor y apoyo en cada momento de mi vida, y por estar allí siempre en todo momento. 
+	
+	A mis amigos y compañeros, por brindarme su compañía y alegría en los momentos difíciles y en los más felices.
+	
+	A mis profesores, en especial a mi tutor Jose Antonio Iglesias Martinez, por su paciencia y orientación en la realización de este trabajo. 
+	
+	Y finalmente, a todas aquellas personas que, de una forma u otra, han contribuido a mi crecimiento personal y académico. 
+
 		
 	\vfill
 	
@@ -808,6 +817,8 @@ Tras haber realizado un análisis e investigación del Estado del Arte y los pro
 La mayoría de los sistemas ADAS actualmente están diseñados para asistir al conductor, mientras que no hay muchos que sean enfocados a los pasajeros. Pero la experiencia del usuario, ya sea centrada en la seguridad como en la comodidad, debería tener igual importancia, y más en los vehículos autónomos donde la presencia del conductor será cada vez menor.
 
 Tras obtener estas conclusiones del análisis, con este proyecto se pretende proponer un sistema, cuyo diseño se centra en mejorar la experiencia de usuario de los ocupantes de un vehículo, y que funcione a partir de análisis en tiempo real de sus emociones y reaccionar de una manera u otra interactuando con las funcionalidades de los vehículos, como son el sonido de la música o radio, el aire acondicionado, la comodidad de los asientos, o integrarse en sistemas ADAS que sirvan para mejorar la experiencia de los ocupantes.
+
+
 
 \chapter{Diseño del sistema}
 
@@ -1353,14 +1364,16 @@ En cuanto a la versión extendida FER+, tiene mejoras del dataset original en re
 
 Para la implementación y análisis del modelo de aprendizaje automático, se harán uso de diferentes programas informáticos y herramientas:
 
-\begin{enumerate}
+\begin{itemize}
 
     \item \textbf{Python:} es un lenguaje de programación de alto nivel que destaca en el ámbito de la inteligencia artificial (IA) y el aprendizaje automático (ML) por su integración con una gran cantidad de librerías especializadas para el manejo de grandes volúmenes de datos, además de simplificar la creación, el entrenamiento y la evaluación de modelos predictivos de ML. \cite{python}
     \item \textbf{Keras:} es una librería de Python que facilita el desarrollo de modelos de aprendizaje profundo con redes neuronales, además de proporcionar módulos para procesar imágenes, texto y secuencias de datos. \cite{keras}
     \item \textbf{NumPy y Pandas:} son dos librerías fundamentales que se utilizan para la interacción con datos numéricos. NumPy (Numerical Python) es destacado por una manipulación rápida y eficiente de grandes volúmenes de datos, soportando incluso datos en forma de arrays multidimensionales y matrices, y operación con una amplia cantidad de funciones matemáticas. \cite{numpy} Pandas es una librería construida sobre NumPy, y destaca por una manipulación de datos eficiente con Series y DataFrames, estructuras unidimensionales la primera y bidimensionales la segunda, similar a columnas o tablas de una hoja de cálculo. También incluye funciones capaces de importar y exportar datos a diferentes tipos de archivos como Excel o CSV. \cite{pandas}
 	\item \textbf{Matplotlib y Seaborn:} son dos librerías centradas en la visualización de datos. Matplotlib destaca por un control detallado sobre la creación de distintos tipos de gráficos simples y complejos, proporcionando flexibilidad para modificar prácticamente todos los aspectos de los gráficos, pero a costa de mayor complejidad. \cite{matplotlib} Seaborn por otro lado es una librería construida sobre Matplotlib, que simplifica la creación de gráficos y visualizaciones, y facilita la exploración y visualización de los datos. \cite{seaborn}
 
-\end{enumerate}
+\end{itemize}
+
+
 
 \chapter{Implementación y resultados}
 
@@ -1466,6 +1479,78 @@ También se muestra el número de valores de cada tipo de cada conjunto clasific
 
 Por último, antes de realizar el entrenamiento del modelo con la CNN se normalizan los píxeles de las imágenes a valores entre 0 y 1 para ayudar al modelo a converger mejor.
 
+\section{Entrenamiento del modelo}
+
+Tras el preprocesado de los datos, se procede al entrenamiento de un modelo de red neuronal convolucional (CNN) con los datos. La red neuronal creada será una red convolucional con 10 capas en total, que se diferencian en:
+
+\begin{itemize}
+
+    \item \textbf{Capa Conv2D:} son capas convolucionales que aplican un determinado número de filtros a la imagen, y cada filtro extrae diferentes características de la imagen de entrada, como bordes, colores o formas, cada vez más complejas según la profundidad de la red. Las capas también tienen un tamaño de kernel, el tamaño de la ventana que desliza sobre las imágenes para crear el mapa de características de la imagen. En este caso se hace uso de filtros de 32, 64 y 128 y kernels de 3x3, ya que es un tamaño estándar para capturar suficientes relaciones sin que sea demasiado costoso computacionalmente. La función de activación usada en estas capas convolucionales es la  Unidades Lineales Rectificadas (ReLU) para introducir no linealidad en el modelo y poder aprender patrones más complejos. 
+    \item \textbf{Capa MaxPooling2D:} son capas que reducen la dimensionalidad de la imagen (ancho y alto) para la siguiente capa convolucional, para ayudar al modelo a detectar características sin ser afectadas por pequeños cambios de escala y orientación.
+    \item \textbf{Capa Flatten:} son capas que aplanan la salida de las capas convolucionales a vectores de una sola dimensión, necesario para la entrada de datos de las capas densas.
+	\item \textbf{Capa densa:} son capas completamente conectadas que clasifican la imagen basado en las características extraídas por las capas convolucionales. También se usa Dropout, una técnica que sirve para eliminar unidades de salida de la capa de manera aleatoria para prevenir sobreajuste del modelo. En este caso se usa un Dropout de 0.5, eliminando la mitad de las salidas.
+	\item \textbf{Capa de salida:} la última capa de la red, en este caso una capa densa utilizando una función de activación Softmax, que sirve para sumar 1 a la salida y poder interpretarse como valores de probabilidad. 
+
+\end{itemize}
+
+Tras definir el modelo de CNN, es necesario compilarlo para configurar diferentes opciones de entrenamiento, como son el optimizador, la función de pérdida y las métricas
+
+\begin{enumerate}
+
+    \item \textbf{Optimizador:} son algoritmos o métodos responsables de cambiar los atributos de las redes neuronales, como los pesos o la tasa de aprendizaje, con el fin de minimizar la función de pérdida. Por lo tanto, ayudan a minimizar o maximizar una función objetivo (función de pérdida) actualizando de manera iterativa los parámetros del modelo.
+		\begin{itemize}
+			\item Descenso de Gradiente Estocástico (SDG): es simple y básico que actualiza los pesos de manera iterativa, pero depende mucho de la tasa de aprendizaje. 
+			\item Algoritmo de Gradiente Adaptativo (AdaGrad): método que mantiene la tasa de aprendizaje en base a la frecuencia de actualización de cada parámetro mejorando el rendimiento en problemas con gradientes dispersos. La tasa de aprendizaje no requiere ajuste manual, pero puede volverse muy pequeña y detener el aprendizaje.
+			\item Propagación de Promedio Cuadrático (RMSprop): método que también mantiene tasas de aprendizaje adaptativas para cada parámetro basado en el promedio de las magnitudes más recientes. Establece el entrenamiento con tasas de aprendizaje más consistentes, pero requiere un buen ajuste de hiperparametros.
+			\item Estimación de Momento Adaptativo (Adam): método que combina las ventajas de RMSProp y AdaGrad por lo que mantiene tasas de aprendizaje adaptativos para cada parámetro, pero puede ser computacionalmente más costoso que SDG. Aun así este es el optimizador que se usará al aportar más ventajas que las demás.
+		\end{itemize}
+    \item \textbf{Función de pérdida:} es la función objetivo que el modelo intenta minimizar durante el entrenamiento, y significa qué tan bien el modelo preside la variable objetivo. Depende del tipo de datos que se entrenan y la tarea, si es clasificación, regresión, etc. Funciones de pérdida comunes son “categorical crossentropy” para tareas de clasificación multiclase mutuamente exclusivas, “binary crossentropy” para tareas de clasificación binaria, “mean square error (MSE)” para tareas de regresión, etc. En este caso se usará “categorical crossentropy” al ser un problema de clasificación con múltiples clases mutuamente excluyentes.
+    \item \textbf{Métricas:} valores para evaluar el rendimiento del modelo, parecido a las funciones de pérdida, pero los resultados de la evaluación no se utilizan al entrenar el modelo. Un ejemplo es la precisión (accuracy), el valor que mide la frecuencia que las predicciones son iguales a los valores etiquetados, utilizada en tareas de clasificación, como en este caso.
+
+\end{enumerate}
+
+\section{Analisis de resultados}
+
+El entrenamiento de este modelo resulta una precisión de un 70.14\%. Las siguientes gráficas muestran los valores de la función de pérdida y precisión a lo largo de las rondas de entrenamiento.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{graficasEntrenamiento.png}
+	\caption{Gráficas de valores de función de pérdida y valores de precisión.}
+	\label{fig:imagen31}
+\end{figure}
+
+De la primera gráfica (izquierda), la gráfica de valores de la función de pérdida, se puede apreciar que la pérdida del entrenamiento (azul) disminuye de manera constante, lo que significa que el modelo está aprendiendo correctamente y mejorando en cada iteración. En cambio, la pérdida de la validación (naranja) disminuye en un inicio pero comienza a estabilizarse y aumentar ligeramente después de aproximadamente 15 iteraciones. Esto podría indicar un sobreajuste del modelo, significando que el modelo aprende ruido y detalles no aplicables a los datos generales.
+
+De la segunda gráfica (derecha), la gráfica de valores de precisión, se puede apreciar que la precisión del entrenamiento mejora de manera consistente en el tiempo, lo cual es un resultado esperado ya que el modelo se ajusta cada vez más a los datos de entrenamiento. Pero la precisión con los datos de validación, al igual que la función de pérdida, aumenta en un inicio pero posteriormente se estabiliza, lo que también puede indicar indicios de sobreajuste.
+
+La siguiente imagen de la matriz de confusión muestra la cantidad de valores clasificados correctamente por el modelo cada emoción en comparación con los valores etiquetados reales.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{matrizConfusion.png}
+	\caption{Matriz de confusión de predicciones del modelo.}
+	\label{fig:imagen32}
+\end{figure}
+
+Las entradas que aparecen en la diagonal, verdaderos positivos, representan el número de predicciones correctas para cada tipo de emoción. Se puede apreciar que la mayoría de los valores se predicen de manera correcta, de esto el valor de acierto de un 70.14%.
+
+\begin{itemize}
+
+    \item Neutral: 296 predicciones correctas.
+    \item Happiness: 315 predicciones correctas. 
+    \item Surprise: 377 predicciones correctas. 
+    \item Sadness: 264 predicciones correctas.
+    \item Anger: 223 predicciones correctas. 
+
+\end{itemize}
+
+En cambio, las entradas que no están en la diagonal, falsas clasificaciones, representan predicciones incorrectas del modelo en función de cada valor. Las predicciones incorrectas entre las clases “neutral” y “sadness” muestran un número significativo de valores, siendo clasificadas 105 de “sadness” como “neutral” y 85 de “neutral” como “sadness”. Esto puede ser debido a características similares en las imágenes de ambas emociones que el modelo capta y no diferencia de una manera muy exacta.
+
+En general, el modelo con el dataset FER+ ha obtenido un resultado de predicción no excelentemente alto pero razonablemente bueno, siendo un 70.14\% teniendo en cuenta que las imágenes de este dataset eran de una baja calidad y resolución, de 48x48 píxeles y en escala de grises, lo que hace el problema más difícil en comparación con datos de imágenes de alta resolución. Considerar una mejora en la calidad de imagen o uso de técnicas de preprocesamiento que resalten características importantes podría incrementar y mejorar la precisión de este modelo.
+
+
+
 \chapter{Marco regulador}
 
 En cuanto al marco regulador de este proyecto, en el proceso de desarrollo del sistema de reconocimiento de emociones en los vehículos, hay que tener en cuenta varias normativas y leyes para que se garantice la legalidad y seguridad de dichos datos personales. Una de las normativas más importantes y relevantes para este proyecto es la Ley Orgánica 3/2018 de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD) 
@@ -1479,6 +1564,8 @@ También existe una Ley de IA de la UE \cite{normativaIA}, todavía en desarroll
 
 Tras este análisis del marco regulatorio, se sacan conclusiones acerca del cumplimiento normativo de nuestro proyecto. Se deberá de desarrollar políticas claras de privacidad e información sobre el uso de datos para los usuarios del sistema, además de medidas de seguridad ya sea cifrado de datos o restricción de acceso a los mismos. También se deberá realizar auditorías para asegurar el cumplimiento de las normativas actuales, y adaptarse a cualquier posible cambio.
 
+
+
 \chapter{Entorno socio-económico}
 
 \section{Gestión del proyecto}
@@ -1491,7 +1578,7 @@ El siguiente diagrama de Gantt detalla la planificación de este proyecto, resul
 	\centering
 	\includegraphics[width=\textwidth]{ganttChart.png}
 	\caption{Diagrama de Gantt de la planificación del proyecto.}
-	\label{fig:imagen50}
+	\label{fig:imagen33}
 \end{figure}
 
 \subsection{Estimación}
@@ -1500,7 +1587,7 @@ El siguiente diagrama de Gantt detalla la planificación de este proyecto, resul
 
 Para este proyecto se necesitarán los siguientes roles de personal:
 
-\begin{enumerate}
+\begin{itemize}
 
     \item \textbf{Arquitecto de software:} responsable de tomar decisiones de alto nivel en la arquitectura del software, y guiar su diseño y desarrollo.
     \item \textbf{Ingeniero de ML:} responsable de desarrollar y entrenar el modelo de red neuronal para la detección de emociones, y optimizar su desempeño.
@@ -1510,7 +1597,7 @@ Para este proyecto se necesitarán los siguientes roles de personal:
     \item \textbf{QA Tester:} responsable de realizar pruebas para asegurar la calidad y funcionalidad del sistema, identificando y reportando posibles errores.
     \item \textbf{Project Manager:} responsable de planificación, ejecución y control del proyecto, asegurando que se cumplan los objetivos del presupuesto y tiempo establecidos.
 
-\end{enumerate}
+\end{itemize}
 
 \begin{table}[H]
 	\ttabbox[\FBwidth]
@@ -1634,6 +1721,8 @@ Pero por otro lado, también tiene que asegurarse que tanto la privacidad como e
 En relación al impacto medioambiental, puede ser positivo si se utiliza para optimizar el rendimiento y reducir el consumo de combustible, por ejemplo ajustando el sistema de calefacción de manera más eficiente. Pero puede ser todo lo contrario, que aumente el gasto al usar más calefacción de lo normal, siendo en este caso implementado en vehículos no eléctricos. Si se implementara en vehículos eléctricos no habría este problema, y también sería un beneficio medioambiental si esto fomenta a más personas a comprar vehículos eléctricos.
 
 Y en cuanto al impacto ético, como se ha mencionado anteriormente, la principal preocupación es la privacidad y el uso de los datos generados. En este caso es fundamental que se implementen políticas estrictas de protección de datos y que esos datos sólo sean usados para usos transparentes mencionados en este proyecto.
+
+
 
 \chapter{Conclusiones y trabajos futuros}
 

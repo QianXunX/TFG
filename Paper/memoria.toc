@@ -24,16 +24,18 @@
 \contentsline {section}{\numberline {3.3}Análisis de sistemas y software utilizado}{34}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Implementación y resultados}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Preprocesado de datos}{35}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Marco regulador}{38}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Entorno socio-económico}{39}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Gestión del proyecto}{39}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Planificación}{39}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Estimación}{39}{subsection.6.1.2}%
-\contentsline {subsubsection}{Costes personal}{39}{subsection.6.1.2}%
-\contentsline {subsubsection}{Costes hardware}{40}{table.caption.63}%
-\contentsline {subsubsection}{Costes software}{41}{table.caption.64}%
-\contentsline {subsubsection}{Resumen de costes}{41}{table.caption.64}%
-\contentsline {section}{\numberline {6.2}Impacto socio-económico}{42}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Conclusiones y trabajos futuros}{44}{chapter.7}%
-\contentsline {chapter}{Bibliografía}{45}{chapter.7}%
+\contentsline {section}{\numberline {4.2}Entrenamiento del modelo}{37}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analisis de resultados}{39}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Marco regulador}{41}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Entorno socio-económico}{42}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Gestión del proyecto}{42}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Planificación}{42}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Estimación}{42}{subsection.6.1.2}%
+\contentsline {subsubsection}{Costes personal}{42}{subsection.6.1.2}%
+\contentsline {subsubsection}{Costes hardware}{43}{table.caption.65}%
+\contentsline {subsubsection}{Costes software}{44}{table.caption.66}%
+\contentsline {subsubsection}{Resumen de costes}{44}{table.caption.66}%
+\contentsline {section}{\numberline {6.2}Impacto socio-económico}{45}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusiones y trabajos futuros}{47}{chapter.7}%
+\contentsline {chapter}{Bibliografía}{48}{chapter.7}%
 \contentsfinish 
