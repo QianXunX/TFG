@@ -884,6 +884,60 @@
       \verb https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
       \endverb
     \endentry
+    \entry{ckPlus}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Papers With Code}
+      \field{title}{CK+ Dataset}
+      \verb{urlraw}
+      \verb https://paperswithcode.com/dataset/ck
+      \endverb
+      \verb{url}
+      \verb https://paperswithcode.com/dataset/ck
+      \endverb
+    \endentry
+    \entry{jaffeDataset}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=7d94eef5f66de6fe41f49faa28df15ab}{%
+           family={Lyons},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d0c0fa74c7de76329a466dc625f98a5}{%
+           family={Kamachi},
+           familyi={K\bibinitperiod},
+           given={Miyuki},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2973494849e44be8eb6fbf4be0e04b4f}{%
+           family={Gyoba},
+           familyi={G\bibinitperiod},
+           given={Jiro},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{fullhash}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{fullhashraw}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{bibnamehash}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{authorbibnamehash}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{authornamehash}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{authorfullhash}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \strng{authorfullhashraw}{54dc34f9fdb8b4a22d24b3ae66b2907f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zenodo}
+      \field{month}{4}
+      \field{title}{The Japanese Female Facial Expression (JAFFE) Dataset}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://zenodo.org/records/3451524
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/records/3451524
+      \endverb
+    \endentry
     \entry{python}{misc}{}{}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
@@ -938,8 +992,8 @@
       \endverb
     \endentry
     \entry{pandas}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Pandas documentation: Python Data Analysis Library}
       \verb{urlraw}
@@ -950,8 +1004,8 @@
       \endverb
     \endentry
     \entry{matplotlib}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Matplotlib — Visualization with Python}
       \verb{urlraw}
@@ -971,6 +1025,65 @@
       \endverb
       \verb{url}
       \verb https://seaborn.pydata.org/
+      \endverb
+    \endentry
+    \entry{comparison1}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Xplore}
+      \field{title}{Employment and Investigation of Various CNN Models and Datasets for Facial Expression Recognition and Classification}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/10415947?casa_token=Y5g5OgMG9RYAAAAA:xK02AVCySEMRqe4QI92gRX9_ED3E3F5DaajheAeEHkUBNFfq5P6m0Q1jQnpCaFGIVZkMeCSO0A
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/10415947?casa_token=Y5g5OgMG9RYAAAAA:xK02AVCySEMRqe4QI92gRX9_ED3E3F5DaajheAeEHkUBNFfq5P6m0Q1jQnpCaFGIVZkMeCSO0A
+      \endverb
+    \endentry
+    \entry{comparison2}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=8cb1b23fc1c818a8675201f4dd2fb969}{%
+           family={Oguine},
+           familyi={O\bibinitperiod},
+           given={Ozioma\bibnamedelima Collins},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9e18f3cc7b6a459752513ae606075305}{%
+           family={Oguine},
+           familyi={O\bibinitperiod},
+           given={Kanyifeechukwu\bibnamedelima Jane},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=08ceb8bd4593bfd2d8bb016053b70a89}{%
+           family={Bisallah},
+           familyi={B\bibinitperiod},
+           given={Hashim\bibnamedelima Ibrahim},
+           giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=30ff115850a789bc3dbb1c77fdd30437}{%
+           family={Ofuani},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{02d7c314504760b548f6578c461a4d95}
+      \strng{fullhash}{94f82d4d1453d8c07fc04a5f681b2ac8}
+      \strng{fullhashraw}{94f82d4d1453d8c07fc04a5f681b2ac8}
+      \strng{bibnamehash}{94f82d4d1453d8c07fc04a5f681b2ac8}
+      \strng{authorbibnamehash}{94f82d4d1453d8c07fc04a5f681b2ac8}
+      \strng{authornamehash}{02d7c314504760b548f6578c461a4d95}
+      \strng{authorfullhash}{94f82d4d1453d8c07fc04a5f681b2ac8}
+      \strng{authorfullhashraw}{94f82d4d1453d8c07fc04a5f681b2ac8}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv.org}
+      \field{month}{6}
+      \field{title}{Hybrid Facial Expression Recognition (FER2013) Model for Real-Time Emotion Classification and Prediction}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2206.09509
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2206.09509
       \endverb
     \endentry
     \entry{lopd-gdd}{misc}{}{}

@@ -410,7 +410,7 @@ hmargin=3cm
 
 \section{Motivación}
 
-Actualmente, siendo una era de grandes avances tecnológicos, la industria automotriz destaca como un faro de innovación, particularmente en el desarrollo de sistemas inteligentes diseñados para mejorar la seguridad y personalizar la experiencia del conductor. La integración de la Inteligencia Artificial (IA) en los sistemas de los vehículos representan un cambio transformador, pasando de los vehículos tradicionales a los “vehículos inteligentes” o smart vehicles. Estos vehículos no son meros medios de transporte, sino que son plataformas sofisticadas que se adaptan de forma dinámica a las necesidades y estados emocionales de los pasajeros. 
+Actualmente, siendo una era de grandes avances tecnológicos, la industria automotriz destaca como un faro de innovación, particularmente en el desarrollo de sistemas inteligentes diseñados para mejorar la seguridad y personalizar la experiencia del conductor. La integración de la Inteligencia Artificial (IA) en los sistemas de los vehículos representan un cambio transformador, pasando de los vehículos tradicionales a los “vehículos inteligentes” o \textit{smart vehicles}. Estos vehículos no son meros medios de transporte, sino que son plataformas sofisticadas que se adaptan de forma dinámica a las necesidades y estados emocionales de los pasajeros. 
 
 Las tecnologías en los vehículos actuales en gran medida no tienen en cuenta el contexto emocional de los pasajeros, dependen de una entrada en concreto como comandos táctiles o vocales. La implementación de sistemas capaces de percibir y reaccionar a los estados emocionales de los pasajeros podría ser un gran avance para el sector del diseño de software centrado en el usuario.
 
@@ -448,6 +448,8 @@ El documento se organiza en siete capítulos principales:
 
 \chapter{Estado del arte}
 
+En este apartado se realizará un análisis exhaustivo de las tendencias y tecnologías actuales en la industria de la automoción, enfocándose en diversos aspectos claves que contribuyen a la experiencia del usuario y a la seguridad de los vehículos. Inicialmente, se explorará la experiencia del usuario en la industria de la automoción, abordando el uso de paneles táctiles, coches conectados y sistemas Heads Up Display (HUD). A continuación, se analizarán los Sistemas Avanzados de Ayuda a la Conducción (ADAS) y los vehículos autónomos, destacando las innovaciones en inteligencia artificial y aprendizaje automático, incluyendo redes neuronales. Finalmente, se revisarán trabajos relacionados y se presentarán conclusiones para establecer el contexto de la investigación y su relevancia en la mejora de la experiencia de los pasajeros.
+
 \section{Experiencia del Usuario en la Industria de la Automoción}
 
 La experiencia de usuario (UX) es un concepto fundamental en el ámbito del diseño y desarrollo de productos y servicios, y su importancia ha ido creciendo exponencialmente en los últimos años. En el contexto de la industria automotriz, la UX se refiere a la manera que interactúan los usuarios con los vehículos, las tecnologías que incorporan estos mismos, y cómo esas interacciones afectan a la satisfacción del usuario.
@@ -465,7 +467,7 @@ La interacción con los componentes de un automóvil moderno es muy diferente en
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{evolutionTouchscreen.png}
-    \caption{Evolución del panel en un Volkswagen Golf \cite{userExperience}.}
+    \caption{Evolución del panel en un Volkswagen Golf. Fuente: \cite{userExperience}}
     \label{fig:imagen1}
 \end{figure}
 
@@ -474,7 +476,7 @@ Esta adaptación es debido al rápido avance tecnológico de los teléfonos móv
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{usingTouchscreen.png}
-    \caption{Conductor interaccionando con una pantalla táctil \cite{userExperience}.}
+    \caption{Conductor interaccionando con una pantalla táctil. Fuente: \cite{userExperience}}
     \label{fig:imagen2}
 \end{figure}
 
@@ -484,20 +486,20 @@ Sin embargo, aunque permiten una interacción más sencilla y limpia, también p
 
 \subsection{Coches conectados}
 
-El concepto de “coche conectado” surge de la integración de los coches en el Internet de las Cosas (IoT), al ser capaces de acceder a Internet, comunicarse con dispositivos inteligentes y recopilar datos en tiempo real. Inicialmente los automóviles contenían un número pequeño de Unidades de Control Electrónico (ECU), donde cada una era independiente de otra y realizaba una funcionalidad simple. Los coches de hoy en día pueden contener hasta 70 ECUs realizando muchas funcionalidades variadas, además de poder utilizar protocolos de comunicación que les permiten “hablar” con otros vehículos e infraestructuras, e incluso con Internet. Actualmente, incluso se ha logrado la integración de dispositivos móviles y smartphones en los paneles de los automóviles ofreciendo servicios avanzados de multimedia y entretenimiento. 
+El concepto de “coche conectado” surge de la integración de los coches en el Internet de las Cosas (IoT), al ser capaces de acceder a Internet, comunicarse con dispositivos inteligentes y recopilar datos en tiempo real. Inicialmente los automóviles contenían un número pequeño de Unidades de Control Electrónico (ECU), donde cada una era independiente de otra y realizaba una funcionalidad simple. Los coches de hoy en día pueden contener hasta 70 ECUs realizando muchas funcionalidades variadas, además de poder utilizar protocolos de comunicación que les permiten “hablar” con otros vehículos e infraestructuras, e incluso con Internet. Actualmente, incluso se ha logrado la integración de dispositivos móviles y \textit{smartphones} en los paneles de los automóviles ofreciendo servicios avanzados de multimedia y entretenimiento. 
 \cite{mobileIntegration}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{ecu.png}
-    \caption{Ejemplos de ECUs en un coche \cite{mobileIntegration}.}
+    \caption{Ejemplos de ECUs en un coche. Fuente: \cite{mobileIntegration}}
     \label{fig:imagen3}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{connected_car_system.jpg}
-	\caption{Visión general de un sistema de coche conectado \cite{mobileIntegration}.}
+    \includegraphics[width=0.8\textwidth]{connected_car_system.jpg}
+	\caption{Visión general de un sistema de coche conectado. Fuente: \cite{mobileIntegration}}
     \label{fig:imagen4}
 \end{figure}
 
@@ -512,7 +514,7 @@ Al tener tantos dispositivos interconectados, las tecnologías y protocolos de c
 
 \end{itemize}
 
-En cuanto a la integración de dispositivos móviles y smartphones con los coches conectados, se han desarrollado soluciones software capaces de permitir a la pantalla del coche acceder a los datos del dispositivo, e incluso permite al usuario controlar aplicaciones del dispositivo en la pantalla. Esta integración ofrece varias ventajas, como pueden ser una personalización diferente para cada usuario que depende de cada dispositivo, o además facilitar a los desarrolladores de aplicaciones crear aplicaciones sobre una plataforma genérica en vez de un modelo de pantalla específico. Las soluciones de integración más extendidas son: 
+En cuanto a la integración de dispositivos móviles y \textit{smartphones} con los coches conectados, se han desarrollado soluciones software capaces de permitir a la pantalla del coche acceder a los datos del dispositivo, e incluso permite al usuario controlar aplicaciones del dispositivo en la pantalla. Esta integración ofrece varias ventajas, como pueden ser una personalización diferente para cada usuario que depende de cada dispositivo, o además facilitar a los desarrolladores de aplicaciones crear aplicaciones sobre una plataforma genérica en vez de un modelo de pantalla específico. Las soluciones de integración más extendidas son: 
 
 \begin{itemize}
 
@@ -525,7 +527,7 @@ En cuanto a la integración de dispositivos móviles y smartphones con los coche
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{androidAuto.png}
+	\includegraphics[width=0.9\textwidth]{androidAuto.png}
 	\caption{Ejemplos de interfaces de Android Auto en la pantalla del coche.}
 	\label{fig:imagen5}
 \end{figure}
@@ -535,7 +537,7 @@ Actualmente, de las tecnologías anteriores las más populares y mayoritariament
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{integrationSolution.png}
-	\caption{Ventas de coches con Apple CarPlay vs Android Auto \cite{mobileIntegration}.}
+	\caption{Ventas de coches con Apple CarPlay vs Android Auto. Fuente: \cite{mobileIntegration}}
 	\label{fig:imagen6}
 \end{figure}
 
@@ -547,7 +549,7 @@ Los sistemas Head-Up Display (HUD) fueron desarrollados originalmente para aviad
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{hud.png}
-    \caption{Vista de un HUD de un Jaguar \cite{hudPaper}.}
+    \caption{Vista de un HUD de un Jaguar. Fuente: \cite{hudPaper}}
     \label{fig:imagen7}
 \end{figure}
 
@@ -555,8 +557,8 @@ La estructura de un HUD se compone de tres componentes: el combinador, la superf
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{hudWork.png}
-    \caption{Funcionamiento y componentes de un HUD \cite{hudPaper}.}
+    \includegraphics[width=0.9\textwidth]{hudWork.png}
+    \caption{Funcionamiento y componentes de un HUD. Fuente: \cite{hudPaper}}
     \label{fig:imagen8}
 \end{figure}
 
@@ -569,7 +571,7 @@ Algunos vehículos modernos incluyen incluso funcionalidades como visión noctur
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{nigthHUD.png}
-    \caption{Visión de cámara de infrarrojos en el HUD \cite{hudPaper}.}
+    \caption{Visión de cámara de infrarrojos en el HUD. Fuente: \cite{hudPaper}}
     \label{fig:imagen9}
 \end{figure}
 
@@ -578,7 +580,7 @@ También existen casos experimentales donde se implementan en los espejos retrov
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{retroHUD.png}
-    \caption{Visión de HUD en espejos retrovisores \cite{hudPaper}.}
+    \caption{Visión de HUD en espejos retrovisores. Fuente: \cite{hudPaper}}
     \label{fig:imagen10}
 \end{figure}
 
@@ -594,57 +596,57 @@ Debido a la importancia y eficacia de estos sistemas para la seguridad, la Unió
     \item \textbf{Detector de Fatiga y Somnolencia (DDR):} este sistema de ADAS se enfoca a prevenir distracciones del conductor debido a somnolencia, cansancio o falta de atención. Utiliza distintos tipos de tecnologías como: sensores en el volante para analizar la presión que se ejerce sobre el o la brusquedad de las correcciones de dirección; una cámara de reconocimiento facial que detecta el exceso de parpadeo o la visión de la mirada; o temporizador en el motor que recoge el tiempo que lleva en marcha. Si el sistema detecta anomalías o un tiempo de marcha largo, emite una señal o texto por los paneles del coche para avisar al conductor.
     \begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{adasDDR.jpg}
-		\caption{Funcionamiento del sistema DDR \cite{adasObligatorios}.}
+		\includegraphics[width=0.7\textwidth]{adasDDR.jpg}
+		\caption{Funcionamiento del sistema DDR. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen11}
 	\end{figure}
 	\item \textbf{Asistente de velocidad inteligente (ISA):} este sistema ADAS se enfoca en limitar la velocidad máxima a la que se circula mediante una cámara interior que lee las senales de las vías. La velocidad permitida es mostrada en el cuadro de mando del conductor, y el software actúa sobre el motor o el acelerador impidiendo que supere esa velocidad máxima, aunque se puede desconectar mediante un botón o pisando con fuerza el acelerador.
     \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{adasISA.jpg}
-		\caption{Funcionamiento del sistema ISA \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema ISA. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen12}
 	\end{figure}
 	\item \textbf{Cámara Trasera con Detección de Tráfico Cruzado (RCTA):} este sistema ADAS se enfoca en facilitar la visión del conductor en la marcha atrás con cámaras que muestran la imagen en el panel. También detecta posibles obstáculos que puedan estar en la trayectoria de la maniobra, advierte al conductor en la pantalla o en el retrovisor, y si el conductor no reacciona puede llegar a detener el coche de manera automática.
     \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{adasRCTS.jpg}
-		\caption{Funcionamiento del sistema RCTA \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema RCTA. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen13}
 	\end{figure}
 	\item \textbf{Caja negra (EDR):} este sistema ADAS se enfoca en recopilar información, en caso de accidente, de los momentos anteriores y posteriores a él, para poder evaluar las posibles causas y estado de los sistemas del vehículo. El EDR está ubicado debajo del asiento del conductor, del tamaño aproximado de un teléfono móvil, y se puede conectar a un ordenador para obtener la información necesaria.
     \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\textwidth]{adasEDR.jpg}
-		\caption{Funcionamiento del sistema EDR \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema EDR. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen14}
 	\end{figure}
 	\item \textbf{Alerta de cambio involuntario de carril (LDW):} este sistema ADAS se enfoca en controlar que el vehículo no se desvía del carril por el que circula por una posible falta de atención del conductor. Utiliza una cámara frontal que detecta de forma continua las líneas del carril por el que circula, y en caso de que no se haya activado ningún intermitente y el vehículo esté saliendo del carril, avisa mediante una señal en el cuadro, un sonido o vibraciones. Además, si dispone de algún sistema de mantenimiento de carril, podría activarse para mantener el vehículo correctamente en el carril.
     \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\textwidth]{adasLDW.jpg}
-		\caption{Funcionamiento del sistema LDW \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema LDW. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen15}
 	\end{figure}
 	\item \textbf{Sistema de frenada de emergencia (BAS y EBA):} este sistema ADAS se enfoca en reducir el riesgo de colisión por alcance. Al realizar una frenada brusca, detecta si la intensidad con la que se pisa es la adecuada, y si no es suficiente el sistema interacciona frenando a la máxima intensidad posible. Además dispone de distintos sensores que permite distinguir a las personas y realiza un aviso, si el conductor no reacciona al aviso se activa el freno de manera automática.
     \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\textwidth]{adasBASyEBA.jpg}
-		\caption{Funcionamiento del sistema BAS y EBA \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema BAS y EBA. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen16}
 	\end{figure}
 	\item \textbf{Bloqueo de vehículo con alcoholímetro (Alcolock):} este sistema ADAS se enfoca en el control de la conducción tras la ingesta de alcohol. El vehículo dispone de un sistema de alcoholímetro, conectado al motor de arranque, y que impedirá al conductor arrancar el motor si la tasa de alcohol analizada por la boquilla sea superior al índice permitido. El sistema tendrá implementado sensores con tecnologías de reconocimiento de huellas dactilares, detección facial o fotografías digitales, que serán guardadas en memoria al igual que el historial de análisis, que servirá para identificar al usuario e impedir la falsificación o el fraude.
     \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{adasAlcolock.jpg}
-		\caption{Funcionamiento del sistema Alcolock \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema Alcolock. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen17}
 	\end{figure}
 	\item \textbf{Alerta de cinturón en las plazas traseras:} este sistema ADAS se enfoca en controlar y avisar el uso correcto del cinturón de seguridad en las plazas traseras. El sistema determina mediante un sensor de carga si la plaza está ocupada, y mediante un sensor de la hebilla si está bien cerrado. En caso de que el vehículo recorra una determinada distancia, un determinado tiempo o supere los 25 km/h y no se haya puesto el cinturón de una manera correcta, el sistema avisa automáticamente mediante señales visuales y acústicas.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{adasCinturon.jpg}
-		\caption{Funcionamiento del sistema de Alerta de cinturón en las plazas traseras \cite{adasObligatorios}.}
+		\caption{Funcionamiento del sistema de Alerta de cinturón en las plazas traseras. Fuente: \cite{adasObligatorios}}
 		\label{fig:imagen18}
 	\end{figure}
 
@@ -661,7 +663,7 @@ Un vehículo autónomo puede clasificarse en diferentes niveles de autonomía, d
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{saeLevels.jpg}
-	\caption{Niveles de autonomía según el estándar SAE J3016 \cite{autonomousVehicles}.}
+	\caption{Niveles de autonomía según el estándar SAE J3016. Fuente: \cite{autonomousVehicles}}
 	\label{fig:imagen19}
 \end{figure}
 
@@ -682,7 +684,7 @@ Los vehículos autónomos están equipados con una gran cantidad de sensores y s
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{saeSensors.png}
-	\caption{Sensores en un vehículo autónomo \cite{autonomousVehicles}.}
+	\caption{Sensores en un vehículo autónomo. Fuente: \cite{autonomousVehicles}}
 	\label{fig:imagen20}
 \end{figure}
 
@@ -703,14 +705,14 @@ El conjunto de sensores, junto a los sistemas ADAS, son lo que permiten a los co
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{adasSensorWorkflow.png}
-	\caption{Clasificación de sensores usados en sistemas ADAS \cite{adasSensors}.}
+	\caption{Clasificación de sensores usados en sistemas ADAS. Fuente: \cite{adasSensors}}
 	\label{fig:imagen21}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{adasSensorRange.png}
-	\caption{Rangos sobre los que actúan los sensores \cite{adasSensors}.}
+	\caption{Rangos sobre los que actúan los sensores. Fuente: \cite{adasSensors}}
 	\label{fig:imagen22}
 \end{figure}
 
@@ -721,7 +723,7 @@ La Inteligencia Artificial (IA) se define como “capacidad de las máquinas par
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{sectionsAI.png}
-	\caption{Campos de la Inteligencia Artificial \cite{artInt}.}
+	\caption{Campos de la Inteligencia Artificial. Fuente: \cite{artInt}}
 	\label{fig:imagen23}
 \end{figure}
 
@@ -744,7 +746,7 @@ Los métodos de ML más comunes que se utilizan para aprender y realizar predicc
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{modelsML.png}
-	\caption{Modelos de Aprendizaje Automático \cite{artInt}.}
+	\caption{Modelos de Aprendizaje Automático. Fuente: \cite{artInt}}
 	\label{fig:imagen24}
 \end{figure}
 
@@ -758,7 +760,7 @@ Cada neurona de una capa recibe entradas, procesa esas entradas y devuelve una s
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{annStructure.png}
-	\caption{Artificial Neural Network basic architecture \cite{annReview}.}
+	\caption{Artificial Neural Network basic architecture. Fuente: \cite{annReview}}
 	\label{fig:imagen25}
 \end{figure}
 
@@ -772,7 +774,7 @@ Las RNN procesan los datos de manera secuencial: en cada estado de procesamiento
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{rnnStructure.png}
-	\caption{Recurrent Neural Network basic architecture \cite{annReview}.}
+	\caption{Recurrent Neural Network basic architecture. Fuente: \cite{annReview}}
 	\label{fig:imagen26}
 \end{figure}
 
@@ -794,14 +796,14 @@ Una CNN está compuesta por varias capas de distintos tipos que transforman la e
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{cnnStructure.png}
-	\caption{Convolutional Neural Network basic architecture \cite{annReview}.}
+	\caption{Convolutional Neural Network basic architecture. Fuente: \cite{annReview}}
 	\label{fig:imagen27}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{basicCnn.png}
-	\caption{Convolutional Neural Network layers visualization \cite{deepImages}.}
+	\caption{Convolutional Neural Network layers visualization. Fuente: \cite{deepImages}}
 	\label{fig:imagen28}
 \end{figure}
 
@@ -809,19 +811,19 @@ Una CNN está compuesta por varias capas de distintos tipos que transforman la e
 
 El reconocimiento de emociones ya sea de los ocupantes o del conductor en un vehículo es un área de desarrollo fundamental para la industria automotriz. Una capacidad para identificar y responder eficaz puede mejorar considerablemente la seguridad o la experiencia de usuario de los ocupantes del vehículo. Al ser un área de investigación que ha ido avanzado a lo largo de los años, se han realizado muchos estudios destacados, llegando al estado actual con sistemas tecnológicos cada vez más sofisticados.
 
-Un proyecto interesante y reciente es “Drivers’ Comprehensive Emotion Recognition Based on HAM” \cite{rw1} realizado en 2023, basado en mejorar la precisión de modelos de aprendizaje profundo para reconocer emociones, en este caso del conductor, utilizando señales audiovisuales. La metodología utilizada es una combinación híbrida de diferentes redes neuronales, y un entrenamiento y validación con distintos conjuntos de datos, y lograron una precisión del 79.60\% en el conjunto de datos FER2013 superando a otros modelos ya existentes.
+Un artículo de investigación interesante y reciente es “Drivers’ Comprehensive Emotion Recognition Based on HAM” \cite{rw1} realizado en 2023, basado en mejorar la precisión de modelos de aprendizaje profundo para reconocer emociones, en este caso del conductor, utilizando señales audiovisuales. La metodología utilizada es una combinación híbrida de diferentes redes neuronales, y un entrenamiento y validación con distintos conjuntos de datos, y lograron una precisión del 79.60\% en el conjunto de datos FER2013 superando a otros modelos ya existentes.
 
-Otro proyecto destacado es “AI-Powered In-Vehicle Passenger Monitoring Using Low-Cost mm-Wave Radar” \cite{rw2} publicado en 2021, en el que se desarrolla un sistema de detección y monitoreo de los pasajeros de un vehículo. Concretamente, trata de identificar los asientos ocupados y contar el número de pasajeros que hay mediante un radar de onda milimétrica generando mapas de calor, y procesando la información con algoritmos de aprendizaje automático. En comparación con los sistemas tradicionales, este sistema permite detectar pasajeros con más precisión, como por ejemplo al detectar múltiples pasajeros en asientos adyacentes, además de ser una solución económica con el uso de radares de bajo costo.
+Otro artículo destacado es “AI-Powered In-Vehicle Passenger Monitoring Using Low-Cost mm-Wave Radar” \cite{rw2} publicado en 2021, en el que se desarrolla un sistema de detección y monitoreo de los pasajeros de un vehículo. Concretamente, trata de identificar los asientos ocupados y contar el número de pasajeros que hay mediante un radar de onda milimétrica generando mapas de calor, y procesando la información con algoritmos de aprendizaje automático. En comparación con los sistemas tradicionales, este sistema permite detectar pasajeros con más precisión, como por ejemplo al detectar múltiples pasajeros en asientos adyacentes, además de ser una solución económica con el uso de radares de bajo costo.
 
-En cuanto a proyectos en relación a la experiencia de usuario, un proyecto destacado es “Mobility Prediction-Based Optimisation and Encryption of Passenger Traffic-Flows Using Machine Learning” \cite{rw3} publicado en 2020. Este proyecto se centra en desarrollar un modelo predictivo de aprendizaje automático para mejorar el rendimiento de infraestructuras ferroviarias, en este caso del metro de Londres, abordando problemas como la congestión, los accidentes, la sobrecarga de vagones o el mantenimiento. Utilizan sensores de identificación por radiofrecuencia (RFID) que registran los datos de pasajeros en tiempo real mediante tecnología 5G, y con un modelo de redes neuronales artificiales predicen los patrones de flujo de los pasajeros. Además todos los datos enviados en tiempo real son encriptados lo que asegura su seguridad y privacidad. Realizaron simulaciones con datos reales del metro de Londres y el modelo alcanzó una precisión del 91.17\% en la predicción del flujo de movilidad de los pasajeros.
+En cuanto a artículos en relación a la experiencia de usuario, un artículo destacado es “Mobility Prediction-Based Optimisation and Encryption of Passenger Traffic-Flows Using Machine Learning” \cite{rw3} publicado en 2020. Este artículo se centra en desarrollar un modelo predictivo de aprendizaje automático para mejorar el rendimiento de infraestructuras ferroviarias, en este caso del metro de Londres, abordando problemas como la congestión, los accidentes, la sobrecarga de vagones o el mantenimiento. Utilizan sensores de identificación por radiofrecuencia (RFID) que registran los datos de pasajeros en tiempo real mediante tecnología 5G, y con un modelo de redes neuronales artificiales predicen los patrones de flujo de los pasajeros. Además todos los datos enviados en tiempo real son encriptados lo que asegura su seguridad y privacidad. Realizaron simulaciones con datos reales del metro de Londres y el modelo alcanzó una precisión del 91.17\% en la predicción del flujo de movilidad de los pasajeros.
 
-Otro ejemplo de proyecto es “Estimating passenger experience from vehicle data: Preconditions for using machine learning” \cite{rw4} publicado en 2020. Este artículo se centra en evaluar métodos de aprendizaje automático para estimar de forma automática la experiencia de los pasajeros en los autobuses eléctricos, utilizando datos obtenidos con sensores en el autobús y encuestas a los pasajeros sobre la experiencia del viaje. Las implicaciones de este estudio puede ser interesante para los fabricantes de vehículos, ya que podrían mejorar su diseño y desarrollo, o para los operadores de los transportes públicos, ya que podrían mejorar la formación de conductores o la planificación de rutas en función de la satisfacción del pasajero. 
+Otro ejemplo de artículo es “Estimating passenger experience from vehicle data: Preconditions for using machine learning” \cite{rw4} publicado en 2020. Este artículo se centra en evaluar métodos de aprendizaje automático para estimar de forma automática la experiencia de los pasajeros en los autobuses eléctricos, utilizando datos obtenidos con sensores en el autobús y encuestas a los pasajeros sobre la experiencia del viaje. Las implicaciones de este estudio puede ser interesante para los fabricantes de vehículos, ya que podrían mejorar su diseño y desarrollo, o para los operadores de los transportes públicos, ya que podrían mejorar la formación de conductores o la planificación de rutas en función de la satisfacción del pasajero. 
 
-Otro proyecto, también relacionado a mejorar la experiencia de usuario sobre el uso de autobuses como medio de transporte público, es “A Real-Time Machine Learning-Based Public Transport Bus-Passenger Information System” \cite{rw5} publicado en 2021. El objetivo de este estudio es desarrollar un sistema de información en tiempo real que muestra la ubicación de los autobuses para mejorar su puntualidad y confiabilidad, y optimizar la asignación de recursos mediante técnicas de machine learning, usando datos diarios para predecir demandas de pasajeros en diferentes rutas. Esto servirá para estimar de una manera más exacta el tiempo de llegada de un autobús y por lo tanto optimizar tiempo, además de asignar de una manera más eficiente autobuses a las diferentes rutas que lo necesiten.
+Otro artículo, también relacionado a mejorar la experiencia de usuario sobre el uso de autobuses como medio de transporte público, es “A Real-Time Machine Learning-Based Public Transport Bus-Passenger Information System” \cite{rw5} publicado en 2021. El objetivo de este estudio es desarrollar un sistema de información en tiempo real que muestra la ubicación de los autobuses para mejorar su puntualidad y confiabilidad, y optimizar la asignación de recursos mediante técnicas de machine learning, usando datos diarios para predecir demandas de pasajeros en diferentes rutas. Esto servirá para estimar de una manera más exacta el tiempo de llegada de un autobús y por lo tanto optimizar tiempo, además de asignar de una manera más eficiente autobuses a las diferentes rutas que lo necesiten.
 
-\section{Conclusiones y Análisis de Resultados}
+\section{Conclusiones del Estado del Arte}
 
-Tras haber realizado un análisis e investigación del Estado del Arte y los proyectos realizados en relación al tema, se ha podido observar que en la evolución del automóvil el factor de la seguridad es un papel muy importante e innovador, sobre todo en las tecnologías ADAS. Esto es debido sobre todo a los avances tecnológicos de los sensores, las mejoras en las capacidades de cómputo y el desarrollo de algoritmos más avanzados de IA, todo esto de relación muy importante si en un futuro se quiere transicionar de vehículos tradicionales a vehículos autónomos.
+Tras haber realizado un análisis e investigación del Estado del Arte y los artículos realizados en relación al tema, se ha podido observar que en la evolución del automóvil el factor de la seguridad es un papel muy importante e innovador, sobre todo en las tecnologías ADAS. Esto es debido sobre todo a los avances tecnológicos de los sensores, las mejoras en las capacidades de cómputo y el desarrollo de algoritmos más avanzados de IA, todo esto de relación muy importante si en un futuro se quiere transicionar de vehículos tradicionales a vehículos autónomos.
 
 La mayoría de los sistemas ADAS actualmente están diseñados para asistir al conductor, mientras que no hay muchos que sean enfocados a los pasajeros. Pero la experiencia del usuario, ya sea centrada en la seguridad como en la comodidad, debería tener igual importancia, y más en los vehículos autónomos donde la presencia del conductor será cada vez menor.
 
@@ -835,7 +837,7 @@ Al igual mencionado anteriormente, los avances hoy en día en la industria autom
 
 Por el anterior motivo, se propone un sistema cuyo diseño está enfocado para los ocupantes de un vehículo privado. Concretamente, el uso principal del sistema es mejorar la experiencia de un ocupante mediante el control automático de funcionalidades de multimedia de un vehículo dependiendo del estado emocional en el que se encuentren los ocupantes.
 
-El sistema tambien estaria abierto a posibles otras aplicaciones en sistemas ADAS, como por ejemplo restringir la velocidad máxima que puede alcanzar un vehículo en caso de que el estado emocional de un acompañante sea de enfado o estrés, ya que podría influir en el comportamiento del conductor, y los sistemas actuales solo están implementados para detectar el estado del conductor y no de los acompañantes. Pero esto es solo una posible idea de aplicación posible, que no se abordará en este proyecto. 
+El sistema tambien estaria abierto a otras aplicaciones en sistemas ADAS, como por ejemplo restringir la velocidad máxima que puede alcanzar un vehículo en caso de que el estado emocional de un acompañante sea de enfado o estrés, ya que podría influir en el comportamiento del conductor, y los sistemas actuales solo están implementados para detectar el estado del conductor y no de los acompañantes. Pero esto es solo una posible idea de aplicación posible, que no se abordará en este proyecto. 
 
 Por lo tanto, la arquitectura de nuestro sistema estará compuesta de diferentes módulos clave, cada uno con una funcionalidad separada, y que juntos forman el sistema final que permitirá el reconocimiento de emociones y la adaptación del resultado sobre las funcionalidades del vehículo:
 
@@ -857,6 +859,13 @@ Por lo tanto, la arquitectura de nuestro sistema estará compuesta de diferentes
 	\end{itemize}
 
 \end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{diagramaModulos.png}
+	\caption{Esquema de relación y funcionalidad de los módulos.}
+	\label{fig:imagen33}
+\end{figure}
 
 \section{Análisis de requisitos}
 
@@ -1364,9 +1373,43 @@ En cuanto a la versión extendida FER+, tiene mejoras del dataset original en re
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{FER+vsFER.png}
-	\caption{Ejemplos de reanotación de imagenes (arriba FER2013 original, abajo FER+) \cite{fer2013PlusMicrosoft}.}
+	\includegraphics[width=0.8\textwidth]{FER+vsFER.png}
+	\caption{Ejemplos de reanotación de imagenes (arriba FER2013 original, abajo FER+). Fuente: \cite{fer2013PlusMicrosoft}}
 	\label{fig:imagen29}
+\end{figure}
+
+Todo lo comentado anteriormente es la causa de la elección de este dataset, al contener una cantidad amplia de datos, con un etiquetado más preciso y mejorado que el original. Además, en comparación con otros datasets como CK+ (Extended Cohn-Kanade) \cite{ckPlus}, que contiene 5.876 imágenes de expresiones faciales etiquetadas de 123 sujetos a color y en escala de grises, o el dataset JAFFE (Japanese Female Facial Expression) \cite{jaffeDataset}, que incluye 213 imágenes etiquetadas de expresiones faciales de 10 mujeres japonesas en escala de grises, FER2013Plus ofrece una mayor cantidad de datos y diversidad en las emociones representadas, además de estar todas las imágenes en escala de grises y no en dos tipos diferentes de formato, lo hace ser más preferible para entrenar modelos robustos y precisos en comparación con los otros dos, que aunque puedan ser también útiles, pensamos que no alcanzan el mismo nivel de cantidad de datos y estado en comparación para nuestro entrenamiento efectivo del modelo.
+
+\begin{table}[H]
+	\ttabbox[\FBwidth]
+	{\caption{Tabla de comparación de datasets}}
+	{
+	  \begin{tabular}{|P{3cm}|P{3cm}|P{3cm}|c|}
+		\hline
+		{\cellcolor{gray}\textbf{Dataset}} & {\cellcolor{gray}\textbf{Cantidad}} & {\cellcolor{gray}\textbf{Resolución}} & {\cellcolor{gray}\textbf{Estado}} \\
+		\hline
+		Fer2013Plus & 35.887 & 48x48 & Escala de grises \\
+		\hline
+		CK+ & 5.876 & 640x480 & Color/Escala de grises \\
+		\hline
+		JAFFE & 213 & 256x356 & Escala de grises\\
+		\hline
+	  \end{tabular}
+	}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{ck+Examples.png}
+	\caption{Ejemplos de imágenes del dataset CK+.}
+	\label{fig:imagen34}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{jaffeExamples.jpg}
+	\caption{Ejemplos de imágenes del dataset JAFFE.}
+	\label{fig:imagen35}
 \end{figure}
 
 \section{Análisis de sistemas y software utilizado}
@@ -1385,6 +1428,8 @@ Para la implementación y análisis del modelo de aprendizaje automático, se ha
 
 
 \chapter{Implementación y resultados}
+
+En este apartado se detalla el proceso de creación y evaluación del modelo de reconocimiento de emociones faciales, divide en tres secciones principales. La primera sección, "Preprocesado de datos", describe el conjunto de datos utilizado (FER+), su distribución inicial y los pasos tomados para balancear las clases de emociones. La segunda sección, "Entrenamiento del modelo", explica el proceso de entrenamiento de la red neuronal convolucional (CNN), incluyendo la configuración de los parámetros del modelo. Finalmente, la tercera sección, "Análisis de resultados", presenta una evaluación del rendimiento del modelo, utilizando las gráficas de rendimiento y la matriz de confusión.
 
 \section{Preprocesado de datos}
 
@@ -1468,7 +1513,7 @@ También se muestra el número de valores de cada tipo de cada conjunto clasific
 
 \begin{table}[H]
 	\ttabbox[\FBwidth]
-	{\caption{Tabla de costes hardware}}
+	{\caption{Tabla de comparación de diferentes datasets}}
 	{
 	  \begin{tabular}{|c|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
 		\hline
@@ -1490,15 +1535,17 @@ Por último, antes de realizar el entrenamiento del modelo con la CNN se normali
 
 \section{Entrenamiento del modelo}
 
+El entrenamiento del modelo se ha realizado en un cuaderno Juoyter, disponible en la siguiente página de Github: https://github.com/QianXunX/TFG
+
 Tras el preprocesado de los datos, se procede al entrenamiento de un modelo de red neuronal convolucional (CNN) con los datos. La red neuronal creada será una red convolucional con 10 capas en total, que se diferencian en:
 
 \begin{itemize}
 
-    \item \textbf{Capa Conv2D:} son capas convolucionales que aplican un determinado número de filtros a la imagen, y cada filtro extrae diferentes características de la imagen de entrada, como bordes, colores o formas, cada vez más complejas según la profundidad de la red. Las capas también tienen un tamaño de kernel, el tamaño de la ventana que desliza sobre las imágenes para crear el mapa de características de la imagen. En este caso se hace uso de filtros de 32, 64 y 128 y kernels de 3x3, ya que es un tamaño estándar para capturar suficientes relaciones sin que sea demasiado costoso computacionalmente. La función de activación usada en estas capas convolucionales es la  Unidades Lineales Rectificadas (ReLU) para introducir no linealidad en el modelo y poder aprender patrones más complejos. 
-    \item \textbf{Capa MaxPooling2D:} son capas que reducen la dimensionalidad de la imagen (ancho y alto) para la siguiente capa convolucional, para ayudar al modelo a detectar características sin ser afectadas por pequeños cambios de escala y orientación.
-    \item \textbf{Capa Flatten:} son capas que aplanan la salida de las capas convolucionales a vectores de una sola dimensión, necesario para la entrada de datos de las capas densas.
-	\item \textbf{Capa densa:} son capas completamente conectadas que clasifican la imagen basado en las características extraídas por las capas convolucionales. También se usa Dropout, una técnica que sirve para eliminar unidades de salida de la capa de manera aleatoria para prevenir sobreajuste del modelo. En este caso se usa un Dropout de 0.5, eliminando la mitad de las salidas.
-	\item \textbf{Capa de salida:} la última capa de la red, en este caso una capa densa utilizando una función de activación Softmax, que sirve para sumar 1 a la salida y poder interpretarse como valores de probabilidad. 
+    \item \textbf{Capa Conv2D:} son capas convolucionales que aplican un determinado número de filtros a la imagen, y cada filtro extrae diferentes características de la imagen de entrada, como bordes, colores o formas, cada vez más complejas según la profundidad de la red. Las capas también tienen un tamaño de kernel, el tamaño de la ventana que desliza sobre las imágenes para crear el mapa de características de la imagen. En este caso se hace uso de filtros de 32 para detectar características básicas como bordes y texturas simples, filtros de 64 captaron características más complejas, y filtros de 128 para extraer características de alto nivel como formas y patrones complejos. El kernel usado es de 3x3, ya que es un tamaño para capturar suficientes relaciones sin que sea demasiado costoso computacionalmente. La función de activación usada en estas capas convolucionales es la  Unidades Lineales Rectificadas (ReLU) para introducir no linealidad en el modelo y poder aprender patrones más complejos.
+    \item \textbf{Capa MaxPooling2D:} son capas que reducen la dimensionalidad de la imagen (ancho y alto) para la siguiente capa convolucional, para ayudar al modelo a detectar características sin ser afectadas por pequeños cambios de escala y orientación, además de disminuir el coste computacional y el sobreajuste. En este caso se usa un tamaño de 2x2, un equilibrio entre la reducción de dimensionalidad sin que se pierda mucha información.
+    \item \textbf{Capa Flatten:} son capas que aplanan la salida de las capas convolucionales a vectores de una sola dimensión, necesario para la entrada de datos de las capas densas. Esta capa es esencial para proporcionar la información a las capas densas de manera eficiente.
+	\item \textbf{Capa densa:} son capas completamente conectadas que clasifican la imagen basado en las características extraídas por las capas convolucionales. También se usa Dropout, una técnica que sirve para eliminar unidades de salida de la capa de manera aleatoria para prevenir sobreajuste del modelo. En este caso se usa un Dropout de 0.5, eliminando la mitad de las salidas, lo que fuerza a la red a aprender representaciones redundantes y robustas de las características. 
+	\item \textbf{Capa de salida:} la última capa de la red, en este caso una capa densa utilizando una función de activación Softmax, que sirve para sumar 1 a la salida y poder interpretarse como valores de probabilidad. En este caso esta capa de salida tiene 5 unidades, correspondientes a cada una de las 5 emociones que el modelo clasifica.
 
 \end{itemize}
 
@@ -1518,9 +1565,13 @@ Tras definir el modelo de CNN, es necesario compilarlo para configurar diferente
 
 \end{enumerate}
 
+Para la opciones de compilación, el optimizador elegido es Adam, ya que como se ha comentado anteriormente combina las ventajas de dos optimizadores (AdaGrad y RMSProp), siendo más eficaz que los otros y requerir menos memoria de cómputo. La función de pérdida que se usará es una función “categorical crossentropy” que mide la diferencia entre la distribución de probabilidad de los valores predichos con la de los valores reales, adecuado para problemas de clasificación multiclase como en este caso. La métrica usada es la de precisión, al ser la más intuitiva y clara para medir el porcentaje de predicciones correctas respecto al total. Todas estas opciones se han elegido para optimizar el rendimiento y la eficacia del modelo de CNN.
+
 \section{Analisis de resultados}
 
-El entrenamiento de este modelo resulta una precisión de un 70.14\%. Las siguientes gráficas muestran los valores de la función de pérdida y precisión a lo largo de las rondas de entrenamiento.
+El entrenamiento de este modelo resulta una precisión de un 70.14\% de emociones predichas correctamente. En comparación con otros estudios de investigación que han utilizado el mismo dataset, como por ejemplo el estudio “Auto-FERNet: A Facial Expression Recognition Network With Architecture Search“ \cite{comparison1} donde diseñaron un modelo de red que obtuvo una precisión de un 73.78\%, o por ejemplo en el estudio “Hybrid Facial Expression Recognition (FER2013) Model for Real-Time Emotion Classification and Prediction” \cite{comparison2} donde también diseñaron una red  CNN con la que obtuvieron una precisión de 70\%, se puede apreciar que a pesar de la variación en la arquitectura y las técnicas del modelo, los resultados de precisión son similares, lo que indica que el resultado obtenido está dentro del rango esperado para este dataset, pero que todavía es mejorable ampliando el diseño con el uso de diferentes otras técnicas. 
+
+Las siguientes gráficas muestran los valores de la función de pérdida y precisión a lo largo de las rondas de entrenamiento.
 
 \begin{figure}[H]
 	\centering
@@ -1529,9 +1580,9 @@ El entrenamiento de este modelo resulta una precisión de un 70.14\%. Las siguie
 	\label{fig:imagen31}
 \end{figure}
 
-De la primera gráfica (izquierda), la gráfica de valores de la función de pérdida, se puede apreciar que la pérdida del entrenamiento (azul) disminuye de manera constante, lo que significa que el modelo está aprendiendo correctamente y mejorando en cada iteración. En cambio, la pérdida de la validación (naranja) disminuye en un inicio pero comienza a estabilizarse y aumentar ligeramente después de aproximadamente 15 iteraciones. Esto podría indicar un sobreajuste del modelo, significando que el modelo aprende ruido y detalles no aplicables a los datos generales.
+Si observamos la primera gráfica (izquierda), la gráfica de valores de la función de pérdida, se puede apreciar que la pérdida del entrenamiento (azul) disminuye de manera constante, lo que significa que el modelo está aprendiendo correctamente y mejorando en cada iteración. En cambio, la pérdida de la validación (naranja) disminuye en un inicio pero comienza a estabilizarse y aumentar ligeramente después de aproximadamente 15 iteraciones. Esto podría indicar un sobreajuste del modelo, significando que el modelo aprende ruido y detalles no aplicables a los datos generales.
 
-De la segunda gráfica (derecha), la gráfica de valores de precisión, se puede apreciar que la precisión del entrenamiento mejora de manera consistente en el tiempo, lo cual es un resultado esperado ya que el modelo se ajusta cada vez más a los datos de entrenamiento. Pero la precisión con los datos de validación, al igual que la función de pérdida, aumenta en un inicio pero posteriormente se estabiliza, lo que también puede indicar indicios de sobreajuste.
+Observando la segunda gráfica (derecha), la gráfica de valores de precisión, se puede apreciar que la precisión del entrenamiento mejora de manera consistente en el tiempo, lo cual es un resultado esperado ya que el modelo se ajusta cada vez más a los datos de entrenamiento. Pero la precisión con los datos de validación, al igual que la función de pérdida, aumenta en un inicio pero posteriormente se estabiliza, lo que también puede indicar indicios de sobreajuste.
 
 La siguiente imagen de la matriz de confusión muestra la cantidad de valores clasificados correctamente por el modelo cada emoción en comparación con los valores etiquetados reales.
 
@@ -1554,13 +1605,19 @@ Las entradas que aparecen en la diagonal, verdaderos positivos, representan el n
 
 \end{itemize}
 
-En cambio, las entradas que no están en la diagonal, falsas clasificaciones, representan predicciones incorrectas del modelo en función de cada valor. Las predicciones incorrectas entre las clases “neutral” y “sadness” muestran un número significativo de valores, siendo clasificadas 105 de “sadness” como “neutral” y 85 de “neutral” como “sadness”. Esto puede ser debido a características similares en las imágenes de ambas emociones que el modelo capta y no diferencia de una manera muy exacta.
+En cambio, las entradas que no están en la diagonal, falsas clasificaciones, representan predicciones incorrectas del modelo en función de cada valor. Las predicciones incorrectas entre las clases “neutral” y “sadness” muestran un número significativo de valores, siendo clasificadas 105 de “sadness” como “neutral” y 85 de “neutral” como “sadness”. Esto puede ser debido a que ambas emociones comparten características visuales similares, y siendo la resolución de datos baja (48x48 píxeles en escala de grises), los detalles que diferencian ambas emociones sean difíciles de capturar y distinguir para el modelo, especialmente en aquellos casos donde la expresión facial de la emoción “sadness” sea mínima. Aunque el número de clasificaciones incorrectas no sean tantas (un tercio) en comparación con las correctas, una mejora en la resolución o con imágenes en donde la emoción de “sadness” sea más diferenciada se podría obtener una mayor precisión.
 
-En general, el modelo con el dataset FER+ ha obtenido un resultado de predicción no excelentemente alto pero razonablemente bueno, siendo un 70.14\% teniendo en cuenta que las imágenes de este dataset eran de una baja calidad y resolución, de 48x48 píxeles y en escala de grises, lo que hace el problema más difícil en comparación con datos de imágenes de alta resolución. Considerar una mejora en la calidad de imagen o uso de técnicas de preprocesamiento que resalten características importantes podría incrementar y mejorar la precisión de este modelo.
+Cabe comentar que en la predicción de las emociones “happiness” y “anger” el modelo se desempeña de manera positiva, dado que ambas emociones son contradictorias, una interpretación precisa entre ellas es crucial ya que respuestas o acciones basadas en emociones contradictorias pueden llevar a experiencias negativas. Un número reducido de predicciones erróneas entre ambas (aproximadamente 10\%) en comparación con las correctas indica que el modelo es capaz de identificar de manera efectiva entre ambos estados emocionales contrastantes.
+
+En general, el modelo con el dataset FER+ ha obtenido un resultado de predicción no excelentemente alto pero razonablemente bueno, siendo un 70.14\% teniendo en cuenta que las imágenes de este dataset eran de una baja calidad y resolución, de 48x48 píxeles y en escala de grises, lo que hace el problema más difícil en comparación con datos de imágenes de alta resolución. 
+
+Se considera que lo más importante sería considerar una mejora o incremento en la calidad de imagen, o uso de técnicas de preprocesamiento que resalten características importantes de las emociones de una manera más clara para que el modelo pueda aprender mejor. También se podría considerar usar redes pre-entrenadas con grandes cantidades de datos similares a las de el dataset utilizado, ya que el modelo pre-entrenado tendría más parámetros y características aprendidas para predecir mejor. Otra opción sería realizar más preprocesamiento sobre los datos, como por ejemplo un aumento de los datos mediante técnicas de rotación o traslación, para tener una variedad de datos mayor y mejorar la capacidad de generalización del modelo. 
 
 
 
-\chapter{Marco regulador}
+\chapter{Marco regulador e impacto socio-económico}
+
+\section{Marco regulador}
 
 En cuanto al marco regulador de este proyecto, en el proceso de desarrollo del sistema de reconocimiento de emociones en los vehículos, hay que tener en cuenta varias normativas y leyes para que se garantice la legalidad y seguridad de dichos datos personales. Una de las normativas más importantes y relevantes para este proyecto es la Ley Orgánica 3/2018 de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD) 
 \cite{lopd-gdd}.
@@ -1573,26 +1630,33 @@ También existe una Ley de IA de la UE \cite{normativaIA}, todavía en desarroll
 
 Tras este análisis del marco regulatorio, se sacan conclusiones acerca del cumplimiento normativo de nuestro proyecto. Se deberá de desarrollar políticas claras de privacidad e información sobre el uso de datos para los usuarios del sistema, además de medidas de seguridad ya sea cifrado de datos o restricción de acceso a los mismos. También se deberá realizar auditorías para asegurar el cumplimiento de las normativas actuales, y adaptarse a cualquier posible cambio.
 
+\section{Impacto socio-económico}
+
+La implementación de este sistema IA en el ámbito económico puede promover la competitividad entre las diferentes empresas, ya que con este sistema podrían ofrecer una experiencia de usuario mejor, y por lo tanto tener posibilidad de aventajarse y atraer consumidores que busquen una mejor experiencia de usuario. Además, al igual que la creación de cualquier sistema, aumentaría la demanda de elementos hardware y software, asi como los servicios de mantenimiento de estos sistemas.
+
+Pero no todo es positivo, el uso de este sistema también podría tener efectos económicos negativos, ya sean los costes de desarrollo e implementación iniciales como el de mantenimiento posterior, podría ser difícil de lograr para empresas pequeñas o startup.
+
+En relación al impacto social, es también significativo, ya que mejora la seguridad y el confort de los pasajeros. Desde el punto de vista de la experiencia de usuario, puede reducir el estrés de los pasajeros y aumentar su satisfacción durante un viaje. Desde el punto de vista de seguridad, es posible usarse para detectar emociones que puedan afectar a la seguridad de los pasajeros, y por lo tanto a otros usuarios de las vías, o ayudar a actuar de manera autónoma al vehículo.
+
+Pero por otro lado, también tiene que asegurarse que tanto la privacidad como el uso ético de los datos captados sea gestionado de manera segura y solo para los fines que se especifican en este proyecto. Esta transparencia en el uso de los datos y en el funcionamiento del sistema es la parte esencial para obtener confianza y que el público lo acepte.
+
+En relación al impacto medioambiental, puede ser positivo si se utiliza para optimizar el rendimiento y reducir el consumo de combustible, por ejemplo ajustando el sistema de calefacción de manera más eficiente. Pero puede ser todo lo contrario, que aumente el gasto al usar más calefacción de lo normal, siendo en este caso implementado en vehículos no eléctricos. Si se implementara en vehículos eléctricos no habría este problema, y también sería un beneficio medioambiental si esto fomenta a más personas a comprar vehículos eléctricos.
+
+Y en cuanto al impacto ético, como se ha mencionado anteriormente, la principal preocupación es la privacidad y el uso de los datos generados. En este caso es fundamental que se implementen políticas estrictas de protección de datos y que esos datos sólo sean usados para usos transparentes mencionados en este proyecto.
 
 
-\chapter{Entorno socio-económico}
 
-\section{Gestión del proyecto}
+\chapter{Gestión del proyecto}
 
-\subsection{Planificación}
+\section{Planificación}
 
 El siguiente diagrama de Gantt detalla la planificación de este proyecto, resultando un total de 72 días, aproximadamente 3.5 meses. 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{ganttChart.png}
-	\caption{Diagrama de Gantt de la planificación del proyecto.}
-	\label{fig:imagen33}
-\end{figure}
 
-\subsection{Estimación}
 
-\subsubsection{Costes personal}
+\section{Estimación}
+
+\subsection{Costes personal}
 
 Para este proyecto se necesitarán los siguientes roles de personal:
 
@@ -1639,7 +1703,7 @@ Para este proyecto se necesitarán los siguientes roles de personal:
 Los datos de salarios se han obtenido de la guía salarial Talentfy de perfiles IT de España del primer semestre de 2024. 
 \cite{salarioTalentfy}
 
-\subsubsection{Costes hardware}
+\subsection{Costes hardware}
 
 El coste final de los recursos hardware se calcula en base al coste total inicial del producto dividiendo por el tiempo de vida de ese producto y posteriormente multiplicando por la duración del proyecto, resultando el gasto de amortización del recurso hardware, lo que es el coste final. 
 
@@ -1669,7 +1733,7 @@ El coste final de los recursos hardware se calcula en base al coste total inicia
 
 El tiempo de vida de los PCs son de aproximadamente 4 años, y de las cámaras y los accesorios 2 años. Por lo que el coste final se calcula multiplicando por su tiempo de amortización, 3.5 meses/48 meses y 3.5 meses/ 24 meses respectivamente.
 
-\subsubsection{Costes software}
+\subsection{Costes software}
 
 El coste software dependería solo de las posibles licencias de software que se puedan a llegar a usar en el desarrollo del proyecto. En este caso se podría considerar la licencia para el IDE Pycharm de Jetbrains con un coste anual de 249€ por cada empleado, y dando un coste inicial de 249 * 12 = 2.988€ y un coste de amortización de 2.988 / 12 * 3,5 = 871,5€.
 
@@ -1677,7 +1741,7 @@ También se podría considerar la licencia de StarUML para el arquitecto de soft
 
 Por lo tanto el coste total de software final sería de 907,08€.
 
-\subsubsection{Resumen de costes}
+\subsection{Resumen de costes}
 
 En la siguiente tabla se muestra el coste total de cada parte, además del coste total final. Tener en cuenta que en la tabla también se muestran costes aproximados de materiales fungibles que puedan ser utilizados como por ejemplo hojas de impresora, bolígrafos, carpetas, etc.
 
@@ -1716,20 +1780,6 @@ En la siguiente tabla se muestra el coste total de cada parte, además del coste
 	  \end{tabular}
 	}
 \end{table}
-
-\section{Impacto socio-económico}
-
-La implementación de este sistema IA en el ámbito económico puede promover la competitividad entre las diferentes empresas, ya que con este sistema podrían ofrecer una experiencia de usuario mejor, y por lo tanto tener posibilidad de aventajarse y atraer consumidores que busquen una mejor experiencia de usuario. Además, al igual que la creación de cualquier sistema, aumentaría la demanda de elementos hardware y software, asi como los servicios de mantenimiento de estos sistemas.
-
-Pero no todo es positivo, el uso de este sistema también podría tener efectos económicos negativos, ya sean los costes de desarrollo e implementación iniciales como el de mantenimiento posterior, podría ser difícil de lograr para empresas pequeñas o startup.
-
-En relación al impacto social, es también significativo, ya que mejora la seguridad y el confort de los pasajeros. Desde el punto de vista de la experiencia de usuario, puede reducir el estrés de los pasajeros y aumentar su satisfacción durante un viaje. Desde el punto de vista de seguridad, es posible usarse para detectar emociones que puedan afectar a la seguridad de los pasajeros, y por lo tanto a otros usuarios de las vías, o ayudar a actuar de manera autónoma al vehículo.
-
-Pero por otro lado, también tiene que asegurarse que tanto la privacidad como el uso ético de los datos captados sea gestionado de manera segura y solo para los fines que se especifican en este proyecto. Esta transparencia en el uso de los datos y en el funcionamiento del sistema es la parte esencial para obtener confianza y que el público lo acepte.
-
-En relación al impacto medioambiental, puede ser positivo si se utiliza para optimizar el rendimiento y reducir el consumo de combustible, por ejemplo ajustando el sistema de calefacción de manera más eficiente. Pero puede ser todo lo contrario, que aumente el gasto al usar más calefacción de lo normal, siendo en este caso implementado en vehículos no eléctricos. Si se implementara en vehículos eléctricos no habría este problema, y también sería un beneficio medioambiental si esto fomenta a más personas a comprar vehículos eléctricos.
-
-Y en cuanto al impacto ético, como se ha mencionado anteriormente, la principal preocupación es la privacidad y el uso de los datos generados. En este caso es fundamental que se implementen políticas estrictas de protección de datos y que esos datos sólo sean usados para usos transparentes mencionados en este proyecto.
 
 
 

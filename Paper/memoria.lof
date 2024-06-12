@@ -1,43 +1,45 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Evolución del panel en un Volkswagen Golf \blx@tocontentsinit {0}\cite {userExperience}.}}{3}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Conductor interaccionando con una pantalla táctil \blx@tocontentsinit {0}\cite {userExperience}.}}{4}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Ejemplos de ECUs en un coche \blx@tocontentsinit {0}\cite {mobileIntegration}.}}{5}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Visión general de un sistema de coche conectado \blx@tocontentsinit {0}\cite {mobileIntegration}.}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Evolución del panel en un Volkswagen Golf. Fuente: \blx@tocontentsinit {0}\cite {userExperience}}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Conductor interaccionando con una pantalla táctil. Fuente: \blx@tocontentsinit {0}\cite {userExperience}}}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ejemplos de ECUs en un coche. Fuente: \blx@tocontentsinit {0}\cite {mobileIntegration}}}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Visión general de un sistema de coche conectado. Fuente: \blx@tocontentsinit {0}\cite {mobileIntegration}}}{5}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplos de interfaces de Android Auto en la pantalla del coche.}}{7}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Ventas de coches con Apple CarPlay vs Android Auto \blx@tocontentsinit {0}\cite {mobileIntegration}.}}{7}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Vista de un HUD de un Jaguar \blx@tocontentsinit {0}\cite {hudPaper}.}}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Funcionamiento y componentes de un HUD \blx@tocontentsinit {0}\cite {hudPaper}.}}{8}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Visión de cámara de infrarrojos en el HUD \blx@tocontentsinit {0}\cite {hudPaper}.}}{9}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Visión de HUD en espejos retrovisores \blx@tocontentsinit {0}\cite {hudPaper}.}}{9}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento del sistema DDR \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{10}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Funcionamiento del sistema ISA \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{11}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Funcionamiento del sistema RCTA \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{11}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Funcionamiento del sistema EDR \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{12}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Funcionamiento del sistema LDW \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{12}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Funcionamiento del sistema BAS y EBA \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{13}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Funcionamiento del sistema Alcolock \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{14}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Funcionamiento del sistema de Alerta de cinturón en las plazas traseras \blx@tocontentsinit {0}\cite {adasObligatorios}.}}{15}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Niveles de autonomía según el estándar SAE J3016 \blx@tocontentsinit {0}\cite {autonomousVehicles}.}}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Sensores en un vehículo autónomo \blx@tocontentsinit {0}\cite {autonomousVehicles}.}}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Clasificación de sensores usados en sistemas ADAS \blx@tocontentsinit {0}\cite {adasSensors}.}}{18}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Rangos sobre los que actúan los sensores \blx@tocontentsinit {0}\cite {adasSensors}.}}{18}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Campos de la Inteligencia Artificial \blx@tocontentsinit {0}\cite {artInt}.}}{19}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Modelos de Aprendizaje Automático \blx@tocontentsinit {0}\cite {artInt}.}}{20}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Artificial Neural Network basic architecture \blx@tocontentsinit {0}\cite {annReview}.}}{21}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Recurrent Neural Network basic architecture \blx@tocontentsinit {0}\cite {annReview}.}}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Convolutional Neural Network basic architecture \blx@tocontentsinit {0}\cite {annReview}.}}{22}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Convolutional Neural Network layers visualization \blx@tocontentsinit {0}\cite {deepImages}.}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ventas de coches con Apple CarPlay vs Android Auto. Fuente: \blx@tocontentsinit {0}\cite {mobileIntegration}}}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Vista de un HUD de un Jaguar. Fuente: \blx@tocontentsinit {0}\cite {hudPaper}}}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Funcionamiento y componentes de un HUD. Fuente: \blx@tocontentsinit {0}\cite {hudPaper}}}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Visión de cámara de infrarrojos en el HUD. Fuente: \blx@tocontentsinit {0}\cite {hudPaper}}}{9}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Visión de HUD en espejos retrovisores. Fuente: \blx@tocontentsinit {0}\cite {hudPaper}}}{10}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamiento del sistema DDR. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{11}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Funcionamiento del sistema ISA. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Funcionamiento del sistema RCTA. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Funcionamiento del sistema EDR. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{13}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Funcionamiento del sistema LDW. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Funcionamiento del sistema BAS y EBA. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Funcionamiento del sistema Alcolock. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{15}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Funcionamiento del sistema de Alerta de cinturón en las plazas traseras. Fuente: \blx@tocontentsinit {0}\cite {adasObligatorios}}}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Niveles de autonomía según el estándar SAE J3016. Fuente: \blx@tocontentsinit {0}\cite {autonomousVehicles}}}{17}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Sensores en un vehículo autónomo. Fuente: \blx@tocontentsinit {0}\cite {autonomousVehicles}}}{18}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Clasificación de sensores usados en sistemas ADAS. Fuente: \blx@tocontentsinit {0}\cite {adasSensors}}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Rangos sobre los que actúan los sensores. Fuente: \blx@tocontentsinit {0}\cite {adasSensors}}}{19}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Campos de la Inteligencia Artificial. Fuente: \blx@tocontentsinit {0}\cite {artInt}}}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Modelos de Aprendizaje Automático. Fuente: \blx@tocontentsinit {0}\cite {artInt}}}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Artificial Neural Network basic architecture. Fuente: \blx@tocontentsinit {0}\cite {annReview}}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Recurrent Neural Network basic architecture. Fuente: \blx@tocontentsinit {0}\cite {annReview}}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Convolutional Neural Network basic architecture. Fuente: \blx@tocontentsinit {0}\cite {annReview}}}{23}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Convolutional Neural Network layers visualization. Fuente: \blx@tocontentsinit {0}\cite {deepImages}}}{24}{figure.caption.33}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplos de reanotación de imagenes (arriba FER2013 original, abajo FER+) \blx@tocontentsinit {0}\cite {fer2013PlusMicrosoft}.}}{33}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema de relación y funcionalidad de los módulos.}}{28}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ejemplos de reanotación de imagenes (arriba FER2013 original, abajo FER+). Fuente: \blx@tocontentsinit {0}\cite {fer2013PlusMicrosoft}}}{35}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejemplos de imágenes del dataset CK+.}}{35}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplos de imágenes del dataset JAFFE.}}{36}{figure.caption.60}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfico de distribución inicial de valores.}}{35}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfico de distribución balanceada de valores.}}{36}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Gráficas de valores de función de pérdida y valores de precisión.}}{39}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Matriz de confusión de predicciones del modelo.}}{40}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfico de distribución inicial de valores.}}{38}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfico de distribución balanceada de valores.}}{39}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gráficas de valores de función de pérdida y valores de precisión.}}{42}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Matriz de confusión de predicciones del modelo.}}{43}{figure.caption.67}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de Gantt de la planificación del proyecto.}}{42}{figure.caption.64}%
 \addvspace {10\p@ }
 \contentsfinish 
