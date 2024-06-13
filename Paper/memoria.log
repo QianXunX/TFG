@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.21)  12 JUN 2024 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.13)  13 JUN 2024 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,7 +1068,7 @@ Cap\'{\i }tulo 1.
 
 ] [2]
 Cap\'{\i }tulo 2.
-<images/evolutionTouchscreen.png, id=493, 1040.38687pt x 262.48062pt>
+<images/evolutionTouchscreen.png, id=499, 1040.38687pt x 262.48062pt>
 File: images/evolutionTouchscreen.png Graphic file (type png)
 <use images/evolutionTouchscreen.png>
 Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 469.
@@ -1076,40 +1076,40 @@ Package pdftex.def Info: images/evolutionTouchscreen.png  used on input line 469
 [3
 
 ]
-<images/usingTouchscreen.png, id=499, 845.1575pt x 516.42938pt>
+<images/usingTouchscreen.png, id=505, 845.1575pt x 516.42938pt>
 File: images/usingTouchscreen.png Graphic file (type png)
 <use images/usingTouchscreen.png>
 Package pdftex.def Info: images/usingTouchscreen.png  used on input line 478.
 (pdftex.def)             Requested size: 298.75264pt x 182.55753pt.
  [4 <./images/evolutionTouchscreen.png> <./images/usingTouchscreen.png>]
-<images/ecu.png, id=510, 619.56468pt x 245.41687pt>
+<images/ecu.png, id=516, 619.56468pt x 245.41687pt>
 File: images/ecu.png Graphic file (type png)
 <use images/ecu.png>
 Package pdftex.def Info: images/ecu.png  used on input line 494.
 (pdftex.def)             Requested size: 384.1096pt x 152.14938pt.
-<images/connected_car_system.jpg, id=512, 907.39pt x 661.47125pt>
+<images/connected_car_system.jpg, id=518, 907.39pt x 661.47125pt>
 File: images/connected_car_system.jpg Graphic file (type jpg)
 <use images/connected_car_system.jpg>
 Package pdftex.def Info: images/connected_car_system.jpg  used on input line 501.
 (pdftex.def)             Requested size: 341.43437pt x 248.89894pt.
  [5 <./images/ecu.png> <./images/connected_car_system.jpg>] [6]
-<images/androidAuto.png, id=523, 1505.625pt x 824.07875pt>
+<images/androidAuto.png, id=529, 1505.625pt x 824.07875pt>
 File: images/androidAuto.png Graphic file (type png)
 <use images/androidAuto.png>
 Package pdftex.def Info: images/androidAuto.png  used on input line 530.
 (pdftex.def)             Requested size: 384.1096pt x 210.2316pt.
-<images/integrationSolution.png, id=524, 1072.005pt x 610.28pt>
+<images/integrationSolution.png, id=530, 1072.005pt x 610.28pt>
 File: images/integrationSolution.png Graphic file (type png)
 <use images/integrationSolution.png>
 Package pdftex.def Info: images/integrationSolution.png  used on input line 539.
 (pdftex.def)             Requested size: 298.75264pt x 170.07639pt.
  [7 <./images/androidAuto.png>]
-<images/hud.png, id=531, 632.3625pt x 347.2975pt>
+<images/hud.png, id=537, 632.3625pt x 347.2975pt>
 File: images/hud.png Graphic file (type png)
 <use images/hud.png>
 Package pdftex.def Info: images/hud.png  used on input line 551.
 (pdftex.def)             Requested size: 298.75264pt x 164.07773pt.
-<images/hudWork.png, id=533, 204.765pt x 97.3236pt>
+<images/hudWork.png, id=539, 204.765pt x 97.3236pt>
 File: images/hudWork.png Graphic file (type png)
 <use images/hudWork.png>
 Package pdftex.def Info: images/hudWork.png  used on input line 560.
@@ -1119,98 +1119,98 @@ Package pdftex.def Info: images/hudWork.png  used on input line 560.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/integrationSolution.png> <./images/hud.png>]
-<images/nigthHUD.png, id=540, 529.98pt x 401.5pt>
+<images/nigthHUD.png, id=546, 529.98pt x 401.5pt>
 File: images/nigthHUD.png Graphic file (type png)
 <use images/nigthHUD.png>
 Package pdftex.def Info: images/nigthHUD.png  used on input line 573.
 (pdftex.def)             Requested size: 213.39568pt x 161.66313pt.
-<images/retroHUD.png, id=542, 607.51968pt x 397.485pt>
+<images/retroHUD.png, id=548, 607.51968pt x 397.485pt>
 File: images/retroHUD.png Graphic file (type png)
 <use images/retroHUD.png>
 Package pdftex.def Info: images/retroHUD.png  used on input line 582.
 (pdftex.def)             Requested size: 213.39568pt x 139.61917pt.
  [9 <./images/hudWork.png> <./images/nigthHUD.png>]
-<images/adasDDR.jpg, id=550, 702.625pt x 1285.80376pt>
+<images/adasDDR.jpg, id=556, 702.625pt x 1285.80376pt>
 File: images/adasDDR.jpg Graphic file (type jpg)
 <use images/adasDDR.jpg>
 Package pdftex.def Info: images/adasDDR.jpg  used on input line 599.
 (pdftex.def)             Requested size: 298.75264pt x 546.72424pt.
  [10 <./images/retroHUD.png>]
-<images/adasISA.jpg, id=559, 702.625pt x 334.24875pt>
+<images/adasISA.jpg, id=565, 702.625pt x 334.24875pt>
 File: images/adasISA.jpg Graphic file (type jpg)
 <use images/adasISA.jpg>
 Package pdftex.def Info: images/adasISA.jpg  used on input line 606.
 (pdftex.def)             Requested size: 341.43437pt x 162.43175pt.
  [11 <./images/adasDDR.jpg>]
-<images/adasRCTS.jpg, id=565, 702.625pt x 309.155pt>
+<images/adasRCTS.jpg, id=571, 702.625pt x 309.155pt>
 File: images/adasRCTS.jpg Graphic file (type jpg)
 <use images/adasRCTS.jpg>
 Package pdftex.def Info: images/adasRCTS.jpg  used on input line 613.
 (pdftex.def)             Requested size: 341.43437pt x 150.23718pt.
-<images/adasEDR.jpg, id=567, 277.96153pt x 122.30307pt>
+<images/adasEDR.jpg, id=573, 277.96153pt x 122.30307pt>
 File: images/adasEDR.jpg Graphic file (type jpg)
 <use images/adasEDR.jpg>
 Package pdftex.def Info: images/adasEDR.jpg  used on input line 620.
 (pdftex.def)             Requested size: 298.75264pt x 131.462pt.
  [12 <./images/adasISA.jpg> <./images/adasRCTS.jpg>]
-<images/adasLDW.jpg, id=573, 702.625pt x 1185.42876pt>
+<images/adasLDW.jpg, id=579, 702.625pt x 1185.42876pt>
 File: images/adasLDW.jpg Graphic file (type jpg)
 <use images/adasLDW.jpg>
 Package pdftex.def Info: images/adasLDW.jpg  used on input line 627.
 (pdftex.def)             Requested size: 213.39568pt x 360.0268pt.
-<images/adasBASyEBA.jpg, id=575, 277.96153pt x 568.2328pt>
+<images/adasBASyEBA.jpg, id=581, 277.96153pt x 568.2328pt>
 File: images/adasBASyEBA.jpg Graphic file (type jpg)
 <use images/adasBASyEBA.jpg>
 Package pdftex.def Info: images/adasBASyEBA.jpg  used on input line 634.
 (pdftex.def)             Requested size: 256.07741pt x 523.53485pt.
  [13 <./images/adasEDR.jpg> <./images/adasLDW.jpg>]
-<images/adasAlcolock.jpg, id=581, 277.96153pt x 440.3705pt>
+<images/adasAlcolock.jpg, id=587, 277.96153pt x 440.3705pt>
 File: images/adasAlcolock.jpg Graphic file (type jpg)
 <use images/adasAlcolock.jpg>
 Package pdftex.def Info: images/adasAlcolock.jpg  used on input line 641.
 (pdftex.def)             Requested size: 341.43437pt x 540.97382pt.
  [14 <./images/adasBASyEBA.jpg>]
-<images/adasCinturon.jpg, id=587, 277.96153pt x 133.02444pt>
+<images/adasCinturon.jpg, id=593, 277.96153pt x 133.02444pt>
 File: images/adasCinturon.jpg Graphic file (type jpg)
 <use images/adasCinturon.jpg>
 Package pdftex.def Info: images/adasCinturon.jpg  used on input line 648.
 (pdftex.def)             Requested size: 341.43437pt x 163.41406pt.
  [15 <./images/adasAlcolock.jpg>]
-<images/saeLevels.jpg, id=596, 867.99281pt x 673.01437pt>
+<images/saeLevels.jpg, id=602, 867.99281pt x 673.01437pt>
 File: images/saeLevels.jpg Graphic file (type jpg)
 <use images/saeLevels.jpg>
 Package pdftex.def Info: images/saeLevels.jpg  used on input line 665.
 (pdftex.def)             Requested size: 426.79135pt x 330.91983pt.
  [16 <./images/adasCinturon.jpg>] [17 <./images/saeLevels.jpg>]
-<images/saeSensors.png, id=610, 687.06688pt x 397.98688pt>
+<images/saeSensors.png, id=616, 687.06688pt x 397.98688pt>
 File: images/saeSensors.png Graphic file (type png)
 <use images/saeSensors.png>
 Package pdftex.def Info: images/saeSensors.png  used on input line 686.
 (pdftex.def)             Requested size: 384.1096pt x 222.49461pt.
  [18 <./images/saeSensors.png>]
-<images/adasSensorWorkflow.png, id=617, 1027.33812pt x 273.02pt>
+<images/adasSensorWorkflow.png, id=623, 1027.33812pt x 273.02pt>
 File: images/adasSensorWorkflow.png Graphic file (type png)
 <use images/adasSensorWorkflow.png>
 Package pdftex.def Info: images/adasSensorWorkflow.png  used on input line 707.
 (pdftex.def)             Requested size: 384.1096pt x 102.07813pt.
-<images/adasSensorRange.png, id=619, 987.69pt x 507.8975pt>
+<images/adasSensorRange.png, id=625, 987.69pt x 507.8975pt>
 File: images/adasSensorRange.png Graphic file (type png)
 <use images/adasSensorRange.png>
 Package pdftex.def Info: images/adasSensorRange.png  used on input line 714.
 (pdftex.def)             Requested size: 384.1096pt x 197.51349pt.
  [19 <./images/adasSensorWorkflow.png> <./images/adasSensorRange.png>]
-<images/sectionsAI.png, id=628, 1144.275pt x 1003.75pt>
+<images/sectionsAI.png, id=634, 1144.275pt x 1003.75pt>
 File: images/sectionsAI.png Graphic file (type png)
 <use images/sectionsAI.png>
 Package pdftex.def Info: images/sectionsAI.png  used on input line 725.
 (pdftex.def)             Requested size: 384.1096pt x 336.93607pt.
  [20 <./images/sectionsAI.png (PNG copy)>]
-<images/modelsML.png, id=639, 1055.945pt x 365.86688pt>
+<images/modelsML.png, id=645, 1055.945pt x 365.86688pt>
 File: images/modelsML.png Graphic file (type png)
 <use images/modelsML.png>
 Package pdftex.def Info: images/modelsML.png  used on input line 748.
 (pdftex.def)             Requested size: 384.1096pt x 133.08531pt.
-<images/annStructure.png, id=642, 747.29187pt x 526.96875pt>
+<images/annStructure.png, id=648, 747.29187pt x 526.96875pt>
 File: images/annStructure.png Graphic file (type png)
 <use images/annStructure.png>
 Package pdftex.def Info: images/annStructure.png  used on input line 762.
@@ -1220,18 +1220,18 @@ Package pdftex.def Info: images/annStructure.png  used on input line 762.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21 <./images/modelsML.png>]
-<images/rnnStructure.png, id=651, 571.13374pt x 497.35812pt>
+<images/rnnStructure.png, id=657, 571.13374pt x 497.35812pt>
 File: images/rnnStructure.png Graphic file (type png)
 <use images/rnnStructure.png>
 Package pdftex.def Info: images/rnnStructure.png  used on input line 776.
 (pdftex.def)             Requested size: 213.39568pt x 185.82582pt.
  [22 <./images/annStructure.png> <./images/rnnStructure.png>]
-<images/cnnStructure.png, id=662, 903.375pt x 523.9575pt>
+<images/cnnStructure.png, id=668, 903.375pt x 523.9575pt>
 File: images/cnnStructure.png Graphic file (type png)
 <use images/cnnStructure.png>
 Package pdftex.def Info: images/cnnStructure.png  used on input line 798.
 (pdftex.def)             Requested size: 384.1096pt x 222.78693pt.
-<images/basicCnn.png, id=664, 1061.9675pt x 347.79938pt>
+<images/basicCnn.png, id=670, 1061.9675pt x 347.79938pt>
 File: images/basicCnn.png Graphic file (type png)
 <use images/basicCnn.png>
 Package pdftex.def Info: images/basicCnn.png  used on input line 805.
@@ -1241,7 +1241,7 @@ Cap\'{\i }tulo 3.
 [27
 
 ]
-<images/diagramaModulos.png, id=701, 1064.97874pt x 412.54124pt>
+<images/diagramaModulos.png, id=707, 1064.97874pt x 412.54124pt>
 File: images/diagramaModulos.png Graphic file (type png)
 <use images/diagramaModulos.png>
 Package pdftex.def Info: images/diagramaModulos.png  used on input line 865.
@@ -1257,25 +1257,25 @@ Overfull \hbox (62.05077pt too wide) in paragraph at lines 895--895
  []
 
 [28 <./images/diagramaModulos.png>] [29] [30] [31] [32] [33]
-<images/FER+vsFER.png, id=731, 441.14813pt x 194.22563pt>
+<images/FER+vsFER.png, id=737, 441.14813pt x 194.22563pt>
 File: images/FER+vsFER.png Graphic file (type png)
 <use images/FER+vsFER.png>
 Package pdftex.def Info: images/FER+vsFER.png  used on input line 1376.
 (pdftex.def)             Requested size: 341.43437pt x 150.33066pt.
  [34]
-<images/ck+Examples.png, id=742, 632.3625pt x 227.85126pt>
+<images/ck+Examples.png, id=748, 632.3625pt x 227.85126pt>
 File: images/ck+Examples.png Graphic file (type png)
 <use images/ck+Examples.png>
 Package pdftex.def Info: images/ck+Examples.png  used on input line 1403.
 (pdftex.def)             Requested size: 341.43437pt x 123.0274pt.
-<images/jaffeExamples.jpg, id=743, 526.96875pt x 176.91093pt>
+<images/jaffeExamples.jpg, id=749, 526.96875pt x 176.91093pt>
 File: images/jaffeExamples.jpg Graphic file (type jpg)
 <use images/jaffeExamples.jpg>
 Package pdftex.def Info: images/jaffeExamples.jpg  used on input line 1410.
 (pdftex.def)             Requested size: 341.43437pt x 114.62901pt.
  [35 <./images/FER+vsFER.png> <./images/ck+Examples.png>] [36 <./images/jaffeExamples.jpg>]
 Cap\'{\i }tulo 4.
-<images/distribucionInicial.png, id=768, 714.7503pt x 426.393pt>
+<images/distribucionInicial.png, id=774, 714.7503pt x 426.393pt>
 File: images/distribucionInicial.png Graphic file (type png)
 <use images/distribucionInicial.png>
 Package pdftex.def Info: images/distribucionInicial.png  used on input line 1474.
@@ -1283,7 +1283,7 @@ Package pdftex.def Info: images/distribucionInicial.png  used on input line 1474
 [37
 
 ]
-<images/distribucionBalanceada.png, id=773, 714.7503pt x 426.393pt>
+<images/distribucionBalanceada.png, id=779, 714.7503pt x 426.393pt>
 File: images/distribucionBalanceada.png Graphic file (type png)
 <use images/distribucionBalanceada.png>
 Package pdftex.def Info: images/distribucionBalanceada.png  used on input line 1507.
@@ -1319,13 +1319,13 @@ Overfull \hbox (1.20486pt too wide) in paragraph at lines 1531--1531
  []
 
 [39 <./images/distribucionBalanceada.png>] [40] [41]
-<images/graficasEntrenamiento.png, id=798, 1003.1076pt x 354.123pt>
+<images/graficasEntrenamiento.png, id=804, 1003.1076pt x 354.123pt>
 File: images/graficasEntrenamiento.png Graphic file (type png)
 <use images/graficasEntrenamiento.png>
 Package pdftex.def Info: images/graficasEntrenamiento.png  used on input line 1578.
 (pdftex.def)             Requested size: 384.1096pt x 135.60019pt.
  [42 <./images/graficasEntrenamiento.png>]
-<images/matrizConfusion.png, id=806, 605.6226pt x 504.4446pt>
+<images/matrizConfusion.png, id=812, 605.6226pt x 504.4446pt>
 File: images/matrizConfusion.png Graphic file (type png)
 <use images/matrizConfusion.png>
 Package pdftex.def Info: images/matrizConfusion.png  used on input line 1591.
@@ -1336,97 +1336,114 @@ Cap\'{\i }tulo 5.
 
 ] [46]
 Cap\'{\i }tulo 6.
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1700.
-(C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
+<images/gantt1.png, id=839, 1032.10594pt x 328.97906pt>
+File: images/gantt1.png Graphic file (type png)
+<use images/gantt1.png>
+Package pdftex.def Info: images/gantt1.png  used on input line 1672.
+(pdftex.def)             Requested size: 426.79135pt x 136.03683pt.
+<images/gantt2.png, id=840, 1076.52188pt x 448.67625pt>
+File: images/gantt2.png Graphic file (type png)
+<use images/gantt2.png>
+Package pdftex.def Info: images/gantt2.png  used on input line 1679.
+(pdftex.def)             Requested size: 426.79135pt x 177.87898pt.
+[47
+
+ <./images/gantt1.png>]
+<images/gantt3.png, id=854, 1098.35344pt x 149.8097pt>
+File: images/gantt3.png Graphic file (type png)
+<use images/gantt3.png>
+Package pdftex.def Info: images/gantt3.png  used on input line 1686.
+(pdftex.def)             Requested size: 426.79135pt x 58.21066pt.
+ [48 <./images/gantt2.png> <./images/gantt3.png>]
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1734.
+ (C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <12> not available
-(Font)              Font shape `TS1/txr/bx/n' tried instead on input line 1700.
- [47
-
-] [48] [49]
+(Font)              Font shape `TS1/txr/bx/n' tried instead on input line 1734.
+ [49] [50] [51]
 Cap\'{\i }tulo 7.
-[50
+[52
 
-] [51]
-Package csquotes Info: Disabling multilingual quotes on input line 1817.
+] [53]
+Package csquotes Info: Disabling multilingual quotes on input line 1851.
 
 
 Package csquotes Warning: Quote style 'british/english' not defined.
-(csquotes)                Ignoring command on input line 1817.
+(csquotes)                Ignoring command on input line 1851.
 
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1818.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1852.
 (C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (194.8494pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (194.8494pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 Cj1Q3I4upV4AAAAA : HTAewkA3Unk064rhoeUvpV37pH -[] aexXDTPc3LeqMtX -[] HAALUUXUAnQ6AloAboY4R9Nu080La6VC0$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (19.44974pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (19.44974pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 en -[] un -[] buen -[] conductor / Sistemas -[] avanzados -[] de -[] ayuda -[] a -[] la -[] conduccion -[]
  []
 
 
-Overfull \hbox (71.64963pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (71.64963pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 token = e8Kq68ejBNMAAAAA : ozsksy20L0JWpg0P9wKd6eJVqA9aJHVKc6ifX3a2rRMJ8yBZJO -[]
  []
 
-[52
+[54
 
 
 ]
-Overfull \hbox (30.04971pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (30.04971pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 avqDPOCU _ ujAByyBz1Zioe4FKmIOMsHhJjPViPxS _ H6 _ h9BOYxV5ET6TkXAdf0HaL0g$[][]\T1/txr/m/n/12 . 
  []
 
 
-Overfull \hbox (57.56804pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (57.56804pt too wide) in paragraph at lines 1853--1853
 \T1/txr/m/n/12 pas-sen-ger mo-ni-to-ring using low-cost mm-wave ra-dar,^^Q \T1/txr/m/it/12 IEEE Ac-cess\T1/txr/m/n/12 , vol. 10, pp. 18 998[]19 012,
  []
 
 
-Overfull \hbox (19.47229pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (19.47229pt too wide) in paragraph at lines 1853--1853
 \T1/txr/m/n/12 from vehi-cle da-ta: Pre-con-di-tions for using ma-chi-ne lear-ning,^^Q \T1/txr/m/it/12 Pro-cee-dings of TRA2020,
  []
 
 
-Overfull \hbox (21.24973pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (21.24973pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 Timo -[] Laakko / publication / 339848623 _ Estimating _ passenger _ experience _
  []
 
 
-Overfull \hbox (3.34976pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (3.34976pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 links / 5e8efcc94585150839cae10e / Estimating -[] passenger -[] experience -[]
  []
 
 
-Overfull \hbox (8.64975pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (8.64975pt too wide) in paragraph at lines 1853--1853
 [][]$\T1/txtt/m/n/12 https : / / www . researchgate . net / profile / Absalom -[] Ezugwu / publication /
  []
 
 
-Overfull \hbox (8.64975pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (8.64975pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 Bus -[] Passenger _ Information _ System / links / 61bbdfcaa6251b553ac3d709 /
  []
 
-[53]
-Overfull \hbox (10.64975pt too wide) in paragraph at lines 1819--1819
+[55]
+Overfull \hbox (10.64975pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 representation -[] learning -[] facial -[] expression -[] recognition -[] challenge /
  []
 
 
-Overfull \hbox (181.24942pt too wide) in paragraph at lines 1819--1819
+Overfull \hbox (181.24942pt too wide) in paragraph at lines 1853--1853
 \T1/txtt/m/n/12 Y5g5OgMG9RYAAAAA : xK02AVCySEMRqe4QI92gRX9 _ ED3E3F5DaajheAeEHkUBNFfq5P6m0Q1jQnpCaFGIVZkMeCSO0A$[][]\T1/txr/m/n/12 . 
  []
 
-[54]
-Overfull \hbox (3.03873pt too wide) in paragraph at lines 1819--1819
+[56]
+Overfull \hbox (3.03873pt too wide) in paragraph at lines 1853--1853
 []\T1/txr/m/n/12 L. Car-naú-ba, \T1/txr/m/it/12 Guia Sa-la-rial IT 2024\T1/txr/m/n/12 , dic. de 2022. [En lí-nea]. Dis-po-ni-ble en: [][]$\T1/txtt/m/n/12 https :
  []
 
-[55] (memoria.aux
+[57] (memoria.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1440,23 +1457,23 @@ L3 programming layer <2024-04-11>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: A7DB603631FA47114FA6F8D1167AD842;2826.
+(rerunfilecheck)             Checksum: 908E6F7D930DE992596386C864471C43;2826.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29247 strings out of 474370
- 494858 string characters out of 5740535
- 1947754 words of memory out of 5000000
- 51008 multiletter control sequences out of 15000+600000
+ 29290 strings out of 474370
+ 495618 string characters out of 5740535
+ 1946754 words of memory out of 5000000
+ 51038 multiletter control sequences out of 15000+600000
  615907 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,14n,117p,1127b,3964s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxb.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (70 pages, 14206418 bytes).
+Output written on memoria.pdf (72 pages, 14321435 bytes).
 PDF statistics:
- 1064 PDF objects out of 1200 (max. 8388607)
- 229 named destinations out of 1000 (max. 500000)
- 499 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1094 PDF objects out of 1200 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
+ 514 words of extra memory for PDF output out of 10000 (max. 10000000)
 
